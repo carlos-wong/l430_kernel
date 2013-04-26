@@ -1,0 +1,1240 @@
+  JMP   0x030           ;'0x000000'
+  ADD   A, @0xFF        ;'0x000001'
+  ADD   A, @0xFF        ;'0x000002'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 95)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000003'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 96)
+;}
+  LJMP  0x00004D        ;'0x000004'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 100)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000006'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 101)
+;}
+  LJMP  0x00004D        ;'0x000007'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 106)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000009'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 107)
+;}
+  LJMP  0x00004D        ;'0x00000A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 460)
+;while(PKT_FLAG==0);
+  BANK  @0x0            ;'0x00000C'
+  JBS   0x07, 7         ;'0x00000D'
+  JMP   0x00C           ;'0x00000E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 461)
+;}
+  RET                   ;'0x00000F'
+  ADD   A, @0xFF        ;'0x000010'
+  ADD   A, @0xFF        ;'0x000011'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 111)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000012'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 112)
+;}
+  LJMP  0x00004D        ;'0x000013'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 117)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000015'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 118)
+;}
+  LJMP  0x00004D        ;'0x000016'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 122)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000018'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 123)
+;}
+  LJMP  0x00004D        ;'0x000019'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 127)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x00001B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 128)
+;}
+  LJMP  0x00004D        ;'0x00001C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 132)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x00001E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 133)
+;}
+  LJMP  0x00004D        ;'0x00001F'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 137)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000021'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 138)
+;}
+  LJMP  0x00004D        ;'0x000022'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 142)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000024'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 143)
+;}
+  LJMP  0x00004D        ;'0x000025'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 147)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x000027'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 148)
+;}
+  LJMP  0x00004D        ;'0x000028'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 152)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x00002A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 153)
+;}
+  LJMP  0x00004D        ;'0x00002B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 157)
+;_asm{MOV A,0x2};
+  MOV   A, 0x02         ;'0x00002D'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 158)
+;}
+  LJMP  0x00004D        ;'0x00002E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 21)
+;Reg_Initial();
+  CALL  0x08C           ;'0x000030'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 22)
+;Clr_All_Ram();
+  CALL  0x0C3           ;'0x000031'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 23)
+;Chk_Up_Down_Board();
+  CALL  0x0E1           ;'0x000032'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 24)
+;EM198850_Initial();
+  CALL  0x1C8           ;'0x000033'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 25)
+;RF_CHANNEL_SET(RF_CHANNEL);
+  MOV   A, @0x17        ;'0x000034'
+  BANK  @0x0            ;'0x000035'
+  MOV   0x20, A         ;'0x000036'
+  CALL  0x2AB           ;'0x000037'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 26)
+;if(Bit_TX==1)
+  BANK  @0x0            ;'0x000038'
+  JBS   0x27, 0         ;'0x000039'
+  JMP   0x044           ;'0x00003A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 28)
+;RF_Enter_TX_NoAck_NoCRC_Payload5();
+  CALL  0x2B2           ;'0x00003B'
+  JMP   0x042           ;'0x00003C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 31)
+;Write_FIFO(5);
+  MOV   A, @0x05        ;'0x00003D'
+  BANK  @0x0            ;'0x00003E'
+  MOV   0x20, A         ;'0x00003F'
+  CALL  0x2D7           ;'0x000040'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 32)
+;Wait_PKT_High();
+  CALL  0x00C           ;'0x000041'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 29)
+;while(1)
+  JMP   0x03D           ;'0x000042'
+  JMP   0x04C           ;'0x000043'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 38)
+;RF_Enter_RX_NoAck_NoCRC_Payload5();
+  CALL  0x2EA           ;'0x000044'
+  JMP   0x04B           ;'0x000045'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 41)
+;Wait_PKT_High();
+  CALL  0x00C           ;'0x000046'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 42)
+;Read_FIFO(5);
+  MOV   A, @0x05        ;'0x000047'
+  BANK  @0x0            ;'0x000048'
+  MOV   0x26, A         ;'0x000049'
+  CALL  0x30F           ;'0x00004A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 39)
+;while(1)
+  JMP   0x046           ;'0x00004B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 45)
+;}
+  RET                   ;'0x00004C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 49)
+;switch(IntVecIdx)
+  MOV   0x10, A         ;'0x00004D'
+  BANK  @0x0            ;'0x00004E'
+  MOV   A, 0x12         ;'0x00004F'
+  MOV   0x31, A         ;'0x000050'
+  MOV   A, 0x10         ;'0x000051'
+  MOV   0x12, A         ;'0x000052'
+  MOV   A, 0x12         ;'0x000053'
+  XOR   A, @0x04        ;'0x000054'
+  JBC   0x03, 2         ;'0x000055'
+  JMP   0x088           ;'0x000056'
+  MOV   A, 0x12         ;'0x000057'
+  XOR   A, @0x07        ;'0x000058'
+  JBC   0x03, 2         ;'0x000059'
+  JMP   0x088           ;'0x00005A'
+  MOV   A, 0x12         ;'0x00005B'
+  XOR   A, @0x0A        ;'0x00005C'
+  JBC   0x03, 2         ;'0x00005D'
+  JMP   0x088           ;'0x00005E'
+  MOV   A, 0x12         ;'0x00005F'
+  XOR   A, @0x13        ;'0x000060'
+  JBC   0x03, 2         ;'0x000061'
+  JMP   0x088           ;'0x000062'
+  MOV   A, 0x12         ;'0x000063'
+  XOR   A, @0x16        ;'0x000064'
+  JBC   0x03, 2         ;'0x000065'
+  JMP   0x088           ;'0x000066'
+  MOV   A, 0x12         ;'0x000067'
+  XOR   A, @0x19        ;'0x000068'
+  JBC   0x03, 2         ;'0x000069'
+  JMP   0x088           ;'0x00006A'
+  MOV   A, 0x12         ;'0x00006B'
+  XOR   A, @0x1C        ;'0x00006C'
+  JBC   0x03, 2         ;'0x00006D'
+  JMP   0x088           ;'0x00006E'
+  MOV   A, 0x12         ;'0x00006F'
+  XOR   A, @0x1F        ;'0x000070'
+  JBC   0x03, 2         ;'0x000071'
+  JMP   0x088           ;'0x000072'
+  MOV   A, 0x12         ;'0x000073'
+  XOR   A, @0x22        ;'0x000074'
+  JBC   0x03, 2         ;'0x000075'
+  JMP   0x088           ;'0x000076'
+  MOV   A, 0x12         ;'0x000077'
+  XOR   A, @0x25        ;'0x000078'
+  JBC   0x03, 2         ;'0x000079'
+  JMP   0x088           ;'0x00007A'
+  MOV   A, 0x12         ;'0x00007B'
+  XOR   A, @0x28        ;'0x00007C'
+  JBC   0x03, 2         ;'0x00007D'
+  JMP   0x088           ;'0x00007E'
+  MOV   A, 0x12         ;'0x00007F'
+  XOR   A, @0x2B        ;'0x000080'
+  JBC   0x03, 2         ;'0x000081'
+  JMP   0x088           ;'0x000082'
+  MOV   A, 0x12         ;'0x000083'
+  XOR   A, @0x2E        ;'0x000084'
+  JBC   0x03, 2         ;'0x000085'
+  JMP   0x088           ;'0x000086'
+  JMP   0x088           ;'0x000087'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 91)
+;}
+  BANK  @0x0            ;'0x000088'
+  MOV   A, 0x31         ;'0x000089'
+  MOV   0x12, A         ;'0x00008A'
+  RETI                  ;'0x00008B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 161)
+;PORT5=0X11;
+  MOV   A, @0x11        ;'0x00008C'
+  BANK  @0x0            ;'0x00008D'
+  MOV   0x05, A         ;'0x00008E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 162)
+;PORT6=0X00;
+  CLR   0x06            ;'0x00008F'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 163)
+;PORT7=0X00;
+  CLR   0x07            ;'0x000090'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 164)
+;PORT8=0X00;
+  CLR   0x08            ;'0x000091'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 165)
+;WUCR=0X40;
+  MOV   A, @0x40        ;'0x000092'
+  MOV   0x0A, A         ;'0x000093'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 166)
+;RMUST=0X60;
+  MOV   A, @0x60        ;'0x000094'
+  MOV   0x0E, A         ;'0x000095'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 167)
+;ISR1=0X00;
+  CLR   0x0F            ;'0x000096'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 168)
+;TC1CR=0X00;
+  BANK  @0x1            ;'0x000097'
+  CLR   0x05            ;'0x000098'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 169)
+;TC2CR=0X00;
+  CLR   0x08            ;'0x000099'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 170)
+;SPIS=0X00;
+  CLR   0x0B            ;'0x00009A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 171)
+;SPIC=0XCA;
+  MOV   A, @0xCA        ;'0x00009B'
+  MOV   0x0C, A         ;'0x00009C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 172)
+;SPIRB=0X00;
+  CLR   0x0D            ;'0x00009D'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 173)
+;SPIWB=0X00;
+  CLR   0x0E            ;'0x00009E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 174)
+;ISR2=0x00;
+  CLR   0x0F            ;'0x00009F'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 175)
+;URC1=0X00;
+  BANK  @0x2            ;'0x0000A0'
+  CLR   0x0A            ;'0x0000A1'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 176)
+;URC2=0X10;
+  MOV   A, @0x10        ;'0x0000A2'
+  MOV   0x0B, A         ;'0x0000A3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 177)
+;URS=0X00;
+  CLR   0x0C            ;'0x0000A4'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 178)
+;P7PH=0X87;
+  MOV   A, @0x87        ;'0x0000A5'
+  MOV   0x0F, A         ;'0x0000A6'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 179)
+;CMPCON=0X00;
+  BANK  @0x3            ;'0x0000A7'
+  CLR   0x07            ;'0x0000A8'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 180)
+;TC3CR=0X00;
+  CLR   0x0D            ;'0x0000A9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 181)
+;P7PD=0XFF;
+  MOV   A, @0xFF        ;'0x0000AA'
+  MOV   0x0F, A         ;'0x0000AB'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 183)
+;mov		A,@0X80
+  MOV   A, @0x80        ;'0x0000AC'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 184)
+;CONTW
+  CONTW                 ;'0x0000AD'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 186)
+;P5CR=0X14;
+  MOV   A, @0x14        ;'0x0000AE'
+  IOW   0x5             ;'0x0000AF'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 187)
+;P6CR=0X70;
+  MOV   A, @0x70        ;'0x0000B0'
+  IOW   0x6             ;'0x0000B1'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 188)
+;P7CR=0XF8;
+  MOV   A, @0xF8        ;'0x0000B2'
+  IOW   0x7             ;'0x0000B3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 189)
+;P8CR=0X00;
+  MOV   A, @0x00        ;'0x0000B4'
+  IOW   0x8             ;'0x0000B5'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 190)
+;WDTCR=0X00;
+  MOV   A, @0x00        ;'0x0000B6'
+  IOW   0xA             ;'0x0000B7'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 191)
+;P56PD=0XFF;
+  MOV   A, @0xFF        ;'0x0000B8'
+  IOW   0xB             ;'0x0000B9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 192)
+;P6OD=0X00;
+  MOV   A, @0x00        ;'0x0000BA'
+  IOW   0xC             ;'0x0000BB'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 193)
+;P6PH=0X9F;
+  MOV   A, @0x9F        ;'0x0000BC'
+  IOW   0xD             ;'0x0000BD'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 194)
+;IMR2=0X00;
+  MOV   A, @0x00        ;'0x0000BE'
+  IOW   0xE             ;'0x0000BF'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 195)
+;IMR1=0X00;
+  MOV   A, @0x00        ;'0x0000C0'
+  IOW   0xF             ;'0x0000C1'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 196)
+;}
+  RET                   ;'0x0000C2'
+  MOV   A, 0x12         ;'0x0000C3'
+  BANK  @0x0            ;'0x0000C4'
+  MOV   0x20, A         ;'0x0000C5'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 199)
+;R4=0X20;
+  MOV   A, @0x20        ;'0x0000C6'
+  MOV   0x04, A         ;'0x0000C7'
+  JMP   0x0DB           ;'0x0000C8'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 202)
+;R0=0;
+  CLR   0x00            ;'0x0000C9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 203)
+;R4+=1;
+  MOV   A, 0x04         ;'0x0000CA'
+  ADD   A, @0x01        ;'0x0000CB'
+  MOV   0x04, A         ;'0x0000CC'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 204)
+;if(R4==0)	break;
+  MOV   0x04, 0x04      ;'0x0000CD'
+  JBS   0x03, 2         ;'0x0000CE'
+  JMP   0x0D1           ;'0x0000CF'
+  JMP   0x0DC           ;'0x0000D0'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 205)
+;if((R4&0X3F)==0)	R4|=0X20;
+  MOV   A, 0x04         ;'0x0000D1'
+  MOV   0x12, A         ;'0x0000D2'
+  MOV   A, @0x3F        ;'0x0000D3'
+  AND   0x12, A         ;'0x0000D4'
+  MOV   0x12, 0x12      ;'0x0000D5'
+  JBS   0x03, 2         ;'0x0000D6'
+  JMP   0x0DB           ;'0x0000D7'
+  MOV   A, 0x04         ;'0x0000D8'
+  OR    A, @0x20        ;'0x0000D9'
+  MOV   0x04, A         ;'0x0000DA'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 200)
+;while(1)
+  JMP   0x0C9           ;'0x0000DB'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 207)
+;_asm{nop}
+  NOP                   ;'0x0000DC'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 208)
+;}
+  BANK  @0x0            ;'0x0000DD'
+  MOV   A, 0x20         ;'0x0000DE'
+  MOV   0x12, A         ;'0x0000DF'
+  RET                   ;'0x0000E0'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 211)
+;Bit_TX=0;
+  BANK  @0x0            ;'0x0000E1'
+  BC    0x27, 0         ;'0x0000E2'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 212)
+;Delay_1ms(1);
+  MOV   A, @0x01        ;'0x0000E3'
+  MOV   0x29, A         ;'0x0000E4'
+  CALL  0x0EB           ;'0x0000E5'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 213)
+;if(P73==0)	Bit_TX=1;
+  BANK  @0x0            ;'0x0000E6'
+  JBC   0x07, 3         ;'0x0000E7'
+  JMP   0x0EA           ;'0x0000E8'
+  BS    0x27, 0         ;'0x0000E9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 215)
+;}
+  RET                   ;'0x0000EA'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 219)
+;R_TEMP=i;
+  BANK  @0x0            ;'0x0000EB'
+  MOV   A, 0x29         ;'0x0000EC'
+  MOV   0x28, A         ;'0x0000ED'
+  JMP   0x0F9           ;'0x0000EE'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 222)
+;R_TEMP--;
+  BANK  @0x0            ;'0x0000EF'
+  DEC   0x28            ;'0x0000F0'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 224)
+;MOV	A,@6
+  MOV   A, @0x06        ;'0x0000F1'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 226)
+;NOP
+  NOP                   ;'0x0000F2'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 227)
+;NOP
+  NOP                   ;'0x0000F3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 228)
+;NOP
+  NOP                   ;'0x0000F4'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 229)
+;NOP
+  NOP                   ;'0x0000F5'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 230)
+;ADD	A,@1
+  ADD   A, @0x01        ;'0x0000F6'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 231)
+;JBS	0X03,2
+  JBS   0x03, 2         ;'0x0000F7'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 232)
+;JMP	TD
+  JMP   0x0F2           ;'0x0000F8'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 220)
+;while(R_TEMP!=0)
+  BANK  @0x0            ;'0x0000F9'
+  MOV   0x28, 0x28      ;'0x0000FA'
+  JBS   0x03, 2         ;'0x0000FB'
+  JMP   0x0EF           ;'0x0000FC'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 235)
+;}
+  RET                   ;'0x0000FD'
+  ADD   A, @0xFF        ;'0x0000FE'
+  ADD   A, @0xFF        ;'0x0000FF'
+  ADD   0x02, A         ;'0x000100'
+  RETL  @0x4E           ;'0x000101'
+  RETL  @0x02           ;'0x000102'
+  RETL  @0x43           ;'0x000103'
+  RETL  @0xC4           ;'0x000104'
+  RETL  @0x44           ;'0x000105'
+  RETL  @0x06           ;'0x000106'
+  RETL  @0x45           ;'0x000107'
+  RETL  @0x10           ;'0x000108'
+  RETL  @0x48           ;'0x000109'
+  RETL  @0x01           ;'0x00010A'
+  RETL  @0x4C           ;'0x00010B'
+  RETL  @0x06           ;'0x00010C'
+  RETL  @0x50           ;'0x00010D'
+  RETL  @0x00           ;'0x00010E'
+  RETL  @0x51           ;'0x00010F'
+  RETL  @0x11           ;'0x000110'
+  RETL  @0x52           ;'0x000111'
+  RETL  @0x22           ;'0x000112'
+  RETL  @0x53           ;'0x000113'
+  RETL  @0x33           ;'0x000114'
+  RETL  @0x54           ;'0x000115'
+  RETL  @0x44           ;'0x000116'
+  RETL  @0x55           ;'0x000117'
+  RETL  @0x55           ;'0x000118'
+  RETL  @0x56           ;'0x000119'
+  RETL  @0x66           ;'0x00011A'
+  RETL  @0x57           ;'0x00011B'
+  RETL  @0x77           ;'0x00011C'
+  RETL  @0x58           ;'0x00011D'
+  RETL  @0x08           ;'0x00011E'
+  RETL  @0xFF           ;'0x00011F'
+  ADD   0x02, A         ;'0x000120'
+  RETL  @0x07           ;'0x000121'
+  RETL  @0x18           ;'0x000122'
+  RETL  @0x0E           ;'0x000123'
+  RETL  @0x11           ;'0x000124'
+  RETL  @0x2E           ;'0x000125'
+  RETL  @0x03           ;'0x000126'
+  RETL  @0x0E           ;'0x000127'
+  RETL  @0x91           ;'0x000128'
+  RETL  @0xFF           ;'0x000129'
+  ADD   0x02, A         ;'0x00012A'
+  RETL  @0x07           ;'0x00012B'
+  RETL  @0x58           ;'0x00012C'
+  RETL  @0x0E           ;'0x00012D'
+  RETL  @0x11           ;'0x00012E'
+  RETL  @0x2E           ;'0x00012F'
+  RETL  @0x23           ;'0x000130'
+  RETL  @0x0E           ;'0x000131'
+  RETL  @0x91           ;'0x000132'
+  RETL  @0xFF           ;'0x000133'
+  ADD   0x02, A         ;'0x000134'
+  RETL  @0x05           ;'0x000135'
+  RETL  @0x40           ;'0x000136'
+  RETL  @0x02           ;'0x000137'
+  RETL  @0x00           ;'0x000138'
+  RETL  @0x0C           ;'0x000139'
+  RETL  @0xE0           ;'0x00013A'
+  RETL  @0xFF           ;'0x00013B'
+  ADD   0x02, A         ;'0x00013C'
+  RETL  @0x4E           ;'0x00013D'
+  RETL  @0x02           ;'0x00013E'
+  RETL  @0x4D           ;'0x00013F'
+  RETL  @0x01           ;'0x000140'
+  RETL  @0x42           ;'0x000141'
+  RETL  @0x98           ;'0x000142'
+  RETL  @0x43           ;'0x000143'
+  RETL  @0xC4           ;'0x000144'
+  RETL  @0x44           ;'0x000145'
+  RETL  @0x06           ;'0x000146'
+  RETL  @0x45           ;'0x000147'
+  RETL  @0x10           ;'0x000148'
+  RETL  @0x46           ;'0x000149'
+  RETL  @0x09           ;'0x00014A'
+  RETL  @0x47           ;'0x00014B'
+  RETL  @0x31           ;'0x00014C'
+  RETL  @0x48           ;'0x00014D'
+  RETL  @0x01           ;'0x00014E'
+  RETL  @0x49           ;'0x00014F'
+  RETL  @0x8A           ;'0x000150'
+  RETL  @0x4A           ;'0x000151'
+  RETL  @0x27           ;'0x000152'
+  RETL  @0x4B           ;'0x000153'
+  RETL  @0x00           ;'0x000154'
+  RETL  @0x4C           ;'0x000155'
+  RETL  @0x06           ;'0x000156'
+  RETL  @0x50           ;'0x000157'
+  RETL  @0x00           ;'0x000158'
+  RETL  @0x51           ;'0x000159'
+  RETL  @0x11           ;'0x00015A'
+  RETL  @0x52           ;'0x00015B'
+  RETL  @0x22           ;'0x00015C'
+  RETL  @0x53           ;'0x00015D'
+  RETL  @0x33           ;'0x00015E'
+  RETL  @0x54           ;'0x00015F'
+  RETL  @0x44           ;'0x000160'
+  RETL  @0x55           ;'0x000161'
+  RETL  @0x55           ;'0x000162'
+  RETL  @0x56           ;'0x000163'
+  RETL  @0x66           ;'0x000164'
+  RETL  @0x57           ;'0x000165'
+  RETL  @0x77           ;'0x000166'
+  RETL  @0x58           ;'0x000167'
+  RETL  @0x08           ;'0x000168'
+  RETL  @0x00           ;'0x000169'
+  RETL  @0xE5           ;'0x00016A'
+  RETL  @0x01           ;'0x00016B'
+  RETL  @0x84           ;'0x00016C'
+  RETL  @0x02           ;'0x00016D'
+  RETL  @0x00           ;'0x00016E'
+  RETL  @0x03           ;'0x00016F'
+  RETL  @0xC6           ;'0x000170'
+  RETL  @0x04           ;'0x000171'
+  RETL  @0x00           ;'0x000172'
+  RETL  @0x05           ;'0x000173'
+  RETL  @0x40           ;'0x000174'
+  RETL  @0x06           ;'0x000175'
+  RETL  @0x5D           ;'0x000176'
+  RETL  @0x07           ;'0x000177'
+  RETL  @0x18           ;'0x000178'
+  RETL  @0x08           ;'0x000179'
+  RETL  @0x40           ;'0x00017A'
+  RETL  @0x09           ;'0x00017B'
+  RETL  @0x18           ;'0x00017C'
+  RETL  @0x0A           ;'0x00017D'
+  RETL  @0x47           ;'0x00017E'
+  RETL  @0x0B           ;'0x00017F'
+  RETL  @0x0B           ;'0x000180'
+  RETL  @0x0C           ;'0x000181'
+  RETL  @0xE0           ;'0x000182'
+  RETL  @0x0D           ;'0x000183'
+  RETL  @0x4F           ;'0x000184'
+  RETL  @0x0E           ;'0x000185'
+  RETL  @0x11           ;'0x000186'
+  RETL  @0x0F           ;'0x000187'
+  RETL  @0x1C           ;'0x000188'
+  RETL  @0x20           ;'0x000189'
+  RETL  @0xAD           ;'0x00018A'
+  RETL  @0x21           ;'0x00018B'
+  RETL  @0x64           ;'0x00018C'
+  RETL  @0x22           ;'0x00018D'
+  RETL  @0x00           ;'0x00018E'
+  RETL  @0x23           ;'0x00018F'
+  RETL  @0xC3           ;'0x000190'
+  RETL  @0x24           ;'0x000191'
+  RETL  @0xBD           ;'0x000192'
+  RETL  @0x25           ;'0x000193'
+  RETL  @0xA2           ;'0x000194'
+  RETL  @0x26           ;'0x000195'
+  RETL  @0x1A           ;'0x000196'
+  RETL  @0x27           ;'0x000197'
+  RETL  @0x09           ;'0x000198'
+  RETL  @0x28           ;'0x000199'
+  RETL  @0x00           ;'0x00019A'
+  RETL  @0x29           ;'0x00019B'
+  RETL  @0xB8           ;'0x00019C'
+  RETL  @0x2A           ;'0x00019D'
+  RETL  @0x71           ;'0x00019E'
+  RETL  @0x2B           ;'0x00019F'
+  RETL  @0x06           ;'0x0001A0'
+  RETL  @0x2C           ;'0x0001A1'
+  RETL  @0x80           ;'0x0001A2'
+  RETL  @0x2D           ;'0x0001A3'
+  RETL  @0x1A           ;'0x0001A4'
+  RETL  @0x2E           ;'0x0001A5'
+  RETL  @0x03           ;'0x0001A6'
+  RETL  @0x2F           ;'0x0001A7'
+  RETL  @0x64           ;'0x0001A8'
+  RETL  @0x30           ;'0x0001A9'
+  RETL  @0xC0           ;'0x0001AA'
+  RETL  @0x31           ;'0x0001AB'
+  RETL  @0x00           ;'0x0001AC'
+  RETL  @0x32           ;'0x0001AD'
+  RETL  @0x40           ;'0x0001AE'
+  RETL  @0x33           ;'0x0001AF'
+  RETL  @0x3B           ;'0x0001B0'
+  RETL  @0x00           ;'0x0001B1'
+  RETL  @0xA7           ;'0x0001B2'
+  RETL  @0x32           ;'0x0001B3'
+  RETL  @0x4A           ;'0x0001B4'
+  RETL  @0x00           ;'0x0001B5'
+  RETL  @0xE5           ;'0x0001B6'
+  RETL  @0x0E           ;'0x0001B7'
+  RETL  @0x91           ;'0x0001B8'
+  RETL  @0x40           ;'0x0001B9'
+  RETL  @0x51           ;'0x0001BA'
+  RETL  @0x41           ;'0x0001BB'
+  RETL  @0x81           ;'0x0001BC'
+  RETL  @0x0C           ;'0x0001BD'
+  RETL  @0xC0           ;'0x0001BE'
+  RETL  @0x02           ;'0x0001BF'
+  RETL  @0x80           ;'0x0001C0'
+  RETL  @0x04           ;'0x0001C1'
+  RETL  @0x4A           ;'0x0001C2'
+  RETL  @0x05           ;'0x0001C3'
+  RETL  @0xDA           ;'0x0001C4'
+  RETL  @0x05           ;'0x0001C5'
+  RETL  @0xFA           ;'0x0001C6'
+  RETL  @0xFF           ;'0x0001C7'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 402)
+;RESET_N=0;
+  BANK  @0x0            ;'0x0001C8'
+  BC    0x05, 7         ;'0x0001C9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 403)
+;Delay_1ms(2);
+  MOV   A, @0x02        ;'0x0001CA'
+  MOV   0x29, A         ;'0x0001CB'
+  CALL  0x0EB           ;'0x0001CC'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 404)
+;RESET_N=1;
+  BANK  @0x0            ;'0x0001CD'
+  BS    0x05, 7         ;'0x0001CE'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 405)
+;Delay_1ms(1);
+  MOV   A, @0x01        ;'0x0001CF'
+  MOV   0x29, A         ;'0x0001D0'
+  CALL  0x0EB           ;'0x0001D1'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 406)
+;SPI_SS=1;
+  BANK  @0x0            ;'0x0001D2'
+  BS    0x05, 0         ;'0x0001D3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 407)
+;EM198850_REG_INITIAL1();
+  CALL  0x1E4           ;'0x0001D4'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 408)
+;Delay_1us(250);
+  MOV   A, @0xFA        ;'0x0001D5'
+  BANK  @0x0            ;'0x0001D6'
+  MOV   0x29, A         ;'0x0001D7'
+  CALL  0x227           ;'0x0001D8'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 409)
+;RSSI_INITIAL();
+  CALL  0x233           ;'0x0001D9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 410)
+;EM198850_REG_INITIAL2();
+  CALL  0x260           ;'0x0001DA'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 416)
+;R_Right=EM198850_REG_Test();
+  CALL  0x27C           ;'0x0001DB'
+  MOV   A, 0x11         ;'0x0001DC'
+  BANK  @0x0            ;'0x0001DD'
+  MOV   0x20, A         ;'0x0001DE'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 417)
+;if(R_Right==0)
+  MOV   0x20, 0x20      ;'0x0001DF'
+  JBS   0x03, 2         ;'0x0001E0'
+  JMP   0x1E3           ;'0x0001E1'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 419)
+;goto RF_Initial_Again;
+  JMP   0x1C8           ;'0x0001E2'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 421)
+;}
+  RET                   ;'0x0001E3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 306)
+;R_Index=0;
+  BANK  @0x0            ;'0x0001E4'
+  CLR   0x2A            ;'0x0001E5'
+  JMP   0x1F9           ;'0x0001E6'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 309)
+;R_Addr=FrameTable[R_Index];
+  BANK  @0x0            ;'0x0001E7'
+  MOV   A, 0x2A         ;'0x0001E8'
+  CALL  0x13C           ;'0x0001E9'
+  MOV   0x29, A         ;'0x0001EA'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 310)
+;R_Index++;
+  MOV   A, 0x2A         ;'0x0001EB'
+  ADD   A, @0x01        ;'0x0001EC'
+  MOV   0x2A, A         ;'0x0001ED'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 311)
+;R_DATA=FrameTable[R_Index];
+  MOV   A, 0x2A         ;'0x0001EE'
+  CALL  0x13C           ;'0x0001EF'
+  MOV   0x28, A         ;'0x0001F0'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 312)
+;R_Index++;
+  MOV   A, 0x2A         ;'0x0001F1'
+  ADD   A, @0x01        ;'0x0001F2'
+  MOV   0x2A, A         ;'0x0001F3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 313)
+;EM198850_REG_WRITE(R_Addr,R_DATA);
+  MOV   A, 0x28         ;'0x0001F4'
+  MOV   0x2F, A         ;'0x0001F5'
+  MOV   A, 0x29         ;'0x0001F6'
+  MOV   0x2E, A         ;'0x0001F7'
+  CALL  0x200           ;'0x0001F8'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 307)
+;while(FrameTable[R_Index]!=0xFF)
+  BANK  @0x0            ;'0x0001F9'
+  MOV   A, 0x2A         ;'0x0001FA'
+  CALL  0x13C           ;'0x0001FB'
+  XOR   A, @0xFF        ;'0x0001FC'
+  JBS   0x03, 2         ;'0x0001FD'
+  JMP   0x1E7           ;'0x0001FE'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 316)
+;}
+  RET                   ;'0x0001FF'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 281)
+;SPI_SS=0;
+  BANK  @0x0            ;'0x000200'
+  BC    0x05, 0         ;'0x000201'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 282)
+;SPIWB=R_Addr;
+  MOV   A, 0x2E         ;'0x000202'
+  BANK  @0x1            ;'0x000203'
+  MOV   0x0E, A         ;'0x000204'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 283)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x000205'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 284)
+;SPIWB=R_DATA;
+  BANK  @0x0            ;'0x000206'
+  MOV   A, 0x2F         ;'0x000207'
+  BANK  @0x1            ;'0x000208'
+  MOV   0x0E, A         ;'0x000209'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 285)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x00020A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 286)
+;SPIE=0;
+  BANK  @0x1            ;'0x00020B'
+  BC    0x0C, 6         ;'0x00020C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 287)
+;URC2=0;
+  BANK  @0x2            ;'0x00020D'
+  CLR   0x0B            ;'0x00020E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 288)
+;SPI_CLK=0;
+  BANK  @0x0            ;'0x00020F'
+  BC    0x05, 3         ;'0x000210'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 289)
+;SPI_SS=1;
+  BS    0x05, 0         ;'0x000211'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 290)
+;URC2=0X10;
+  MOV   A, @0x10        ;'0x000212'
+  BANK  @0x2            ;'0x000213'
+  MOV   0x0B, A         ;'0x000214'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 291)
+;SPIE=1;
+  BANK  @0x1            ;'0x000215'
+  BS    0x0C, 6         ;'0x000216'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 292)
+;}
+  RET                   ;'0x000217'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 270)
+;R_TEMP=SPIRB;
+  BANK  @0x1            ;'0x000218'
+  MOV   A, 0x0D         ;'0x000219'
+  BANK  @0x0            ;'0x00021A'
+  MOV   0x2D, A         ;'0x00021B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 271)
+;SPIRB=0;
+  BANK  @0x1            ;'0x00021C'
+  CLR   0x0D            ;'0x00021D'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 272)
+;SPIS=0;
+  CLR   0x0B            ;'0x00021E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 273)
+;SPIC=0XCA;
+  MOV   A, @0xCA        ;'0x00021F'
+  MOV   0x0C, A         ;'0x000220'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 274)
+;SSE=1;
+  BS    0x0C, 4         ;'0x000221'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 275)
+;while(SSE==1);
+  BANK  @0x1            ;'0x000222'
+  JBC   0x0C, 4         ;'0x000223'
+  JMP   0x222           ;'0x000224'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 276)
+;SPIWB=0;
+  CLR   0x0E            ;'0x000225'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 277)
+;}
+  RET                   ;'0x000226'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 237)
+;{
+  JMP   0x22E           ;'0x000227'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 241)
+;R_TEMP++;
+  BANK  @0x0            ;'0x000228'
+  MOV   A, 0x28         ;'0x000229'
+  ADD   A, @0x01        ;'0x00022A'
+  MOV   0x28, A         ;'0x00022B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 242)
+;R_TEMP--;
+  DEC   0x28            ;'0x00022C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 243)
+;R_TEMP--;
+  DEC   0x28            ;'0x00022D'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 239)
+;while(R_TEMP!=0)
+  BANK  @0x0            ;'0x00022E'
+  MOV   0x28, 0x28      ;'0x00022F'
+  JBS   0x03, 2         ;'0x000230'
+  JMP   0x228           ;'0x000231'
+  RET                   ;'0x000232'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 335)
+;R_bigest=0;
+  BANK  @0x0            ;'0x000233'
+  CLR   0x28            ;'0x000234'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 336)
+;R_Index=0;
+  CLR   0x29            ;'0x000235'
+  JMP   0x247           ;'0x000236'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 339)
+;R_Index++;
+  BANK  @0x0            ;'0x000237'
+  MOV   A, 0x29         ;'0x000238'
+  ADD   A, @0x01        ;'0x000239'
+  MOV   0x29, A         ;'0x00023A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 340)
+;R_DATA=EM198850_REG_READ(0x4B);
+  MOV   A, @0x4B        ;'0x00023B'
+  MOV   0x30, A         ;'0x00023C'
+  CALL  0x252           ;'0x00023D'
+  MOV   A, 0x11         ;'0x00023E'
+  BANK  @0x0            ;'0x00023F'
+  MOV   0x2A, A         ;'0x000240'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 341)
+;if(R_bigest<R_DATA)
+  MOV   A, 0x2A         ;'0x000241'
+  SUB   A, 0x28         ;'0x000242'
+  JBC   0x03, 0         ;'0x000243'
+  JMP   0x247           ;'0x000244'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 343)
+;R_bigest=R_DATA;
+  MOV   A, 0x2A         ;'0x000245'
+  MOV   0x28, A         ;'0x000246'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 337)
+;while(R_Index!=5)
+  BANK  @0x0            ;'0x000247'
+  MOV   A, 0x29         ;'0x000248'
+  XOR   A, @0x05        ;'0x000249'
+  JBS   0x03, 2         ;'0x00024A'
+  JMP   0x237           ;'0x00024B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 346)
+;EM198850_REG_WRITE(0X4A,R_bigest);
+  MOV   A, 0x28         ;'0x00024C'
+  MOV   0x2F, A         ;'0x00024D'
+  MOV   A, @0x4A        ;'0x00024E'
+  MOV   0x2E, A         ;'0x00024F'
+  CALL  0x200           ;'0x000250'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 347)
+;}
+  RET                   ;'0x000251'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 295)
+;SPI_SS=0;
+  BANK  @0x0            ;'0x000252'
+  BC    0x05, 0         ;'0x000253'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 296)
+;SPIWB=R_Addr|Read_Flag;
+  MOV   A, 0x30         ;'0x000254'
+  OR    A, @0x80        ;'0x000255'
+  BANK  @0x1            ;'0x000256'
+  MOV   0x0E, A         ;'0x000257'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 297)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x000258'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 298)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x000259'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 299)
+;SPI_SS=1;
+  BANK  @0x0            ;'0x00025A'
+  BS    0x05, 0         ;'0x00025B'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 300)
+;return(SPIRB);
+  BANK  @0x1            ;'0x00025C'
+  MOV   A, 0x0D         ;'0x00025D'
+  MOV   0x11, A         ;'0x00025E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 301)
+;}
+  RET                   ;'0x00025F'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 321)
+;R_Index=0;
+  BANK  @0x0            ;'0x000260'
+  CLR   0x2A            ;'0x000261'
+  JMP   0x275           ;'0x000262'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 324)
+;R_Addr=FrameTable2[R_Index];
+  BANK  @0x0            ;'0x000263'
+  MOV   A, 0x2A         ;'0x000264'
+  CALL  0x134           ;'0x000265'
+  MOV   0x29, A         ;'0x000266'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 325)
+;R_Index++;
+  MOV   A, 0x2A         ;'0x000267'
+  ADD   A, @0x01        ;'0x000268'
+  MOV   0x2A, A         ;'0x000269'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 326)
+;R_DATA=FrameTable2[R_Index];
+  MOV   A, 0x2A         ;'0x00026A'
+  CALL  0x134           ;'0x00026B'
+  MOV   0x28, A         ;'0x00026C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 327)
+;R_Index++;
+  MOV   A, 0x2A         ;'0x00026D'
+  ADD   A, @0x01        ;'0x00026E'
+  MOV   0x2A, A         ;'0x00026F'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 328)
+;EM198850_REG_WRITE(R_Addr,R_DATA);
+  MOV   A, 0x28         ;'0x000270'
+  MOV   0x2F, A         ;'0x000271'
+  MOV   A, 0x29         ;'0x000272'
+  MOV   0x2E, A         ;'0x000273'
+  CALL  0x200           ;'0x000274'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 322)
+;while(FrameTable2[R_Index]!=0xFF)
+  BANK  @0x0            ;'0x000275'
+  MOV   A, 0x2A         ;'0x000276'
+  CALL  0x134           ;'0x000277'
+  XOR   A, @0xFF        ;'0x000278'
+  JBS   0x03, 2         ;'0x000279'
+  JMP   0x263           ;'0x00027A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 330)
+;}
+  RET                   ;'0x00027B'
+  MOV   A, 0x12         ;'0x00027C'
+  BANK  @0x0            ;'0x00027D'
+  MOV   0x2C, A         ;'0x00027E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 382)
+;uchar R_Index,R_Addr,R_DATA,R_Ret_Value=1;
+  MOV   A, @0x01        ;'0x00027F'
+  MOV   0x28, A         ;'0x000280'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 383)
+;R_Index=0;
+  CLR   0x2B            ;'0x000281'
+  JMP   0x29F           ;'0x000282'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 386)
+;R_Addr=CHK_FrameTable[R_Index];
+  BANK  @0x0            ;'0x000283'
+  MOV   A, 0x2B         ;'0x000284'
+  CALL  0x100           ;'0x000285'
+  MOV   0x2A, A         ;'0x000286'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 387)
+;R_Index++;
+  MOV   A, 0x2B         ;'0x000287'
+  ADD   A, @0x01        ;'0x000288'
+  MOV   0x2B, A         ;'0x000289'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 388)
+;R_DATA=EM198850_REG_READ(R_Addr);
+  MOV   A, 0x2A         ;'0x00028A'
+  MOV   0x30, A         ;'0x00028B'
+  CALL  0x252           ;'0x00028C'
+  MOV   A, 0x11         ;'0x00028D'
+  BANK  @0x0            ;'0x00028E'
+  MOV   0x29, A         ;'0x00028F'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 389)
+;if(R_DATA!=CHK_FrameTable[R_Index])
+  MOV   A, 0x2B         ;'0x000290'
+  MOV   0x12, A         ;'0x000291'
+  MOV   A, 0x29         ;'0x000292'
+  MOV   0x11, A         ;'0x000293'
+  MOV   A, 0x12         ;'0x000294'
+  CALL  0x100           ;'0x000295'
+  XOR   A, 0x11         ;'0x000296'
+  JBC   0x03, 2         ;'0x000297'
+  JMP   0x29B           ;'0x000298'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 391)
+;R_Ret_Value=0;
+  CLR   0x28            ;'0x000299'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 392)
+;break;
+  JMP   0x2A5           ;'0x00029A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 394)
+;R_Index++;
+  BANK  @0x0            ;'0x00029B'
+  MOV   A, 0x2B         ;'0x00029C'
+  ADD   A, @0x01        ;'0x00029D'
+  MOV   0x2B, A         ;'0x00029E'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 384)
+;while(CHK_FrameTable[R_Index]!=0xFF)
+  BANK  @0x0            ;'0x00029F'
+  MOV   A, 0x2B         ;'0x0002A0'
+  CALL  0x100           ;'0x0002A1'
+  XOR   A, @0xFF        ;'0x0002A2'
+  JBS   0x03, 2         ;'0x0002A3'
+  JMP   0x283           ;'0x0002A4'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 396)
+;return(R_Ret_Value);
+  BANK  @0x0            ;'0x0002A5'
+  MOV   A, 0x28         ;'0x0002A6'
+  MOV   0x11, A         ;'0x0002A7'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 397)
+;}
+  MOV   A, 0x2C         ;'0x0002A8'
+  MOV   0x12, A         ;'0x0002A9'
+  RET                   ;'0x0002AA'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 424)
+;EM198850_REG_WRITE(0x02,RF_Channel);
+  BANK  @0x0            ;'0x0002AB'
+  MOV   A, 0x20         ;'0x0002AC'
+  MOV   0x2F, A         ;'0x0002AD'
+  MOV   A, @0x02        ;'0x0002AE'
+  MOV   0x2E, A         ;'0x0002AF'
+  CALL  0x200           ;'0x0002B0'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 425)
+;}
+  RET                   ;'0x0002B1'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 428)
+;EM198850_REG_WRITE(0x40,0X52);	//TX NO ACK
+  MOV   A, @0x52        ;'0x0002B2'
+  BANK  @0x0            ;'0x0002B3'
+  MOV   0x2F, A         ;'0x0002B4'
+  MOV   A, @0x40        ;'0x0002B5'
+  MOV   0x2E, A         ;'0x0002B6'
+  CALL  0x200           ;'0x0002B7'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 429)
+;EM198850_REG_WRITE(0x41,0X80);
+  MOV   A, @0x80        ;'0x0002B8'
+  BANK  @0x0            ;'0x0002B9'
+  MOV   0x2F, A         ;'0x0002BA'
+  MOV   A, @0x41        ;'0x0002BB'
+  MOV   0x2E, A         ;'0x0002BC'
+  CALL  0x200           ;'0x0002BD'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 430)
+;EM198850_REG_WRITE(0x43,0X84); //CRC=0
+  MOV   A, @0x84        ;'0x0002BE'
+  BANK  @0x0            ;'0x0002BF'
+  MOV   0x2F, A         ;'0x0002C0'
+  MOV   A, @0x43        ;'0x0002C1'
+  MOV   0x2E, A         ;'0x0002C2'
+  CALL  0x200           ;'0x0002C3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 431)
+;EM198850_REG_WRITE(0X44,0X05); //PAYLOAD=5
+  MOV   A, @0x05        ;'0x0002C4'
+  BANK  @0x0            ;'0x0002C5'
+  MOV   0x2F, A         ;'0x0002C6'
+  MOV   A, @0x44        ;'0x0002C7'
+  MOV   0x2E, A         ;'0x0002C8'
+  CALL  0x200           ;'0x0002C9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 432)
+;EM198850_REG_WRITE(0x45,0X10); //PACKER CNT=1
+  MOV   A, @0x10        ;'0x0002CA'
+  BANK  @0x0            ;'0x0002CB'
+  MOV   0x2F, A         ;'0x0002CC'
+  MOV   A, @0x45        ;'0x0002CD'
+  MOV   0x2E, A         ;'0x0002CE'
+  CALL  0x200           ;'0x0002CF'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 433)
+;EM198850_REG_WRITE(0x47,0X01); //RTX CNT==0
+  MOV   A, @0x01        ;'0x0002D0'
+  BANK  @0x0            ;'0x0002D1'
+  MOV   0x2F, A         ;'0x0002D2'
+  MOV   A, @0x47        ;'0x0002D3'
+  MOV   0x2E, A         ;'0x0002D4'
+  CALL  0x200           ;'0x0002D5'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 435)
+;}
+  RET                   ;'0x0002D6'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 447)
+;SPI_SS=0;
+  BANK  @0x0            ;'0x0002D7'
+  BC    0x05, 0         ;'0x0002D8'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 448)
+;SPIWB=SOF;
+  MOV   A, @0x7F        ;'0x0002D9'
+  BANK  @0x1            ;'0x0002DA'
+  MOV   0x0E, A         ;'0x0002DB'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 449)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x0002DC'
+  JMP   0x2E4           ;'0x0002DD'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 452)
+;R_DATA_CNT--;
+  BANK  @0x0            ;'0x0002DE'
+  DEC   0x20            ;'0x0002DF'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 453)
+;SPIWB=0X55;
+  MOV   A, @0x55        ;'0x0002E0'
+  BANK  @0x1            ;'0x0002E1'
+  MOV   0x0E, A         ;'0x0002E2'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 454)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x0002E3'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 450)
+;while(R_DATA_CNT!=0)
+  BANK  @0x0            ;'0x0002E4'
+  MOV   0x20, 0x20      ;'0x0002E5'
+  JBS   0x03, 2         ;'0x0002E6'
+  JMP   0x2DE           ;'0x0002E7'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 456)
+;SPI_SS=1;
+  BS    0x05, 0         ;'0x0002E8'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 457)
+;}
+  RET                   ;'0x0002E9'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 438)
+;EM198850_REG_WRITE(0x40,0X51);	//RX NO ACK
+  MOV   A, @0x51        ;'0x0002EA'
+  BANK  @0x0            ;'0x0002EB'
+  MOV   0x2F, A         ;'0x0002EC'
+  MOV   A, @0x40        ;'0x0002ED'
+  MOV   0x2E, A         ;'0x0002EE'
+  CALL  0x200           ;'0x0002EF'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 439)
+;EM198850_REG_WRITE(0x41,0X81);
+  MOV   A, @0x81        ;'0x0002F0'
+  BANK  @0x0            ;'0x0002F1'
+  MOV   0x2F, A         ;'0x0002F2'
+  MOV   A, @0x41        ;'0x0002F3'
+  MOV   0x2E, A         ;'0x0002F4'
+  CALL  0x200           ;'0x0002F5'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 440)
+;EM198850_REG_WRITE(0x43,0X84); //CRC=0
+  MOV   A, @0x84        ;'0x0002F6'
+  BANK  @0x0            ;'0x0002F7'
+  MOV   0x2F, A         ;'0x0002F8'
+  MOV   A, @0x43        ;'0x0002F9'
+  MOV   0x2E, A         ;'0x0002FA'
+  CALL  0x200           ;'0x0002FB'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 441)
+;EM198850_REG_WRITE(0X44,0X05); //PAYLOAD=5
+  MOV   A, @0x05        ;'0x0002FC'
+  BANK  @0x0            ;'0x0002FD'
+  MOV   0x2F, A         ;'0x0002FE'
+  MOV   A, @0x44        ;'0x0002FF'
+  MOV   0x2E, A         ;'0x000300'
+  CALL  0x200           ;'0x000301'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 442)
+;EM198850_REG_WRITE(0x45,0X10); //PACKER CNT=1
+  MOV   A, @0x10        ;'0x000302'
+  BANK  @0x0            ;'0x000303'
+  MOV   0x2F, A         ;'0x000304'
+  MOV   A, @0x45        ;'0x000305'
+  MOV   0x2E, A         ;'0x000306'
+  CALL  0x200           ;'0x000307'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 443)
+;EM198850_REG_WRITE(0x47,0X01); //RTX CNT==0
+  MOV   A, @0x01        ;'0x000308'
+  BANK  @0x0            ;'0x000309'
+  MOV   0x2F, A         ;'0x00030A'
+  MOV   A, @0x47        ;'0x00030B'
+  MOV   0x2E, A         ;'0x00030C'
+  CALL  0x200           ;'0x00030D'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 444)
+;}
+  RET                   ;'0x00030E'
+  MOV   A, 0x12         ;'0x00030F'
+  BANK  @0x0            ;'0x000310'
+  MOV   0x25, A         ;'0x000311'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 465)
+;SPI_SS=0;
+  BC    0x05, 0         ;'0x000312'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 466)
+;SPIWB=SOF|0x80;
+  MOV   A, @0xFF        ;'0x000313'
+  BANK  @0x1            ;'0x000314'
+  MOV   0x0E, A         ;'0x000315'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 467)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x000316'
+  JMP   0x329           ;'0x000317'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 470)
+;R_DATA_CNT--;
+  BANK  @0x0            ;'0x000318'
+  DEC   0x26            ;'0x000319'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 471)
+;RF_SPI_WRITE_READ();
+  CALL  0x218           ;'0x00031A'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 472)
+;FIFO_DATA[5-R_DATA_CNT]=SPIRB;
+  MOV   A, @0x05        ;'0x00031B'
+  MOV   0x12, A         ;'0x00031C'
+  BANK  @0x0            ;'0x00031D'
+  MOV   A, 0x26         ;'0x00031E'
+  SUB   0x12, A         ;'0x00031F'
+  MOV   A, @0x20        ;'0x000320'
+  ADD   0x12, A         ;'0x000321'
+  BANK  @0x1            ;'0x000322'
+  MOV   A, 0x0D         ;'0x000323'
+  MOV   0x11, A         ;'0x000324'
+  MOV   A, 0x12         ;'0x000325'
+  MOV   0x04, A         ;'0x000326'
+  MOV   A, 0x11         ;'0x000327'
+  MOV   0x00, A         ;'0x000328'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 468)
+;while(R_DATA_CNT!=0)
+  BANK  @0x0            ;'0x000329'
+  MOV   0x26, 0x26      ;'0x00032A'
+  JBS   0x03, 2         ;'0x00032B'
+  JMP   0x318           ;'0x00032C'
+;D:\RF资料\198850\C语言demo code\C DEMO CODE\main.c (line 474)
+;SPI_SS=1;
+  BS    0x05, 0         ;'0x00032D'
+  MOV   A, 0x25         ;'0x00032E'
+  MOV   0x12, A         ;'0x00032F'
+  RET                   ;'0x000330'

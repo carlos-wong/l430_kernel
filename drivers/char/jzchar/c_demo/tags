@@ -1,0 +1,1715 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD	main.s	/^ADD	A,@1$/;"	l
+Bit_TX	main.c	/^bit Bit_TX;	\/\/标识为TX端，1有效$/;"	v
+CHK_FrameTable	main.c	/^const uchar CHK_FrameTable[]={0X4E,0X02,0X43,0XC4,0X44,0X06,0X45,0X10,$/;"	v
+CHK_PLLD	main.c	/^uchar	CHK_PLLD()$/;"	f
+CONTW	main.s	/^CONTW$/;"	l
+Chk_Up_Down_Board	main.c	/^void	Chk_Up_Down_Board()$/;"	f
+Clr_All_Ram	main.c	/^void	Clr_All_Ram()$/;"	f
+DECMB	main.s	/^DECMB Delay_1ms_bp-5,0$/;"	l
+DECMB	main.s	/^DECMB Delay_1us_bp-5,0$/;"	l
+DECMB	main.s	/^DECMB Read_FIFO_bp+0,0$/;"	l
+DECMB	main.s	/^DECMB Write_FIFO_bp+0,0$/;"	l
+Delay_1ms	main.c	/^void	Delay_1ms(unsigned char i)$/;"	f
+Delay_1us	main.c	/^void	Delay_1us(uchar i)$/;"	f
+EM198850_Initial	main.c	/^void	EM198850_Initial()$/;"	f
+EM198850_REG_INITIAL1	main.c	/^void	EM198850_REG_INITIAL1()$/;"	f
+EM198850_REG_INITIAL2	main.c	/^void	EM198850_REG_INITIAL2()$/;"	f
+EM198850_REG_READ	main.c	/^uchar	EM198850_REG_READ(uchar R_Addr)$/;"	f
+EM198850_REG_Test	main.c	/^uchar	EM198850_REG_Test()$/;"	f
+EM198850_REG_WRITE	main.c	/^void	EM198850_REG_WRITE(uchar R_Addr,uchar R_DATA)$/;"	f
+EQNEPRIB	main.s	/^EQNEPRIB CHK_PLLD_bp-6,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB Delay_1ms_bp-5,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB Delay_1us_bp-5,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB EM198850_Initial_bp-5,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB RSSI_INITIAL_bp-6,5$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB Read_FIFO_bp+0,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB Write_FIFO_bp+0,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB _R4,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,0$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,10$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,19$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,22$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,25$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,255$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,28$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,31$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,34$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,37$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,4$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,40$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,43$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,46$/;"	l
+EQNEPRIB	main.s	/^EQNEPRIB ecx,7$/;"	l
+EQNEPRRB	main.s	/^EQNEPRRB eax,ecx$/;"	l
+FrameTable	main.c	/^const uchar FrameTable[]={0X4E,0X02,0X4D,0X01,0X42,0X98,0X43,0XC4,0X44,0X06,$/;"	v
+FrameTable2	main.c	/^const uchar FrameTable2[]={0X05,0X40,0X02,0X00,0X0C,0XE0,0XFF};$/;"	v
+GPIO_CMMB_CLK	smsspiphy_jz.c	14;"	d	file:
+GPIO_CMMB_CS	smsspiphy_jz.c	17;"	d	file:
+GPIO_CMMB_DIN	smsspiphy_jz.c	15;"	d	file:
+GPIO_CMMB_DOUT	smsspiphy_jz.c	16;"	d	file:
+GPIO_FIFO_INT	elan.c	8;"	d	file:
+GPIO_PKT_INT	elan.c	7;"	d	file:
+GPIO_RESET	elan.c	9;"	d	file:
+JBS	main.s	/^JBS	0X03,2$/;"	l
+JMP	main.s	/^JMP	TD$/;"	l
+L$1	main.s	/^L$1:$/;"	l
+L$104	main.s	/^L$104:$/;"	l
+L$111	main.s	/^L$111:$/;"	l
+L$118	main.s	/^L$118:$/;"	l
+L$125	main.s	/^L$125:$/;"	l
+L$132	main.s	/^L$132:$/;"	l
+L$139	main.s	/^L$139:$/;"	l
+L$146	main.s	/^L$146:$/;"	l
+L$153	main.s	/^L$153:$/;"	l
+L$160	main.s	/^L$160:$/;"	l
+L$167	main.s	/^L$167:$/;"	l
+L$174	main.s	/^L$174:$/;"	l
+L$2	main.s	/^L$2:$/;"	l
+L$212	main.s	/^L$212:$/;"	l
+L$213	main.s	/^L$213:$/;"	l
+L$214	main.s	/^L$214:$/;"	l
+L$215	main.s	/^L$215:$/;"	l
+L$216	main.s	/^L$216:$/;"	l
+L$218	main.s	/^L$218:$/;"	l
+L$237	main.s	/^L$237:$/;"	l
+L$238	main.s	/^L$238:$/;"	l
+L$248	main.s	/^L$248:$/;"	l
+L$249	main.s	/^L$249:$/;"	l
+L$250	main.s	/^L$250:$/;"	l
+L$272	main.s	/^L$272:$/;"	l
+L$273	main.s	/^L$273:$/;"	l
+L$274	main.s	/^L$274:$/;"	l
+L$288	main.s	/^L$288:$/;"	l
+L$289	main.s	/^L$289:$/;"	l
+L$290	main.s	/^L$290:$/;"	l
+L$3	main.s	/^L$3:$/;"	l
+L$304	main.s	/^L$304:$/;"	l
+L$320	main.s	/^L$320:$/;"	l
+L$331	main.s	/^L$331:$/;"	l
+L$332	main.s	/^L$332:$/;"	l
+L$333	main.s	/^L$333:$/;"	l
+L$350	main.s	/^L$350:$/;"	l
+L$351	main.s	/^L$351:$/;"	l
+L$352	main.s	/^L$352:$/;"	l
+L$369	main.s	/^L$369:$/;"	l
+L$370	main.s	/^L$370:$/;"	l
+L$371	main.s	/^L$371:$/;"	l
+L$373	main.s	/^L$373:$/;"	l
+L$395	main.s	/^L$395:$/;"	l
+L$396	main.s	/^L$396:$/;"	l
+L$397	main.s	/^L$397:$/;"	l
+L$399	main.s	/^L$399:$/;"	l
+L$4	main.s	/^L$4:$/;"	l
+L$401	main.s	/^L$401:$/;"	l
+L$402	main.s	/^L$402:$/;"	l
+L$442	main.s	/^L$442:$/;"	l
+L$443	main.s	/^L$443:$/;"	l
+L$444	main.s	/^L$444:$/;"	l
+L$445	main.s	/^L$445:$/;"	l
+L$446	main.s	/^L$446:$/;"	l
+L$45	main.s	/^L$45:$/;"	l
+L$46	main.s	/^L$46:$/;"	l
+L$47	main.s	/^L$47:$/;"	l
+L$471	main.s	/^L$471:$/;"	l
+L$472	main.s	/^L$472:$/;"	l
+L$473	main.s	/^L$473:$/;"	l
+L$495	main.s	/^L$495:$/;"	l
+L$5	main.s	/^L$5:$/;"	l
+L$501	main.s	/^L$501:$/;"	l
+L$512	main.s	/^L$512:$/;"	l
+L$523	main.s	/^L$523:$/;"	l
+L$524	main.s	/^L$524:$/;"	l
+L$525	main.s	/^L$525:$/;"	l
+L$543	main.s	/^L$543:$/;"	l
+L$544	main.s	/^L$544:$/;"	l
+L$545	main.s	/^L$545:$/;"	l
+L$553	main.s	/^L$553:$/;"	l
+L$554	main.s	/^L$554:$/;"	l
+L$555	main.s	/^L$555:$/;"	l
+L$7	main.s	/^L$7:$/;"	l
+L$8	main.s	/^L$8:$/;"	l
+L$83	main.s	/^L$83:$/;"	l
+L$90	main.s	/^L$90:$/;"	l
+L$97	main.s	/^L$97:$/;"	l
+L10	main.s	/^L10:$/;"	l
+L100	main.s	/^L100:$/;"	l
+L101	main.s	/^L101:$/;"	l
+L102	main.s	/^L102:$/;"	l
+L103	main.s	/^L103:$/;"	l
+L105	main.s	/^L105:$/;"	l
+L106	main.s	/^L106:$/;"	l
+L107	main.s	/^L107:$/;"	l
+L108	main.s	/^L108:$/;"	l
+L109	main.s	/^L109:$/;"	l
+L110	main.s	/^L110:$/;"	l
+L112	main.s	/^L112:$/;"	l
+L113	main.s	/^L113:$/;"	l
+L114	main.s	/^L114:$/;"	l
+L115	main.s	/^L115:$/;"	l
+L116	main.s	/^L116:$/;"	l
+L117	main.s	/^L117:$/;"	l
+L119	main.s	/^L119:$/;"	l
+L12	main.s	/^L12:$/;"	l
+L120	main.s	/^L120:$/;"	l
+L121	main.s	/^L121:$/;"	l
+L122	main.s	/^L122:$/;"	l
+L123	main.s	/^L123:$/;"	l
+L124	main.s	/^L124:$/;"	l
+L126	main.s	/^L126:$/;"	l
+L127	main.s	/^L127:$/;"	l
+L128	main.s	/^L128:$/;"	l
+L129	main.s	/^L129:$/;"	l
+L13	main.s	/^L13:$/;"	l
+L130	main.s	/^L130:$/;"	l
+L131	main.s	/^L131:$/;"	l
+L133	main.s	/^L133:$/;"	l
+L134	main.s	/^L134:$/;"	l
+L135	main.s	/^L135:$/;"	l
+L136	main.s	/^L136:$/;"	l
+L137	main.s	/^L137:$/;"	l
+L138	main.s	/^L138:$/;"	l
+L14	main.s	/^L14:$/;"	l
+L140	main.s	/^L140:$/;"	l
+L141	main.s	/^L141:$/;"	l
+L142	main.s	/^L142:$/;"	l
+L143	main.s	/^L143:$/;"	l
+L144	main.s	/^L144:$/;"	l
+L145	main.s	/^L145:$/;"	l
+L147	main.s	/^L147:$/;"	l
+L148	main.s	/^L148:$/;"	l
+L149	main.s	/^L149:$/;"	l
+L15	main.s	/^L15:$/;"	l
+L150	main.s	/^L150:$/;"	l
+L151	main.s	/^L151:$/;"	l
+L152	main.s	/^L152:$/;"	l
+L154	main.s	/^L154:$/;"	l
+L155	main.s	/^L155:$/;"	l
+L156	main.s	/^L156:$/;"	l
+L157	main.s	/^L157:$/;"	l
+L158	main.s	/^L158:$/;"	l
+L159	main.s	/^L159:$/;"	l
+L16	main.s	/^L16:$/;"	l
+L161	main.s	/^L161:$/;"	l
+L162	main.s	/^L162:$/;"	l
+L163	main.s	/^L163:$/;"	l
+L164	main.s	/^L164:$/;"	l
+L165	main.s	/^L165:$/;"	l
+L166	main.s	/^L166:$/;"	l
+L168	main.s	/^L168:$/;"	l
+L169	main.s	/^L169:$/;"	l
+L17	main.s	/^L17:$/;"	l
+L170	main.s	/^L170:$/;"	l
+L171	main.s	/^L171:$/;"	l
+L172	main.s	/^L172:$/;"	l
+L173	main.s	/^L173:$/;"	l
+L175	main.s	/^L175:$/;"	l
+L176	main.s	/^L176:$/;"	l
+L177	main.s	/^L177:$/;"	l
+L178	main.s	/^L178:$/;"	l
+L179	main.s	/^L179:$/;"	l
+L18	main.s	/^L18:$/;"	l
+L180	main.s	/^L180:$/;"	l
+L181	main.s	/^L181:$/;"	l
+L182	main.s	/^L182:$/;"	l
+L183	main.s	/^L183:$/;"	l
+L184	main.s	/^L184:$/;"	l
+L185	main.s	/^L185:$/;"	l
+L186	main.s	/^L186:$/;"	l
+L187	main.s	/^L187:$/;"	l
+L188	main.s	/^L188:$/;"	l
+L189	main.s	/^L189:$/;"	l
+L19	main.s	/^L19:$/;"	l
+L190	main.s	/^L190:$/;"	l
+L191	main.s	/^L191:$/;"	l
+L192	main.s	/^L192:$/;"	l
+L193	main.s	/^L193:$/;"	l
+L194	main.s	/^L194:$/;"	l
+L195	main.s	/^L195:$/;"	l
+L196	main.s	/^L196:$/;"	l
+L197	main.s	/^L197:$/;"	l
+L198	main.s	/^L198:$/;"	l
+L199	main.s	/^L199:$/;"	l
+L20	main.s	/^L20:$/;"	l
+L200	main.s	/^L200:$/;"	l
+L201	main.s	/^L201:$/;"	l
+L202	main.s	/^L202:$/;"	l
+L203	main.s	/^L203:$/;"	l
+L204	main.s	/^L204:$/;"	l
+L205	main.s	/^L205:$/;"	l
+L206	main.s	/^L206:$/;"	l
+L207	main.s	/^L207:$/;"	l
+L208	main.s	/^L208:$/;"	l
+L209	main.s	/^L209:$/;"	l
+L21	main.s	/^L21:$/;"	l
+L210	main.s	/^L210:$/;"	l
+L211	main.s	/^L211:$/;"	l
+L22	main.s	/^L22:$/;"	l
+L220	main.s	/^L220:$/;"	l
+L221	main.s	/^L221:$/;"	l
+L222	main.s	/^L222:$/;"	l
+L223	main.s	/^L223:$/;"	l
+L224	main.s	/^L224:$/;"	l
+L225	main.s	/^L225:$/;"	l
+L226	main.s	/^L226:$/;"	l
+L227	main.s	/^L227:$/;"	l
+L228	main.s	/^L228:$/;"	l
+L229	main.s	/^L229:$/;"	l
+L23	main.s	/^L23:$/;"	l
+L230	main.s	/^L230:$/;"	l
+L231	main.s	/^L231:$/;"	l
+L232	main.s	/^L232:$/;"	l
+L233	main.s	/^L233:$/;"	l
+L234	main.s	/^L234:$/;"	l
+L235	main.s	/^L235:$/;"	l
+L236	main.s	/^L236:$/;"	l
+L24	main.s	/^L24:$/;"	l
+L240	main.s	/^L240:$/;"	l
+L241	main.s	/^L241:$/;"	l
+L242	main.s	/^L242:$/;"	l
+L243	main.s	/^L243:$/;"	l
+L244	main.s	/^L244:$/;"	l
+L245	main.s	/^L245:$/;"	l
+L246	main.s	/^L246:$/;"	l
+L247	main.s	/^L247:$/;"	l
+L25	main.s	/^L25:$/;"	l
+L252	main.s	/^L252:$/;"	l
+L253	main.s	/^L253:$/;"	l
+L254	main.s	/^L254:$/;"	l
+L255	main.s	/^L255:$/;"	l
+L256	main.s	/^L256:$/;"	l
+L257	main.s	/^L257:$/;"	l
+L258	main.s	/^L258:$/;"	l
+L259	main.s	/^L259:$/;"	l
+L26	main.s	/^L26:$/;"	l
+L260	main.s	/^L260:$/;"	l
+L261	main.s	/^L261:$/;"	l
+L262	main.s	/^L262:$/;"	l
+L263	main.s	/^L263:$/;"	l
+L264	main.s	/^L264:$/;"	l
+L265	main.s	/^L265:$/;"	l
+L266	main.s	/^L266:$/;"	l
+L267	main.s	/^L267:$/;"	l
+L268	main.s	/^L268:$/;"	l
+L269	main.s	/^L269:$/;"	l
+L27	main.s	/^L27:$/;"	l
+L270	main.s	/^L270:$/;"	l
+L271	main.s	/^L271:$/;"	l
+L276	main.s	/^L276:$/;"	l
+L277	main.s	/^L277:$/;"	l
+L278	main.s	/^L278:$/;"	l
+L279	main.s	/^L279:$/;"	l
+L28	main.s	/^L28:$/;"	l
+L280	main.s	/^L280:$/;"	l
+L281	main.s	/^L281:$/;"	l
+L282	main.s	/^L282:$/;"	l
+L283	main.s	/^L283:$/;"	l
+L284	main.s	/^L284:$/;"	l
+L285	main.s	/^L285:$/;"	l
+L286	main.s	/^L286:$/;"	l
+L287	main.s	/^L287:$/;"	l
+L29	main.s	/^L29:$/;"	l
+L292	main.s	/^L292:$/;"	l
+L293	main.s	/^L293:$/;"	l
+L294	main.s	/^L294:$/;"	l
+L295	main.s	/^L295:$/;"	l
+L296	main.s	/^L296:$/;"	l
+L297	main.s	/^L297:$/;"	l
+L298	main.s	/^L298:$/;"	l
+L299	main.s	/^L299:$/;"	l
+L30	main.s	/^L30:$/;"	l
+L300	main.s	/^L300:$/;"	l
+L301	main.s	/^L301:$/;"	l
+L302	main.s	/^L302:$/;"	l
+L303	main.s	/^L303:$/;"	l
+L305	main.s	/^L305:$/;"	l
+L306	main.s	/^L306:$/;"	l
+L307	main.s	/^L307:$/;"	l
+L308	main.s	/^L308:$/;"	l
+L309	main.s	/^L309:$/;"	l
+L31	main.s	/^L31:$/;"	l
+L310	main.s	/^L310:$/;"	l
+L311	main.s	/^L311:$/;"	l
+L312	main.s	/^L312:$/;"	l
+L313	main.s	/^L313:$/;"	l
+L314	main.s	/^L314:$/;"	l
+L315	main.s	/^L315:$/;"	l
+L316	main.s	/^L316:$/;"	l
+L317	main.s	/^L317:$/;"	l
+L318	main.s	/^L318:$/;"	l
+L319	main.s	/^L319:$/;"	l
+L32	main.s	/^L32:$/;"	l
+L321	main.s	/^L321:$/;"	l
+L322	main.s	/^L322:$/;"	l
+L323	main.s	/^L323:$/;"	l
+L324	main.s	/^L324:$/;"	l
+L325	main.s	/^L325:$/;"	l
+L326	main.s	/^L326:$/;"	l
+L327	main.s	/^L327:$/;"	l
+L328	main.s	/^L328:$/;"	l
+L329	main.s	/^L329:$/;"	l
+L33	main.s	/^L33:$/;"	l
+L330	main.s	/^L330:$/;"	l
+L335	main.s	/^L335:$/;"	l
+L336	main.s	/^L336:$/;"	l
+L337	main.s	/^L337:$/;"	l
+L338	main.s	/^L338:$/;"	l
+L339	main.s	/^L339:$/;"	l
+L34	main.s	/^L34:$/;"	l
+L340	main.s	/^L340:$/;"	l
+L341	main.s	/^L341:$/;"	l
+L342	main.s	/^L342:$/;"	l
+L343	main.s	/^L343:$/;"	l
+L344	main.s	/^L344:$/;"	l
+L345	main.s	/^L345:$/;"	l
+L346	main.s	/^L346:$/;"	l
+L347	main.s	/^L347:$/;"	l
+L348	main.s	/^L348:$/;"	l
+L349	main.s	/^L349:$/;"	l
+L35	main.s	/^L35:$/;"	l
+L354	main.s	/^L354:$/;"	l
+L355	main.s	/^L355:$/;"	l
+L356	main.s	/^L356:$/;"	l
+L357	main.s	/^L357:$/;"	l
+L358	main.s	/^L358:$/;"	l
+L359	main.s	/^L359:$/;"	l
+L36	main.s	/^L36:$/;"	l
+L360	main.s	/^L360:$/;"	l
+L361	main.s	/^L361:$/;"	l
+L362	main.s	/^L362:$/;"	l
+L363	main.s	/^L363:$/;"	l
+L364	main.s	/^L364:$/;"	l
+L365	main.s	/^L365:$/;"	l
+L366	main.s	/^L366:$/;"	l
+L367	main.s	/^L367:$/;"	l
+L368	main.s	/^L368:$/;"	l
+L37	main.s	/^L37:$/;"	l
+L375	main.s	/^L375:$/;"	l
+L376	main.s	/^L376:$/;"	l
+L377	main.s	/^L377:$/;"	l
+L378	main.s	/^L378:$/;"	l
+L379	main.s	/^L379:$/;"	l
+L38	main.s	/^L38:$/;"	l
+L380	main.s	/^L380:$/;"	l
+L381	main.s	/^L381:$/;"	l
+L382	main.s	/^L382:$/;"	l
+L383	main.s	/^L383:$/;"	l
+L384	main.s	/^L384:$/;"	l
+L385	main.s	/^L385:$/;"	l
+L386	main.s	/^L386:$/;"	l
+L387	main.s	/^L387:$/;"	l
+L388	main.s	/^L388:$/;"	l
+L389	main.s	/^L389:$/;"	l
+L39	main.s	/^L39:$/;"	l
+L390	main.s	/^L390:$/;"	l
+L391	main.s	/^L391:$/;"	l
+L392	main.s	/^L392:$/;"	l
+L393	main.s	/^L393:$/;"	l
+L394	main.s	/^L394:$/;"	l
+L40	main.s	/^L40:$/;"	l
+L404	main.s	/^L404:$/;"	l
+L405	main.s	/^L405:$/;"	l
+L406	main.s	/^L406:$/;"	l
+L407	main.s	/^L407:$/;"	l
+L408	main.s	/^L408:$/;"	l
+L409	main.s	/^L409:$/;"	l
+L41	main.s	/^L41:$/;"	l
+L410	main.s	/^L410:$/;"	l
+L411	main.s	/^L411:$/;"	l
+L412	main.s	/^L412:$/;"	l
+L413	main.s	/^L413:$/;"	l
+L414	main.s	/^L414:$/;"	l
+L415	main.s	/^L415:$/;"	l
+L416	main.s	/^L416:$/;"	l
+L417	main.s	/^L417:$/;"	l
+L418	main.s	/^L418:$/;"	l
+L419	main.s	/^L419:$/;"	l
+L42	main.s	/^L42:$/;"	l
+L420	main.s	/^L420:$/;"	l
+L421	main.s	/^L421:$/;"	l
+L422	main.s	/^L422:$/;"	l
+L423	main.s	/^L423:$/;"	l
+L424	main.s	/^L424:$/;"	l
+L425	main.s	/^L425:$/;"	l
+L426	main.s	/^L426:$/;"	l
+L427	main.s	/^L427:$/;"	l
+L428	main.s	/^L428:$/;"	l
+L429	main.s	/^L429:$/;"	l
+L43	main.s	/^L43:$/;"	l
+L430	main.s	/^L430:$/;"	l
+L431	main.s	/^L431:$/;"	l
+L432	main.s	/^L432:$/;"	l
+L433	main.s	/^L433:$/;"	l
+L434	main.s	/^L434:$/;"	l
+L435	main.s	/^L435:$/;"	l
+L436	main.s	/^L436:$/;"	l
+L437	main.s	/^L437:$/;"	l
+L438	main.s	/^L438:$/;"	l
+L439	main.s	/^L439:$/;"	l
+L44	main.s	/^L44:$/;"	l
+L440	main.s	/^L440:$/;"	l
+L441	main.s	/^L441:$/;"	l
+L448	main.s	/^L448:$/;"	l
+L449	main.s	/^L449:$/;"	l
+L450	main.s	/^L450:$/;"	l
+L451	main.s	/^L451:$/;"	l
+L452	main.s	/^L452:$/;"	l
+L453	main.s	/^L453:$/;"	l
+L454	main.s	/^L454:$/;"	l
+L455	main.s	/^L455:$/;"	l
+L456	main.s	/^L456:$/;"	l
+L457	main.s	/^L457:$/;"	l
+L458	main.s	/^L458:$/;"	l
+L459	main.s	/^L459:$/;"	l
+L460	main.s	/^L460:$/;"	l
+L461	main.s	/^L461:$/;"	l
+L462	main.s	/^L462:$/;"	l
+L463	main.s	/^L463:$/;"	l
+L464	main.s	/^L464:$/;"	l
+L465	main.s	/^L465:$/;"	l
+L466	main.s	/^L466:$/;"	l
+L467	main.s	/^L467:$/;"	l
+L468	main.s	/^L468:$/;"	l
+L469	main.s	/^L469:$/;"	l
+L470	main.s	/^L470:$/;"	l
+L475	main.s	/^L475:$/;"	l
+L476	main.s	/^L476:$/;"	l
+L477	main.s	/^L477:$/;"	l
+L478	main.s	/^L478:$/;"	l
+L479	main.s	/^L479:$/;"	l
+L480	main.s	/^L480:$/;"	l
+L481	main.s	/^L481:$/;"	l
+L482	main.s	/^L482:$/;"	l
+L483	main.s	/^L483:$/;"	l
+L484	main.s	/^L484:$/;"	l
+L485	main.s	/^L485:$/;"	l
+L486	main.s	/^L486:$/;"	l
+L487	main.s	/^L487:$/;"	l
+L488	main.s	/^L488:$/;"	l
+L489	main.s	/^L489:$/;"	l
+L490	main.s	/^L490:$/;"	l
+L491	main.s	/^L491:$/;"	l
+L492	main.s	/^L492:$/;"	l
+L493	main.s	/^L493:$/;"	l
+L494	main.s	/^L494:$/;"	l
+L496	main.s	/^L496:$/;"	l
+L497	main.s	/^L497:$/;"	l
+L498	main.s	/^L498:$/;"	l
+L499	main.s	/^L499:$/;"	l
+L500	main.s	/^L500:$/;"	l
+L502	main.s	/^L502:$/;"	l
+L503	main.s	/^L503:$/;"	l
+L504	main.s	/^L504:$/;"	l
+L505	main.s	/^L505:$/;"	l
+L506	main.s	/^L506:$/;"	l
+L507	main.s	/^L507:$/;"	l
+L508	main.s	/^L508:$/;"	l
+L509	main.s	/^L509:$/;"	l
+L510	main.s	/^L510:$/;"	l
+L511	main.s	/^L511:$/;"	l
+L513	main.s	/^L513:$/;"	l
+L514	main.s	/^L514:$/;"	l
+L515	main.s	/^L515:$/;"	l
+L516	main.s	/^L516:$/;"	l
+L517	main.s	/^L517:$/;"	l
+L518	main.s	/^L518:$/;"	l
+L519	main.s	/^L519:$/;"	l
+L520	main.s	/^L520:$/;"	l
+L521	main.s	/^L521:$/;"	l
+L522	main.s	/^L522:$/;"	l
+L527	main.s	/^L527:$/;"	l
+L528	main.s	/^L528:$/;"	l
+L529	main.s	/^L529:$/;"	l
+L530	main.s	/^L530:$/;"	l
+L531	main.s	/^L531:$/;"	l
+L532	main.s	/^L532:$/;"	l
+L533	main.s	/^L533:$/;"	l
+L534	main.s	/^L534:$/;"	l
+L535	main.s	/^L535:$/;"	l
+L536	main.s	/^L536:$/;"	l
+L537	main.s	/^L537:$/;"	l
+L538	main.s	/^L538:$/;"	l
+L539	main.s	/^L539:$/;"	l
+L540	main.s	/^L540:$/;"	l
+L541	main.s	/^L541:$/;"	l
+L542	main.s	/^L542:$/;"	l
+L547	main.s	/^L547:$/;"	l
+L548	main.s	/^L548:$/;"	l
+L549	main.s	/^L549:$/;"	l
+L550	main.s	/^L550:$/;"	l
+L551	main.s	/^L551:$/;"	l
+L552	main.s	/^L552:$/;"	l
+L557	main.s	/^L557:$/;"	l
+L558	main.s	/^L558:$/;"	l
+L559	main.s	/^L559:$/;"	l
+L560	main.s	/^L560:$/;"	l
+L561	main.s	/^L561:$/;"	l
+L562	main.s	/^L562:$/;"	l
+L563	main.s	/^L563:$/;"	l
+L564	main.s	/^L564:$/;"	l
+L565	main.s	/^L565:$/;"	l
+L566	main.s	/^L566:$/;"	l
+L567	main.s	/^L567:$/;"	l
+L568	main.s	/^L568:$/;"	l
+L569	main.s	/^L569:$/;"	l
+L570	main.s	/^L570:$/;"	l
+L571	main.s	/^L571:$/;"	l
+L572	main.s	/^L572:$/;"	l
+L61	main.s	/^L61:$/;"	l
+L62	main.s	/^L62:$/;"	l
+L63	main.s	/^L63:$/;"	l
+L64	main.s	/^L64:$/;"	l
+L65	main.s	/^L65:$/;"	l
+L66	main.s	/^L66:$/;"	l
+L67	main.s	/^L67:$/;"	l
+L68	main.s	/^L68:$/;"	l
+L69	main.s	/^L69:$/;"	l
+L70	main.s	/^L70:$/;"	l
+L71	main.s	/^L71:$/;"	l
+L72	main.s	/^L72:$/;"	l
+L73	main.s	/^L73:$/;"	l
+L74	main.s	/^L74:$/;"	l
+L75	main.s	/^L75:$/;"	l
+L76	main.s	/^L76:$/;"	l
+L77	main.s	/^L77:$/;"	l
+L78	main.s	/^L78:$/;"	l
+L79	main.s	/^L79:$/;"	l
+L80	main.s	/^L80:$/;"	l
+L81	main.s	/^L81:$/;"	l
+L82	main.s	/^L82:$/;"	l
+L84	main.s	/^L84:$/;"	l
+L85	main.s	/^L85:$/;"	l
+L86	main.s	/^L86:$/;"	l
+L87	main.s	/^L87:$/;"	l
+L88	main.s	/^L88:$/;"	l
+L89	main.s	/^L89:$/;"	l
+L91	main.s	/^L91:$/;"	l
+L92	main.s	/^L92:$/;"	l
+L93	main.s	/^L93:$/;"	l
+L94	main.s	/^L94:$/;"	l
+L95	main.s	/^L95:$/;"	l
+L96	main.s	/^L96:$/;"	l
+L98	main.s	/^L98:$/;"	l
+L99	main.s	/^L99:$/;"	l
+LDA	main.s	/^LDA CHK_PLLD_bp-5,0,0$/;"	l
+LDA	main.s	/^LDA CHK_PLLD_bp-6,0,0$/;"	l
+LDA	main.s	/^LDA CHK_PLLD_bp-7,0,0$/;"	l
+LDA	main.s	/^LDA CHK_PLLD_bp-8,0,0$/;"	l
+LDA	main.s	/^LDA Delay_1ms_bp+0,0,0$/;"	l
+LDA	main.s	/^LDA Delay_1us_bp-5,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_INITIAL1_bp-5,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_INITIAL1_bp-6,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_INITIAL1_bp-7,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_INITIAL2_bp-5,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_INITIAL2_bp-6,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_INITIAL2_bp-7,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_READ_bp+0,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_Test_bp-5,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_Test_bp-6,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_Test_bp-7,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_Test_bp-8,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_WRITE_bp+0,0,0$/;"	l
+LDA	main.s	/^LDA EM198850_REG_WRITE_bp+1,0,0$/;"	l
+LDA	main.s	/^LDA RF_CHANNEL_SET_bp+0,0,0$/;"	l
+LDA	main.s	/^LDA RSSI_INITIAL_bp-5,0,0$/;"	l
+LDA	main.s	/^LDA RSSI_INITIAL_bp-6,0,0$/;"	l
+LDA	main.s	/^LDA RSSI_INITIAL_bp-7,0,0$/;"	l
+LDA	main.s	/^LDA Read_FIFO_bp+0,0,0$/;"	l
+LDA	main.s	/^LDA _IntVecIdx,0,0$/;"	l
+LDA	main.s	/^LDA _R4,0,0$/;"	l
+LDA	main.s	/^LDA _SPIRB,0,0$/;"	l
+MOV	main.s	/^MOV	A,@6$/;"	l
+MOV	main.s	/^MOV A,0x2$/;"	l
+NOP	main.s	/^NOP$/;"	l
+RF_CHANNEL	main.c	4;"	d	file:
+RF_CHANNEL_SET	main.c	/^void	RF_CHANNEL_SET(uchar RF_Channel)$/;"	f
+RF_Enter_RX_NoAck_NoCRC_Payload5	main.c	/^void	RF_Enter_RX_NoAck_NoCRC_Payload5()$/;"	f
+RF_Enter_TX_NoAck_NoCRC_Payload5	main.c	/^void	RF_Enter_TX_NoAck_NoCRC_Payload5()$/;"	f
+RF_SPI_WRITE_READ	main.c	/^void	RF_SPI_WRITE_READ()$/;"	f
+RSSI_INITIAL	main.c	/^void	RSSI_INITIAL()$/;"	f
+Read_FIFO	main.c	/^void	Read_FIFO(uchar R_DATA_CNT)$/;"	f
+Read_Flag	main.c	3;"	d	file:
+Reg_Initial	main.c	/^void	Reg_Initial()$/;"	f
+Resume_Table	main.c	/^const uchar Resume_Table[]={0x07,0x18,0x0E,0X11,0X2E,0X03,0X0E,0X91,0XFF};$/;"	v
+SIANO_CMMB_IRQ	smsspiphy_jz.c	12;"	d	file:
+SIANO_CMMB_PWREN	smsspiphy_jz.c	11;"	d	file:
+SIANO_CMMB_SLEEP	smsspiphy_jz.c	10;"	d	file:
+SOF	elan.c	200;"	d	file:
+SOF	main.c	5;"	d	file:
+STA	main.s	/^STA CHK_PLLD_bp-5,0,0$/;"	l
+STA	main.s	/^STA CHK_PLLD_bp-6,0,0$/;"	l
+STA	main.s	/^STA CHK_PLLD_bp-7,0,0$/;"	l
+STA	main.s	/^STA CHK_PLLD_bp-8,0,0$/;"	l
+STA	main.s	/^STA Delay_1ms_bp-5,0,0$/;"	l
+STA	main.s	/^STA Delay_1us_bp-5,0,0$/;"	l
+STA	main.s	/^STA EM198850_Initial_bp-5,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_INITIAL1_bp-5,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_INITIAL1_bp-6,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_INITIAL1_bp-7,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_INITIAL2_bp-5,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_INITIAL2_bp-6,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_INITIAL2_bp-7,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_Test_bp-5,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_Test_bp-6,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_Test_bp-7,0,0$/;"	l
+STA	main.s	/^STA EM198850_REG_Test_bp-8,0,0$/;"	l
+STA	main.s	/^STA RF_SPI_WRITE_READ_bp-5,0,0$/;"	l
+STA	main.s	/^STA RSSI_INITIAL_bp-5,0,0$/;"	l
+STA	main.s	/^STA RSSI_INITIAL_bp-6,0,0$/;"	l
+STA	main.s	/^STA RSSI_INITIAL_bp-7,0,0$/;"	l
+STA	main.s	/^STA _IMR1,0,2$/;"	l
+STA	main.s	/^STA _IMR2,0,2$/;"	l
+STA	main.s	/^STA _P56PD,0,2$/;"	l
+STA	main.s	/^STA _P5CR,0,2$/;"	l
+STA	main.s	/^STA _P6CR,0,2$/;"	l
+STA	main.s	/^STA _P6OD,0,2$/;"	l
+STA	main.s	/^STA _P6PH,0,2$/;"	l
+STA	main.s	/^STA _P7CR,0,2$/;"	l
+STA	main.s	/^STA _P7PD,0,0$/;"	l
+STA	main.s	/^STA _P7PH,0,0$/;"	l
+STA	main.s	/^STA _P8CR,0,2$/;"	l
+STA	main.s	/^STA _PORT5,0,0$/;"	l
+STA	main.s	/^STA _R4,0,0$/;"	l
+STA	main.s	/^STA _RMUST,0,0$/;"	l
+STA	main.s	/^STA _SPIC,0,0$/;"	l
+STA	main.s	/^STA _SPIWB,0,0$/;"	l
+STA	main.s	/^STA _URC2,0,0$/;"	l
+STA	main.s	/^STA _WDTCR,0,2$/;"	l
+STA	main.s	/^STA _WUCR,0,0$/;"	l
+STPB	main.s	/^STPB eax,ecx,0$/;"	l
+TD	main.s	/^TD:$/;"	l
+Test_Table	main.c	/^const uchar Test_Table[]={0X07,0X58,0X0E,0X11,0X2E,0X23,0X0E,0X91,0XFF};$/;"	v
+ULTRRB	main.s	/^ULTRRB RSSI_INITIAL_bp-7,RSSI_INITIAL_bp-5$/;"	l
+Wait_PKT_High	main.c	/^void	Wait_PKT_High()$/;"	f
+WriteFWtoStellar	smsspiphy_jz.c	/^void WriteFWtoStellar(void *pSpiPhy, unsigned char *pFW, unsigned long Len)$/;"	f
+Write_FIFO	main.c	/^void	Write_FIFO(uchar R_DATA_CNT)$/;"	f
+_ALLint	main.s	/^_ALLint:$/;"	l
+_BRATE0	main.s	/^_BRATE0:$/;"	l
+_BRATE1	main.s	/^_BRATE1:$/;"	l
+_BRATE2	main.s	/^_BRATE2:$/;"	l
+_Bit_TX	main.s	/^_Bit_TX:$/;"	l
+_C	main.s	/^_C:$/;"	l
+_CES	main.s	/^_CES:$/;"	l
+_CHK_FrameTable	main.s	/^_CHK_FrameTable:$/;"	l
+_CHK_PLLD	main.s	/^_CHK_PLLD:$/;"	l
+_CMP2WE	main.s	/^_CMP2WE:$/;"	l
+_CMPCON	main.s	/^_CMPCON:$/;"	l
+_Chk_Up_Down_Board	main.s	/^_Chk_Up_Down_Board:$/;"	l
+_Clr_All_Ram	main.s	/^_Clr_All_Ram:$/;"	l
+_Comparat_l	main.s	/^_Comparat_l:$/;"	l
+_DC	main.s	/^_DC:$/;"	l
+_DORD	main.s	/^_DORD:$/;"	l
+_DTAH	main.s	/^_DTAH:$/;"	l
+_DTBH	main.s	/^_DTBH:$/;"	l
+_Delay_1ms	main.s	/^_Delay_1ms:$/;"	l
+_Delay_1us	main.s	/^_Delay_1us:$/;"	l
+_EEADDR	main.s	/^_EEADDR:$/;"	l
+_EECR	main.s	/^_EECR:$/;"	l
+_EEDATA	main.s	/^_EEDATA:$/;"	l
+_EEDF	main.s	/^_EEDF:$/;"	l
+_EEPC	main.s	/^_EEPC:$/;"	l
+_EEWE	main.s	/^_EEWE:$/;"	l
+_EM198850_Initial	main.s	/^_EM198850_Initial:$/;"	l
+_EM198850_REG_INITIAL1	main.s	/^_EM198850_REG_INITIAL1:$/;"	l
+_EM198850_REG_INITIAL2	main.s	/^_EM198850_REG_INITIAL2:$/;"	l
+_EM198850_REG_READ	main.s	/^_EM198850_REG_READ:$/;"	l
+_EM198850_REG_Test	main.s	/^_EM198850_REG_Test:$/;"	l
+_EM198850_REG_WRITE	main.s	/^_EM198850_REG_WRITE:$/;"	l
+_EVEN	main.s	/^_EVEN:$/;"	l
+_EXIF	main.s	/^_EXIF:$/;"	l
+_EXWE	main.s	/^_EXWE:$/;"	l
+_FMERR	main.s	/^_FMERR:$/;"	l
+_FrameTable	main.s	/^_FrameTable:$/;"	l
+_FrameTable2	main.s	/^_FrameTable2:$/;"	l
+_ICIF	main.s	/^_ICIF:$/;"	l
+_ICWE	main.s	/^_ICWE:$/;"	l
+_IMR1	main.s	/^_IMR1:$/;"	l
+_IMR2	main.s	/^_IMR2:$/;"	l
+_ISR1	main.s	/^_ISR1:$/;"	l
+_ISR2	main.s	/^_ISR2:$/;"	l
+_LEDC	main.s	/^_LEDC:$/;"	l
+_OD3	main.s	/^_OD3:$/;"	l
+_OD4	main.s	/^_OD4:$/;"	l
+_OVERR	main.s	/^_OVERR:$/;"	l
+_P	main.s	/^_P:$/;"	l
+_P51	main.s	/^_P51:$/;"	l
+_P52	main.s	/^_P52:$/;"	l
+_P54	main.s	/^_P54:$/;"	l
+_P55	main.s	/^_P55:$/;"	l
+_P56PD	main.s	/^_P56PD:$/;"	l
+_P5CR	main.s	/^_P5CR:$/;"	l
+_P6CR	main.s	/^_P6CR:$/;"	l
+_P6OD	main.s	/^_P6OD:$/;"	l
+_P6PH	main.s	/^_P6PH:$/;"	l
+_P73	main.s	/^_P73:$/;"	l
+_P7CR	main.s	/^_P7CR:$/;"	l
+_P7PD	main.s	/^_P7PD:$/;"	l
+_P7PH	main.s	/^_P7PH:$/;"	l
+_P8CR	main.s	/^_P8CR:$/;"	l
+_PC	main.s	/^_PC:$/;"	l
+_PD72	main.s	/^_PD72:$/;"	l
+_PD73	main.s	/^_PD73:$/;"	l
+_PD74	main.s	/^_PD74:$/;"	l
+_PD75	main.s	/^_PD75:$/;"	l
+_PD76	main.s	/^_PD76:$/;"	l
+_PD77	main.s	/^_PD77:$/;"	l
+_PH72	main.s	/^_PH72:$/;"	l
+_PH73	main.s	/^_PH73:$/;"	l
+_PH74	main.s	/^_PH74:$/;"	l
+_PH75	main.s	/^_PH75:$/;"	l
+_PH76	main.s	/^_PH76:$/;"	l
+_PH77	main.s	/^_PH77:$/;"	l
+_PKT_FLAG	main.s	/^_PKT_FLAG:$/;"	l
+_PORT5	main.s	/^_PORT5:$/;"	l
+_PORT6	main.s	/^_PORT6:$/;"	l
+_PORT7	main.s	/^_PORT7:$/;"	l
+_PORT8	main.s	/^_PORT8:$/;"	l
+_PRDAH	main.s	/^_PRDAH:$/;"	l
+_PRDBH	main.s	/^_PRDBH:$/;"	l
+_PRE	main.s	/^_PRE:$/;"	l
+_PRERR	main.s	/^_PRERR:$/;"	l
+_PS0	main.s	/^_PS0:$/;"	l
+_PS1	main.s	/^_PS1:$/;"	l
+_PWMAIF	main.s	/^_PWMAIF:$/;"	l
+_PWMA_l	main.s	/^_PWMA_l:$/;"	l
+_PWMBIF	main.s	/^_PWMBIF:$/;"	l
+_PWMB_l	main.s	/^_PWMB_l:$/;"	l
+_PWMCON	main.s	/^_PWMCON:$/;"	l
+_R0	main.s	/^_R0:$/;"	l
+_R4	main.s	/^_R4:$/;"	l
+_RBF	main.s	/^_RBF:$/;"	l
+_RD	main.s	/^_RD:$/;"	l
+_RESET_N	main.s	/^_RESET_N:$/;"	l
+_RF_CHANNEL_SET	main.s	/^_RF_CHANNEL_SET:$/;"	l
+_RF_Enter_RX_NoAck_NoCRC_Payload5	main.s	/^_RF_Enter_RX_NoAck_NoCRC_Payload5:$/;"	l
+_RF_Enter_TX_NoAck_NoCRC_Payload5	main.s	/^_RF_Enter_TX_NoAck_NoCRC_Payload5:$/;"	l
+_RF_SPI_WRITE_READ	main.s	/^_RF_SPI_WRITE_READ:$/;"	l
+_RMUST	main.s	/^_RMUST:$/;"	l
+_RSSI_INITIAL	main.s	/^_RSSI_INITIAL:$/;"	l
+_RXE	main.s	/^_RXE:$/;"	l
+_Read_FIFO	main.s	/^_Read_FIFO:$/;"	l
+_Reg_Initial	main.s	/^_Reg_Initial:$/;"	l
+_Resume_Table	main.s	/^_Resume_Table:$/;"	l
+_SBIM0	main.s	/^_SBIM0:$/;"	l
+_SBIM1	main.s	/^_SBIM1:$/;"	l
+_SBRS0	main.s	/^_SBRS0:$/;"	l
+_SBRS1	main.s	/^_SBRS1:$/;"	l
+_SBRS2	main.s	/^_SBRS2:$/;"	l
+_SDOC	main.s	/^_SDOC:$/;"	l
+_SIMPLE_RSR_	main.s	/^_SIMPLE_RSR_ EQU 1$/;"	d
+_SPIC	main.s	/^_SPIC:$/;"	l
+_SPIE	main.s	/^_SPIE:$/;"	l
+_SPIIF	main.s	/^_SPIIF:$/;"	l
+_SPIRB	main.s	/^_SPIRB:$/;"	l
+_SPIS	main.s	/^_SPIS:$/;"	l
+_SPIWB	main.s	/^_SPIWB:$/;"	l
+_SPIWE	main.s	/^_SPIWE:$/;"	l
+_SPI_CLK	main.s	/^_SPI_CLK:$/;"	l
+_SPI_SS	main.s	/^_SPI_SS:$/;"	l
+_SRO	main.s	/^_SRO:$/;"	l
+_SSE	main.s	/^_SSE:$/;"	l
+_STATUS	main.s	/^_STATUS:$/;"	l
+_T	main.s	/^_T:$/;"	l
+_TC1CAP	main.s	/^_TC1CAP:$/;"	l
+_TC1CK0	main.s	/^_TC1CK0:$/;"	l
+_TC1CK1	main.s	/^_TC1CK1:$/;"	l
+_TC1CR	main.s	/^_TC1CR:$/;"	l
+_TC1ES	main.s	/^_TC1ES:$/;"	l
+_TC1M	main.s	/^_TC1M:$/;"	l
+_TC1S	main.s	/^_TC1S:$/;"	l
+_TC1_l	main.s	/^_TC1_l:$/;"	l
+_TC2CK0	main.s	/^_TC2CK0:$/;"	l
+_TC2CK1	main.s	/^_TC2CK1:$/;"	l
+_TC2CK2	main.s	/^_TC2CK2:$/;"	l
+_TC2CR	main.s	/^_TC2CR:$/;"	l
+_TC2DH	main.s	/^_TC2DH:$/;"	l
+_TC2DL	main.s	/^_TC2DL:$/;"	l
+_TC2ES	main.s	/^_TC2ES:$/;"	l
+_TC2M	main.s	/^_TC2M:$/;"	l
+_TC2S	main.s	/^_TC2S:$/;"	l
+_TC2_l	main.s	/^_TC2_l:$/;"	l
+_TC3CK0	main.s	/^_TC3CK0:$/;"	l
+_TC3CK1	main.s	/^_TC3CK1:$/;"	l
+_TC3CK2	main.s	/^_TC3CK2:$/;"	l
+_TC3CR	main.s	/^_TC3CR:$/;"	l
+_TC3FF0	main.s	/^_TC3FF0:$/;"	l
+_TC3FF1	main.s	/^_TC3FF1:$/;"	l
+_TC3M0	main.s	/^_TC3M0:$/;"	l
+_TC3M1	main.s	/^_TC3M1:$/;"	l
+_TC3_l	main.s	/^_TC3_l:$/;"	l
+_TCC	main.s	/^_TCC:$/;"	l
+_TCIF	main.s	/^_TCIF:$/;"	l
+_TCR1DA	main.s	/^_TCR1DA:$/;"	l
+_TCR1DB	main.s	/^_TCR1DB:$/;"	l
+_TCR3D	main.s	/^_TCR3D:$/;"	l
+_TCS3S	main.s	/^_TCS3S:$/;"	l
+_TD0	main.s	/^_TD0:$/;"	l
+_TD1	main.s	/^_TD1:$/;"	l
+_TMRCON	main.s	/^_TMRCON:$/;"	l
+_TXE	main.s	/^_TXE:$/;"	l
+_Test_Table	main.s	/^_Test_Table:$/;"	l
+_UARTRE_l	main.s	/^_UARTRE_l:$/;"	l
+_UARTR_l	main.s	/^_UARTR_l:$/;"	l
+_UARTT_l	main.s	/^_UARTT_l:$/;"	l
+_UINVEN	main.s	/^_UINVEN:$/;"	l
+_UMODE0	main.s	/^_UMODE0:$/;"	l
+_UMODE1	main.s	/^_UMODE1:$/;"	l
+_URBF	main.s	/^_URBF:$/;"	l
+_URC1	main.s	/^_URC1:$/;"	l
+_URC2	main.s	/^_URC2:$/;"	l
+_URRD	main.s	/^_URRD:$/;"	l
+_URRD8	main.s	/^_URRD8:$/;"	l
+_URS	main.s	/^_URS:$/;"	l
+_URTD	main.s	/^_URTD:$/;"	l
+_URTD8	main.s	/^_URTD8:$/;"	l
+_UTBE	main.s	/^_UTBE:$/;"	l
+_WDTCR	main.s	/^_WDTCR:$/;"	l
+_WR	main.s	/^_WR:$/;"	l
+_WUCR	main.s	/^_WUCR:$/;"	l
+_Wait_PKT_High	main.s	/^_Wait_PKT_High:$/;"	l
+_Write_FIFO	main.s	/^_Write_FIFO:$/;"	l
+_Z	main.s	/^_Z:$/;"	l
+_exit	elan.c	/^void 198850_exit()$/;"	f
+_ext_interrupt_l	main.s	/^_ext_interrupt_l:$/;"	l
+_init	elan.c	/^int 198850_init()$/;"	f
+_main	main.s	/^_main:$/;"	l
+_port6pinchange_l	main.s	/^_port6pinchange_l:$/;"	l
+_spi_l	main.s	/^_spi_l:$/;"	l
+_tccint_l	main.s	/^_tccint_l:$/;"	l
+add	main.s	/^add a,@1$/;"	l
+add	main.s	/^add ecx,a$/;"	l
+and	main.s	/^and a,@128$/;"	l
+and	main.s	/^and ecx,a$/;"	l
+bc	main.s	/^bc _Bit_TX,BIT$/;"	l
+bc	main.s	/^bc _RESET_N,7$/;"	l
+bc	main.s	/^bc _SPIE,6$/;"	l
+bc	main.s	/^bc _SPI_CLK,3$/;"	l
+bc	main.s	/^bc _SPI_SS,0$/;"	l
+bs	main.s	/^bs _Bit_TX,BIT$/;"	l
+bs	main.s	/^bs _RESET_N,7$/;"	l
+bs	main.s	/^bs _SPIE,6$/;"	l
+bs	main.s	/^bs _SPI_SS,0$/;"	l
+bs	main.s	/^bs _SSE,4$/;"	l
+call	main.s	/^call _CHK_FrameTable$/;"	l
+call	main.s	/^call _Chk_Up_Down_Board$/;"	l
+call	main.s	/^call _Clr_All_Ram$/;"	l
+call	main.s	/^call _Delay_1ms$/;"	l
+call	main.s	/^call _Delay_1us$/;"	l
+call	main.s	/^call _EM198850_Initial$/;"	l
+call	main.s	/^call _EM198850_REG_INITIAL1$/;"	l
+call	main.s	/^call _EM198850_REG_INITIAL2$/;"	l
+call	main.s	/^call _EM198850_REG_READ$/;"	l
+call	main.s	/^call _EM198850_REG_Test$/;"	l
+call	main.s	/^call _EM198850_REG_WRITE$/;"	l
+call	main.s	/^call _FrameTable$/;"	l
+call	main.s	/^call _FrameTable2$/;"	l
+call	main.s	/^call _RF_CHANNEL_SET$/;"	l
+call	main.s	/^call _RF_Enter_RX_NoAck_NoCRC_Payload5$/;"	l
+call	main.s	/^call _RF_Enter_TX_NoAck_NoCRC_Payload5$/;"	l
+call	main.s	/^call _RF_SPI_WRITE_READ$/;"	l
+call	main.s	/^call _RSSI_INITIAL$/;"	l
+call	main.s	/^call _Read_FIFO$/;"	l
+call	main.s	/^call _Reg_Initial$/;"	l
+call	main.s	/^call _Resume_Table$/;"	l
+call	main.s	/^call _Test_Table$/;"	l
+call	main.s	/^call _Wait_PKT_High$/;"	l
+call	main.s	/^call _Write_FIFO$/;"	l
+ccounter	main.s	/^ccounter equ pr1$/;"	d
+check_frametable	elan.c	/^static unsigned char check_frametable[]={0X4E,0X02,0X43,0XC4,0X44,0X06,0X45,0X10,$/;"	v	file:
+clr	main.s	/^clr CHK_PLLD_bp-5$/;"	l
+clr	main.s	/^clr CHK_PLLD_bp-8$/;"	l
+clr	main.s	/^clr EM198850_REG_INITIAL1_bp-5$/;"	l
+clr	main.s	/^clr EM198850_REG_INITIAL2_bp-5$/;"	l
+clr	main.s	/^clr EM198850_REG_Test_bp-5$/;"	l
+clr	main.s	/^clr EM198850_REG_Test_bp-8$/;"	l
+clr	main.s	/^clr RSSI_INITIAL_bp-6$/;"	l
+clr	main.s	/^clr RSSI_INITIAL_bp-7$/;"	l
+clr	main.s	/^clr _CMPCON$/;"	l
+clr	main.s	/^clr _ISR1$/;"	l
+clr	main.s	/^clr _ISR2$/;"	l
+clr	main.s	/^clr _PORT6$/;"	l
+clr	main.s	/^clr _PORT7$/;"	l
+clr	main.s	/^clr _PORT8$/;"	l
+clr	main.s	/^clr _R0$/;"	l
+clr	main.s	/^clr _SPIRB$/;"	l
+clr	main.s	/^clr _SPIS$/;"	l
+clr	main.s	/^clr _SPIWB$/;"	l
+clr	main.s	/^clr _TC1CR$/;"	l
+clr	main.s	/^clr _TC2CR$/;"	l
+clr	main.s	/^clr _TC3CR$/;"	l
+clr	main.s	/^clr _URC1$/;"	l
+clr	main.s	/^clr _URC2$/;"	l
+clr	main.s	/^clr _URS$/;"	l
+db	main.s	/^db 0$/;"	l
+db	main.s	/^db 1$/;"	l
+db	main.s	/^db 10$/;"	l
+db	main.s	/^db 100$/;"	l
+db	main.s	/^db 102$/;"	l
+db	main.s	/^db 11$/;"	l
+db	main.s	/^db 113$/;"	l
+db	main.s	/^db 119$/;"	l
+db	main.s	/^db 12$/;"	l
+db	main.s	/^db 128$/;"	l
+db	main.s	/^db 129$/;"	l
+db	main.s	/^db 13$/;"	l
+db	main.s	/^db 132$/;"	l
+db	main.s	/^db 138$/;"	l
+db	main.s	/^db 14$/;"	l
+db	main.s	/^db 145$/;"	l
+db	main.s	/^db 15$/;"	l
+db	main.s	/^db 152$/;"	l
+db	main.s	/^db 16$/;"	l
+db	main.s	/^db 162$/;"	l
+db	main.s	/^db 167$/;"	l
+db	main.s	/^db 17$/;"	l
+db	main.s	/^db 173$/;"	l
+db	main.s	/^db 184$/;"	l
+db	main.s	/^db 189$/;"	l
+db	main.s	/^db 192$/;"	l
+db	main.s	/^db 195$/;"	l
+db	main.s	/^db 196$/;"	l
+db	main.s	/^db 198$/;"	l
+db	main.s	/^db 2$/;"	l
+db	main.s	/^db 218$/;"	l
+db	main.s	/^db 224$/;"	l
+db	main.s	/^db 229$/;"	l
+db	main.s	/^db 24$/;"	l
+db	main.s	/^db 250$/;"	l
+db	main.s	/^db 255$/;"	l
+db	main.s	/^db 26$/;"	l
+db	main.s	/^db 28$/;"	l
+db	main.s	/^db 3$/;"	l
+db	main.s	/^db 32$/;"	l
+db	main.s	/^db 33$/;"	l
+db	main.s	/^db 34$/;"	l
+db	main.s	/^db 35$/;"	l
+db	main.s	/^db 36$/;"	l
+db	main.s	/^db 37$/;"	l
+db	main.s	/^db 38$/;"	l
+db	main.s	/^db 39$/;"	l
+db	main.s	/^db 4$/;"	l
+db	main.s	/^db 40$/;"	l
+db	main.s	/^db 41$/;"	l
+db	main.s	/^db 42$/;"	l
+db	main.s	/^db 43$/;"	l
+db	main.s	/^db 44$/;"	l
+db	main.s	/^db 45$/;"	l
+db	main.s	/^db 46$/;"	l
+db	main.s	/^db 47$/;"	l
+db	main.s	/^db 48$/;"	l
+db	main.s	/^db 49$/;"	l
+db	main.s	/^db 5$/;"	l
+db	main.s	/^db 50$/;"	l
+db	main.s	/^db 51$/;"	l
+db	main.s	/^db 59$/;"	l
+db	main.s	/^db 6$/;"	l
+db	main.s	/^db 64$/;"	l
+db	main.s	/^db 65$/;"	l
+db	main.s	/^db 66$/;"	l
+db	main.s	/^db 67$/;"	l
+db	main.s	/^db 68$/;"	l
+db	main.s	/^db 69$/;"	l
+db	main.s	/^db 7$/;"	l
+db	main.s	/^db 70$/;"	l
+db	main.s	/^db 71$/;"	l
+db	main.s	/^db 72$/;"	l
+db	main.s	/^db 73$/;"	l
+db	main.s	/^db 74$/;"	l
+db	main.s	/^db 75$/;"	l
+db	main.s	/^db 76$/;"	l
+db	main.s	/^db 77$/;"	l
+db	main.s	/^db 78$/;"	l
+db	main.s	/^db 79$/;"	l
+db	main.s	/^db 8$/;"	l
+db	main.s	/^db 80$/;"	l
+db	main.s	/^db 81$/;"	l
+db	main.s	/^db 82$/;"	l
+db	main.s	/^db 83$/;"	l
+db	main.s	/^db 84$/;"	l
+db	main.s	/^db 85$/;"	l
+db	main.s	/^db 86$/;"	l
+db	main.s	/^db 87$/;"	l
+db	main.s	/^db 88$/;"	l
+db	main.s	/^db 9$/;"	l
+db	main.s	/^db 93$/;"	l
+ds	main.s	/^ds 1$/;"	l
+dummy_device	smsspiphy_jz.c	/^unsigned char *dummy_device = 0x12345678;$/;"	v
+em198850_exit	elan.c	/^module_exit(em198850_exit);$/;"	v
+em198850_init	elan.c	/^module_init(em198850_init);$/;"	v
+em198850_reg_init1	elan.c	/^static void em198850_reg_init1()$/;"	f	file:
+em198850_reg_init2	elan.c	/^static void em198850_reg_init2()$/;"	f	file:
+em198850_reg_read	elan.c	/^static unsigned char em198850_reg_read(unsigned char addr)$/;"	f	file:
+em198850_reg_test	elan.c	/^static unsigned char em198850_reg_test()$/;"	f	file:
+em198850_reg_write	elan.c	/^static void em198850_reg_write(unsigned char addr, unsigned char data)$/;"	f	file:
+end	644_c.bat	/^:end$/;"	l
+extrn	main.s	/^extrn _IntVecIdx$/;"	l
+frame_table	elan.c	/^static unsigned char frame_table[]={0X4E,0X02,0X4D,0X01,0X42,0X98,0X43,0XC4,0X44,0X06,$/;"	v	file:
+frame_table2	elan.c	/^static unsigned char frame_table2[]={0X05,0X40,0X02,0X00,0X0C,0XE0,0XFF};$/;"	v	file:
+fwDnlComplete	smsspiphy_jz.c	/^void fwDnlComplete(void *context, int App)$/;"	f
+iopage	644.H	/^io	unsigned char	IMR2		@0X0E:iopage 0;$/;"	v
+iopage	644.H	/^io	unsigned char	P56PD		@0X0B:iopage 0;$/;"	v
+iopage	644.H	/^io	unsigned char	P5CR		@0X05:iopage 0;$/;"	v
+iopage	644.H	/^io	unsigned char	P6CR		@0X06:iopage 0;$/;"	v
+iopage	644.H	/^io	unsigned char	P6OD		@0X0C:iopage 0;$/;"	v
+iopage	644.H	/^io	unsigned char	P6PH		@0X0D:iopage 0;$/;"	v
+iopage	644.H	/^io	unsigned char	P8CR		@0X08:iopage 0;$/;"	v
+iopage	644.H	/^io	unsigned char	WDTCR		@0X0A:iopage 0;$/;"	v
+iopage	644.H	/^io 	unsigned char	P7CR		@0X07:iopage 0;$/;"	v
+iopage	644.H	/^io  unsigned char	IMR1		@0X0F:iopage 0;$/;"	v
+jbc	main.s	/^jbc STATUS,cf$/;"	l
+jbc	main.s	/^jbc STATUS,zf$/;"	l
+jbc	main.s	/^jbc _P73,3$/;"	l
+jbc	main.s	/^jbc _SSE,4$/;"	l
+jbs	main.s	/^jbs STATUS,zf$/;"	l
+jbs	main.s	/^jbs _Bit_TX,BIT$/;"	l
+jbs	main.s	/^jbs _PKT_FLAG,7$/;"	l
+jmp	main.s	/^jmp @L$2$/;"	l
+jmp	main.s	/^jmp @L$213$/;"	l
+jmp	main.s	/^jmp @L$214$/;"	l
+jmp	main.s	/^jmp @L$215$/;"	l
+jmp	main.s	/^jmp @L$216$/;"	l
+jmp	main.s	/^jmp @L$218$/;"	l
+jmp	main.s	/^jmp @L$238$/;"	l
+jmp	main.s	/^jmp @L$249$/;"	l
+jmp	main.s	/^jmp @L$250$/;"	l
+jmp	main.s	/^jmp @L$273$/;"	l
+jmp	main.s	/^jmp @L$274$/;"	l
+jmp	main.s	/^jmp @L$289$/;"	l
+jmp	main.s	/^jmp @L$3$/;"	l
+jmp	main.s	/^jmp @L$332$/;"	l
+jmp	main.s	/^jmp @L$333$/;"	l
+jmp	main.s	/^jmp @L$351$/;"	l
+jmp	main.s	/^jmp @L$352$/;"	l
+jmp	main.s	/^jmp @L$370$/;"	l
+jmp	main.s	/^jmp @L$371$/;"	l
+jmp	main.s	/^jmp @L$373$/;"	l
+jmp	main.s	/^jmp @L$396$/;"	l
+jmp	main.s	/^jmp @L$397$/;"	l
+jmp	main.s	/^jmp @L$399$/;"	l
+jmp	main.s	/^jmp @L$4$/;"	l
+jmp	main.s	/^jmp @L$401$/;"	l
+jmp	main.s	/^jmp @L$402$/;"	l
+jmp	main.s	/^jmp @L$443$/;"	l
+jmp	main.s	/^jmp @L$444$/;"	l
+jmp	main.s	/^jmp @L$445$/;"	l
+jmp	main.s	/^jmp @L$446$/;"	l
+jmp	main.s	/^jmp @L$46$/;"	l
+jmp	main.s	/^jmp @L$47$/;"	l
+jmp	main.s	/^jmp @L$472$/;"	l
+jmp	main.s	/^jmp @L$473$/;"	l
+jmp	main.s	/^jmp @L$5$/;"	l
+jmp	main.s	/^jmp @L$524$/;"	l
+jmp	main.s	/^jmp @L$525$/;"	l
+jmp	main.s	/^jmp @L$544$/;"	l
+jmp	main.s	/^jmp @L$554$/;"	l
+jmp	main.s	/^jmp @L$555$/;"	l
+jmp	main.s	/^jmp @L$7$/;"	l
+jmp	main.s	/^jmp @L$8$/;"	l
+jz_spi_deinit	elan.c	/^static void jz_spi_deinit()$/;"	f	file:
+jz_spi_init	elan.c	/^static void jz_spi_init()$/;"	f	file:
+main	main.c	/^void main()$/;"	f
+mov	main.s	/^mov		A,@0X80$/;"	l
+mov	main.s	/^mov CHK_PLLD_bp-1,a$/;"	l
+mov	main.s	/^mov CHK_PLLD_bp-2,a$/;"	l
+mov	main.s	/^mov CHK_PLLD_bp-3,a$/;"	l
+mov	main.s	/^mov CHK_PLLD_bp-4,a$/;"	l
+mov	main.s	/^mov Chk_Up_Down_Board_bp-1,a$/;"	l
+mov	main.s	/^mov Chk_Up_Down_Board_bp-2,a$/;"	l
+mov	main.s	/^mov Chk_Up_Down_Board_bp-3,a$/;"	l
+mov	main.s	/^mov Chk_Up_Down_Board_bp-4,a$/;"	l
+mov	main.s	/^mov Clr_All_Ram_bp-1,a$/;"	l
+mov	main.s	/^mov Clr_All_Ram_bp-2,a$/;"	l
+mov	main.s	/^mov Clr_All_Ram_bp-3,a$/;"	l
+mov	main.s	/^mov Clr_All_Ram_bp-4,a$/;"	l
+mov	main.s	/^mov Delay_1ms_bp+0,a$/;"	l
+mov	main.s	/^mov Delay_1ms_bp-1,a$/;"	l
+mov	main.s	/^mov Delay_1ms_bp-2,a$/;"	l
+mov	main.s	/^mov Delay_1ms_bp-3,a$/;"	l
+mov	main.s	/^mov Delay_1ms_bp-4,a$/;"	l
+mov	main.s	/^mov Delay_1us_bp+0,a$/;"	l
+mov	main.s	/^mov Delay_1us_bp-1,a$/;"	l
+mov	main.s	/^mov Delay_1us_bp-2,a$/;"	l
+mov	main.s	/^mov Delay_1us_bp-3,a$/;"	l
+mov	main.s	/^mov Delay_1us_bp-4,a$/;"	l
+mov	main.s	/^mov EM198850_Initial_bp-1,a$/;"	l
+mov	main.s	/^mov EM198850_Initial_bp-2,a$/;"	l
+mov	main.s	/^mov EM198850_Initial_bp-3,a$/;"	l
+mov	main.s	/^mov EM198850_Initial_bp-4,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL1_bp-1,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL1_bp-2,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL1_bp-3,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL1_bp-4,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL2_bp-1,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL2_bp-2,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL2_bp-3,a$/;"	l
+mov	main.s	/^mov EM198850_REG_INITIAL2_bp-4,a$/;"	l
+mov	main.s	/^mov EM198850_REG_READ_bp+0,a$/;"	l
+mov	main.s	/^mov EM198850_REG_READ_bp-1,a$/;"	l
+mov	main.s	/^mov EM198850_REG_READ_bp-2,a$/;"	l
+mov	main.s	/^mov EM198850_REG_READ_bp-3,a$/;"	l
+mov	main.s	/^mov EM198850_REG_READ_bp-4,a$/;"	l
+mov	main.s	/^mov EM198850_REG_Test_bp-1,a$/;"	l
+mov	main.s	/^mov EM198850_REG_Test_bp-2,a$/;"	l
+mov	main.s	/^mov EM198850_REG_Test_bp-3,a$/;"	l
+mov	main.s	/^mov EM198850_REG_Test_bp-4,a$/;"	l
+mov	main.s	/^mov EM198850_REG_WRITE_bp+0,a$/;"	l
+mov	main.s	/^mov EM198850_REG_WRITE_bp+1,a$/;"	l
+mov	main.s	/^mov EM198850_REG_WRITE_bp-1,a$/;"	l
+mov	main.s	/^mov EM198850_REG_WRITE_bp-2,a$/;"	l
+mov	main.s	/^mov EM198850_REG_WRITE_bp-3,a$/;"	l
+mov	main.s	/^mov EM198850_REG_WRITE_bp-4,a$/;"	l
+mov	main.s	/^mov RF_CHANNEL_SET_bp+0,a$/;"	l
+mov	main.s	/^mov RF_CHANNEL_SET_bp-1,a$/;"	l
+mov	main.s	/^mov RF_CHANNEL_SET_bp-2,a$/;"	l
+mov	main.s	/^mov RF_CHANNEL_SET_bp-3,a$/;"	l
+mov	main.s	/^mov RF_CHANNEL_SET_bp-4,a$/;"	l
+mov	main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-1,a$/;"	l
+mov	main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-2,a$/;"	l
+mov	main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-3,a$/;"	l
+mov	main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-4,a$/;"	l
+mov	main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-1,a$/;"	l
+mov	main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-2,a$/;"	l
+mov	main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-3,a$/;"	l
+mov	main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-4,a$/;"	l
+mov	main.s	/^mov RF_SPI_WRITE_READ_bp-1,a$/;"	l
+mov	main.s	/^mov RF_SPI_WRITE_READ_bp-2,a$/;"	l
+mov	main.s	/^mov RF_SPI_WRITE_READ_bp-3,a$/;"	l
+mov	main.s	/^mov RF_SPI_WRITE_READ_bp-4,a$/;"	l
+mov	main.s	/^mov RSSI_INITIAL_bp-1,a$/;"	l
+mov	main.s	/^mov RSSI_INITIAL_bp-2,a$/;"	l
+mov	main.s	/^mov RSSI_INITIAL_bp-3,a$/;"	l
+mov	main.s	/^mov RSSI_INITIAL_bp-4,a$/;"	l
+mov	main.s	/^mov Read_FIFO_bp+0,a$/;"	l
+mov	main.s	/^mov Read_FIFO_bp-1,a$/;"	l
+mov	main.s	/^mov Read_FIFO_bp-2,a$/;"	l
+mov	main.s	/^mov Read_FIFO_bp-3,a$/;"	l
+mov	main.s	/^mov Read_FIFO_bp-4,a$/;"	l
+mov	main.s	/^mov Reg_Initial_bp-1,a$/;"	l
+mov	main.s	/^mov Reg_Initial_bp-2,a$/;"	l
+mov	main.s	/^mov Reg_Initial_bp-3,a$/;"	l
+mov	main.s	/^mov Reg_Initial_bp-4,a$/;"	l
+mov	main.s	/^mov Wait_PKT_High_bp-1,a$/;"	l
+mov	main.s	/^mov Wait_PKT_High_bp-2,a$/;"	l
+mov	main.s	/^mov Wait_PKT_High_bp-3,a$/;"	l
+mov	main.s	/^mov Wait_PKT_High_bp-4,a$/;"	l
+mov	main.s	/^mov Write_FIFO_bp+0,a$/;"	l
+mov	main.s	/^mov Write_FIFO_bp-1,a$/;"	l
+mov	main.s	/^mov Write_FIFO_bp-2,a$/;"	l
+mov	main.s	/^mov Write_FIFO_bp-3,a$/;"	l
+mov	main.s	/^mov Write_FIFO_bp-4,a$/;"	l
+mov	main.s	/^mov a,@0$/;"	l
+mov	main.s	/^mov a,@1$/;"	l
+mov	main.s	/^mov a,@112$/;"	l
+mov	main.s	/^mov a,@127$/;"	l
+mov	main.s	/^mov a,@128$/;"	l
+mov	main.s	/^mov a,@129$/;"	l
+mov	main.s	/^mov a,@132$/;"	l
+mov	main.s	/^mov a,@135$/;"	l
+mov	main.s	/^mov a,@159$/;"	l
+mov	main.s	/^mov a,@16$/;"	l
+mov	main.s	/^mov a,@17$/;"	l
+mov	main.s	/^mov a,@2$/;"	l
+mov	main.s	/^mov a,@20$/;"	l
+mov	main.s	/^mov a,@200$/;"	l
+mov	main.s	/^mov a,@202$/;"	l
+mov	main.s	/^mov a,@23$/;"	l
+mov	main.s	/^mov a,@248$/;"	l
+mov	main.s	/^mov a,@250$/;"	l
+mov	main.s	/^mov a,@255$/;"	l
+mov	main.s	/^mov a,@32$/;"	l
+mov	main.s	/^mov a,@5$/;"	l
+mov	main.s	/^mov a,@63$/;"	l
+mov	main.s	/^mov a,@64$/;"	l
+mov	main.s	/^mov a,@65$/;"	l
+mov	main.s	/^mov a,@67$/;"	l
+mov	main.s	/^mov a,@68$/;"	l
+mov	main.s	/^mov a,@69$/;"	l
+mov	main.s	/^mov a,@71$/;"	l
+mov	main.s	/^mov a,@74$/;"	l
+mov	main.s	/^mov a,@75$/;"	l
+mov	main.s	/^mov a,@81$/;"	l
+mov	main.s	/^mov a,@82$/;"	l
+mov	main.s	/^mov a,@85$/;"	l
+mov	main.s	/^mov a,@96$/;"	l
+mov	main.s	/^mov a,@Read_FIFO_bp-9$/;"	l
+mov	main.s	/^mov a,CHK_PLLD_bp-1$/;"	l
+mov	main.s	/^mov a,CHK_PLLD_bp-2$/;"	l
+mov	main.s	/^mov a,CHK_PLLD_bp-3$/;"	l
+mov	main.s	/^mov a,CHK_PLLD_bp-4$/;"	l
+mov	main.s	/^mov a,Chk_Up_Down_Board_bp-1$/;"	l
+mov	main.s	/^mov a,Chk_Up_Down_Board_bp-2$/;"	l
+mov	main.s	/^mov a,Chk_Up_Down_Board_bp-3$/;"	l
+mov	main.s	/^mov a,Chk_Up_Down_Board_bp-4$/;"	l
+mov	main.s	/^mov a,Clr_All_Ram_bp-1$/;"	l
+mov	main.s	/^mov a,Clr_All_Ram_bp-2$/;"	l
+mov	main.s	/^mov a,Clr_All_Ram_bp-3$/;"	l
+mov	main.s	/^mov a,Clr_All_Ram_bp-4$/;"	l
+mov	main.s	/^mov a,Delay_1ms_bp-1$/;"	l
+mov	main.s	/^mov a,Delay_1ms_bp-2$/;"	l
+mov	main.s	/^mov a,Delay_1ms_bp-3$/;"	l
+mov	main.s	/^mov a,Delay_1ms_bp-4$/;"	l
+mov	main.s	/^mov a,Delay_1us_bp-1$/;"	l
+mov	main.s	/^mov a,Delay_1us_bp-2$/;"	l
+mov	main.s	/^mov a,Delay_1us_bp-3$/;"	l
+mov	main.s	/^mov a,Delay_1us_bp-4$/;"	l
+mov	main.s	/^mov a,EM198850_Initial_bp-1$/;"	l
+mov	main.s	/^mov a,EM198850_Initial_bp-2$/;"	l
+mov	main.s	/^mov a,EM198850_Initial_bp-3$/;"	l
+mov	main.s	/^mov a,EM198850_Initial_bp-4$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL1_bp-1$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL1_bp-2$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL1_bp-3$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL1_bp-4$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL2_bp-1$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL2_bp-2$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL2_bp-3$/;"	l
+mov	main.s	/^mov a,EM198850_REG_INITIAL2_bp-4$/;"	l
+mov	main.s	/^mov a,EM198850_REG_READ_bp-1$/;"	l
+mov	main.s	/^mov a,EM198850_REG_READ_bp-2$/;"	l
+mov	main.s	/^mov a,EM198850_REG_READ_bp-3$/;"	l
+mov	main.s	/^mov a,EM198850_REG_READ_bp-4$/;"	l
+mov	main.s	/^mov a,EM198850_REG_Test_bp-1$/;"	l
+mov	main.s	/^mov a,EM198850_REG_Test_bp-2$/;"	l
+mov	main.s	/^mov a,EM198850_REG_Test_bp-3$/;"	l
+mov	main.s	/^mov a,EM198850_REG_Test_bp-4$/;"	l
+mov	main.s	/^mov a,EM198850_REG_WRITE_bp-1$/;"	l
+mov	main.s	/^mov a,EM198850_REG_WRITE_bp-2$/;"	l
+mov	main.s	/^mov a,EM198850_REG_WRITE_bp-3$/;"	l
+mov	main.s	/^mov a,EM198850_REG_WRITE_bp-4$/;"	l
+mov	main.s	/^mov a,RF_CHANNEL_SET_bp-1$/;"	l
+mov	main.s	/^mov a,RF_CHANNEL_SET_bp-2$/;"	l
+mov	main.s	/^mov a,RF_CHANNEL_SET_bp-3$/;"	l
+mov	main.s	/^mov a,RF_CHANNEL_SET_bp-4$/;"	l
+mov	main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-1$/;"	l
+mov	main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-2$/;"	l
+mov	main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-3$/;"	l
+mov	main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-4$/;"	l
+mov	main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-1$/;"	l
+mov	main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-2$/;"	l
+mov	main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-3$/;"	l
+mov	main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-4$/;"	l
+mov	main.s	/^mov a,RF_SPI_WRITE_READ_bp-1$/;"	l
+mov	main.s	/^mov a,RF_SPI_WRITE_READ_bp-2$/;"	l
+mov	main.s	/^mov a,RF_SPI_WRITE_READ_bp-3$/;"	l
+mov	main.s	/^mov a,RF_SPI_WRITE_READ_bp-4$/;"	l
+mov	main.s	/^mov a,RSSI_INITIAL_bp-1$/;"	l
+mov	main.s	/^mov a,RSSI_INITIAL_bp-2$/;"	l
+mov	main.s	/^mov a,RSSI_INITIAL_bp-3$/;"	l
+mov	main.s	/^mov a,RSSI_INITIAL_bp-4$/;"	l
+mov	main.s	/^mov a,Read_FIFO_bp-1$/;"	l
+mov	main.s	/^mov a,Read_FIFO_bp-2$/;"	l
+mov	main.s	/^mov a,Read_FIFO_bp-3$/;"	l
+mov	main.s	/^mov a,Read_FIFO_bp-4$/;"	l
+mov	main.s	/^mov a,Reg_Initial_bp-1$/;"	l
+mov	main.s	/^mov a,Reg_Initial_bp-2$/;"	l
+mov	main.s	/^mov a,Reg_Initial_bp-3$/;"	l
+mov	main.s	/^mov a,Reg_Initial_bp-4$/;"	l
+mov	main.s	/^mov a,Wait_PKT_High_bp-1$/;"	l
+mov	main.s	/^mov a,Wait_PKT_High_bp-2$/;"	l
+mov	main.s	/^mov a,Wait_PKT_High_bp-3$/;"	l
+mov	main.s	/^mov a,Wait_PKT_High_bp-4$/;"	l
+mov	main.s	/^mov a,Write_FIFO_bp-1$/;"	l
+mov	main.s	/^mov a,Write_FIFO_bp-2$/;"	l
+mov	main.s	/^mov a,Write_FIFO_bp-3$/;"	l
+mov	main.s	/^mov a,Write_FIFO_bp-4$/;"	l
+mov	main.s	/^mov a,eax$/;"	l
+mov	main.s	/^mov a,ecx$/;"	l
+mov	main.s	/^mov a,ecx+1$/;"	l
+mov	main.s	/^mov a,ecx+2$/;"	l
+mov	main.s	/^mov a,ecx+3$/;"	l
+mov	main.s	/^mov eax,a$/;"	l
+mov	main.s	/^mov ecx+1,a$/;"	l
+mov	main.s	/^mov ecx+2,a$/;"	l
+mov	main.s	/^mov ecx+3,a$/;"	l
+mov	main.s	/^mov ecx,a$/;"	l
+nop	main.s	/^nop$/;"	l
+or	main.s	/^or a,@128$/;"	l
+or	main.s	/^or a,@32$/;"	l
+prepareForFWDnl	smsspiphy_jz.c	/^void prepareForFWDnl(void *pSpiPhy)$/;"	f
+public	main.s	/^public ALLint_bp$/;"	l
+public	main.s	/^public CHK_PLLD_bp$/;"	l
+public	main.s	/^public Chk_Up_Down_Board_bp$/;"	l
+public	main.s	/^public Clr_All_Ram_bp$/;"	l
+public	main.s	/^public Comparat_l_bp$/;"	l
+public	main.s	/^public Delay_1ms_bp$/;"	l
+public	main.s	/^public Delay_1us_bp$/;"	l
+public	main.s	/^public EM198850_Initial_bp$/;"	l
+public	main.s	/^public EM198850_REG_INITIAL1_bp$/;"	l
+public	main.s	/^public EM198850_REG_INITIAL2_bp$/;"	l
+public	main.s	/^public EM198850_REG_READ_bp$/;"	l
+public	main.s	/^public EM198850_REG_Test_bp$/;"	l
+public	main.s	/^public EM198850_REG_WRITE_bp$/;"	l
+public	main.s	/^public PWMA_l_bp$/;"	l
+public	main.s	/^public PWMB_l_bp$/;"	l
+public	main.s	/^public RF_CHANNEL_SET_bp$/;"	l
+public	main.s	/^public RF_Enter_RX_NoAck_NoCRC_Payload5_bp$/;"	l
+public	main.s	/^public RF_Enter_TX_NoAck_NoCRC_Payload5_bp$/;"	l
+public	main.s	/^public RF_SPI_WRITE_READ_bp$/;"	l
+public	main.s	/^public RSSI_INITIAL_bp$/;"	l
+public	main.s	/^public Read_FIFO_bp$/;"	l
+public	main.s	/^public Reg_Initial_bp$/;"	l
+public	main.s	/^public TC1_l_bp$/;"	l
+public	main.s	/^public TC2_l_bp$/;"	l
+public	main.s	/^public TC3_l_bp$/;"	l
+public	main.s	/^public UARTRE_l_bp$/;"	l
+public	main.s	/^public UARTR_l_bp$/;"	l
+public	main.s	/^public UARTT_l_bp$/;"	l
+public	main.s	/^public Wait_PKT_High_bp$/;"	l
+public	main.s	/^public Write_FIFO_bp$/;"	l
+public	main.s	/^public _ALLint$/;"	l
+public	main.s	/^public _BRATE0$/;"	l
+public	main.s	/^public _BRATE1$/;"	l
+public	main.s	/^public _BRATE2$/;"	l
+public	main.s	/^public _Bit_TX$/;"	l
+public	main.s	/^public _C$/;"	l
+public	main.s	/^public _CES$/;"	l
+public	main.s	/^public _CHK_FrameTable$/;"	l
+public	main.s	/^public _CHK_PLLD$/;"	l
+public	main.s	/^public _CMP2WE$/;"	l
+public	main.s	/^public _CMPCON$/;"	l
+public	main.s	/^public _Chk_Up_Down_Board$/;"	l
+public	main.s	/^public _Clr_All_Ram$/;"	l
+public	main.s	/^public _Comparat_l$/;"	l
+public	main.s	/^public _DC$/;"	l
+public	main.s	/^public _DORD$/;"	l
+public	main.s	/^public _DTAH$/;"	l
+public	main.s	/^public _DTBH$/;"	l
+public	main.s	/^public _Delay_1ms$/;"	l
+public	main.s	/^public _Delay_1us$/;"	l
+public	main.s	/^public _EEADDR$/;"	l
+public	main.s	/^public _EECR$/;"	l
+public	main.s	/^public _EEDATA$/;"	l
+public	main.s	/^public _EEDF$/;"	l
+public	main.s	/^public _EEPC$/;"	l
+public	main.s	/^public _EEWE$/;"	l
+public	main.s	/^public _EM198850_Initial$/;"	l
+public	main.s	/^public _EM198850_REG_INITIAL1$/;"	l
+public	main.s	/^public _EM198850_REG_INITIAL2$/;"	l
+public	main.s	/^public _EM198850_REG_READ$/;"	l
+public	main.s	/^public _EM198850_REG_Test$/;"	l
+public	main.s	/^public _EM198850_REG_WRITE$/;"	l
+public	main.s	/^public _EVEN$/;"	l
+public	main.s	/^public _EXIF$/;"	l
+public	main.s	/^public _EXWE$/;"	l
+public	main.s	/^public _FMERR$/;"	l
+public	main.s	/^public _FrameTable$/;"	l
+public	main.s	/^public _FrameTable2$/;"	l
+public	main.s	/^public _ICIF$/;"	l
+public	main.s	/^public _ICWE$/;"	l
+public	main.s	/^public _IMR1$/;"	l
+public	main.s	/^public _IMR2$/;"	l
+public	main.s	/^public _ISR1$/;"	l
+public	main.s	/^public _ISR2$/;"	l
+public	main.s	/^public _LEDC$/;"	l
+public	main.s	/^public _OD3$/;"	l
+public	main.s	/^public _OD4$/;"	l
+public	main.s	/^public _OVERR$/;"	l
+public	main.s	/^public _P$/;"	l
+public	main.s	/^public _P51$/;"	l
+public	main.s	/^public _P52$/;"	l
+public	main.s	/^public _P54$/;"	l
+public	main.s	/^public _P55$/;"	l
+public	main.s	/^public _P56PD$/;"	l
+public	main.s	/^public _P5CR$/;"	l
+public	main.s	/^public _P6CR$/;"	l
+public	main.s	/^public _P6OD$/;"	l
+public	main.s	/^public _P6PH$/;"	l
+public	main.s	/^public _P73$/;"	l
+public	main.s	/^public _P7CR$/;"	l
+public	main.s	/^public _P7PD$/;"	l
+public	main.s	/^public _P7PH$/;"	l
+public	main.s	/^public _P8CR$/;"	l
+public	main.s	/^public _PC$/;"	l
+public	main.s	/^public _PD72$/;"	l
+public	main.s	/^public _PD73$/;"	l
+public	main.s	/^public _PD74$/;"	l
+public	main.s	/^public _PD75$/;"	l
+public	main.s	/^public _PD76$/;"	l
+public	main.s	/^public _PD77$/;"	l
+public	main.s	/^public _PH72$/;"	l
+public	main.s	/^public _PH73$/;"	l
+public	main.s	/^public _PH74$/;"	l
+public	main.s	/^public _PH75$/;"	l
+public	main.s	/^public _PH76$/;"	l
+public	main.s	/^public _PH77$/;"	l
+public	main.s	/^public _PKT_FLAG$/;"	l
+public	main.s	/^public _PORT5$/;"	l
+public	main.s	/^public _PORT6$/;"	l
+public	main.s	/^public _PORT7$/;"	l
+public	main.s	/^public _PORT8$/;"	l
+public	main.s	/^public _PRDAH$/;"	l
+public	main.s	/^public _PRDBH$/;"	l
+public	main.s	/^public _PRE$/;"	l
+public	main.s	/^public _PRERR$/;"	l
+public	main.s	/^public _PS0$/;"	l
+public	main.s	/^public _PS1$/;"	l
+public	main.s	/^public _PWMAIF$/;"	l
+public	main.s	/^public _PWMA_l$/;"	l
+public	main.s	/^public _PWMBIF$/;"	l
+public	main.s	/^public _PWMB_l$/;"	l
+public	main.s	/^public _PWMCON$/;"	l
+public	main.s	/^public _R0$/;"	l
+public	main.s	/^public _R4$/;"	l
+public	main.s	/^public _RBF$/;"	l
+public	main.s	/^public _RD$/;"	l
+public	main.s	/^public _RESET_N$/;"	l
+public	main.s	/^public _RF_CHANNEL_SET$/;"	l
+public	main.s	/^public _RF_Enter_RX_NoAck_NoCRC_Payload5$/;"	l
+public	main.s	/^public _RF_Enter_TX_NoAck_NoCRC_Payload5$/;"	l
+public	main.s	/^public _RF_SPI_WRITE_READ$/;"	l
+public	main.s	/^public _RMUST$/;"	l
+public	main.s	/^public _RSSI_INITIAL$/;"	l
+public	main.s	/^public _RXE$/;"	l
+public	main.s	/^public _Read_FIFO$/;"	l
+public	main.s	/^public _Reg_Initial$/;"	l
+public	main.s	/^public _Resume_Table$/;"	l
+public	main.s	/^public _SBIM0$/;"	l
+public	main.s	/^public _SBIM1$/;"	l
+public	main.s	/^public _SBRS0$/;"	l
+public	main.s	/^public _SBRS1$/;"	l
+public	main.s	/^public _SBRS2$/;"	l
+public	main.s	/^public _SDOC$/;"	l
+public	main.s	/^public _SPIC$/;"	l
+public	main.s	/^public _SPIE$/;"	l
+public	main.s	/^public _SPIIF$/;"	l
+public	main.s	/^public _SPIRB$/;"	l
+public	main.s	/^public _SPIS$/;"	l
+public	main.s	/^public _SPIWB$/;"	l
+public	main.s	/^public _SPIWE$/;"	l
+public	main.s	/^public _SPI_CLK$/;"	l
+public	main.s	/^public _SPI_SS$/;"	l
+public	main.s	/^public _SRO$/;"	l
+public	main.s	/^public _SSE$/;"	l
+public	main.s	/^public _STATUS$/;"	l
+public	main.s	/^public _T$/;"	l
+public	main.s	/^public _TC1CAP$/;"	l
+public	main.s	/^public _TC1CK0$/;"	l
+public	main.s	/^public _TC1CK1$/;"	l
+public	main.s	/^public _TC1CR$/;"	l
+public	main.s	/^public _TC1ES$/;"	l
+public	main.s	/^public _TC1M$/;"	l
+public	main.s	/^public _TC1S$/;"	l
+public	main.s	/^public _TC1_l$/;"	l
+public	main.s	/^public _TC2CK0$/;"	l
+public	main.s	/^public _TC2CK1$/;"	l
+public	main.s	/^public _TC2CK2$/;"	l
+public	main.s	/^public _TC2CR$/;"	l
+public	main.s	/^public _TC2DH$/;"	l
+public	main.s	/^public _TC2DL$/;"	l
+public	main.s	/^public _TC2ES$/;"	l
+public	main.s	/^public _TC2M$/;"	l
+public	main.s	/^public _TC2S$/;"	l
+public	main.s	/^public _TC2_l$/;"	l
+public	main.s	/^public _TC3CK0$/;"	l
+public	main.s	/^public _TC3CK1$/;"	l
+public	main.s	/^public _TC3CK2$/;"	l
+public	main.s	/^public _TC3CR$/;"	l
+public	main.s	/^public _TC3FF0$/;"	l
+public	main.s	/^public _TC3FF1$/;"	l
+public	main.s	/^public _TC3M0$/;"	l
+public	main.s	/^public _TC3M1$/;"	l
+public	main.s	/^public _TC3_l$/;"	l
+public	main.s	/^public _TCC$/;"	l
+public	main.s	/^public _TCIF$/;"	l
+public	main.s	/^public _TCR1DA$/;"	l
+public	main.s	/^public _TCR1DB$/;"	l
+public	main.s	/^public _TCR3D$/;"	l
+public	main.s	/^public _TCS3S$/;"	l
+public	main.s	/^public _TD0$/;"	l
+public	main.s	/^public _TD1$/;"	l
+public	main.s	/^public _TMRCON$/;"	l
+public	main.s	/^public _TXE$/;"	l
+public	main.s	/^public _Test_Table$/;"	l
+public	main.s	/^public _UARTRE_l$/;"	l
+public	main.s	/^public _UARTR_l$/;"	l
+public	main.s	/^public _UARTT_l$/;"	l
+public	main.s	/^public _UINVEN$/;"	l
+public	main.s	/^public _UMODE0$/;"	l
+public	main.s	/^public _UMODE1$/;"	l
+public	main.s	/^public _URBF$/;"	l
+public	main.s	/^public _URC1$/;"	l
+public	main.s	/^public _URC2$/;"	l
+public	main.s	/^public _URRD$/;"	l
+public	main.s	/^public _URRD8$/;"	l
+public	main.s	/^public _URS$/;"	l
+public	main.s	/^public _URTD$/;"	l
+public	main.s	/^public _URTD8$/;"	l
+public	main.s	/^public _UTBE$/;"	l
+public	main.s	/^public _WDTCR$/;"	l
+public	main.s	/^public _WR$/;"	l
+public	main.s	/^public _WUCR$/;"	l
+public	main.s	/^public _Wait_PKT_High$/;"	l
+public	main.s	/^public _Write_FIFO$/;"	l
+public	main.s	/^public _Z$/;"	l
+public	main.s	/^public _ext_interrupt_l$/;"	l
+public	main.s	/^public _main$/;"	l
+public	main.s	/^public _port6pinchange_l$/;"	l
+public	main.s	/^public _spi_l$/;"	l
+public	main.s	/^public _tccint_l$/;"	l
+public	main.s	/^public ext_interrupt_l_bp$/;"	l
+public	main.s	/^public main_bp$/;"	l
+public	main.s	/^public port6pinchange_l_bp$/;"	l
+public	main.s	/^public spi_l_bp$/;"	l
+public	main.s	/^public tccint_l_bp$/;"	l
+read_fifo	elan.c	/^static void read_fifo(unsigned char *data, unsigned char cnt)$/;"	f	file:
+resume_table	elan.c	/^static unsigned char resume_table[]={0x07,0x18,0x0E,0X11,0X2E,0X03,0X0E,0X91,0XFF};$/;"	v	file:
+ret	main.s	/^ret$/;"	l
+reti	main.s	/^reti$/;"	l
+rf_channel_set	elan.c	/^static void rf_channel_set(unsigned char channel)$/;"	f	file:
+rf_enter_rx_noack_nocrc_payload5	elan.c	/^static void rf_enter_rx_noack_nocrc_payload5()$/;"	f	file:
+rf_enter_tx_noack_nocrc_payload5	elan.c	/^static void rf_enter_tx_noack_nocrc_payload5()$/;"	f	file:
+rpage	644.H	/^bit	C			@0X03@0:rpage 0;$/;"	v
+rpage	644.H	/^bit	EVEN		@0X0C@0X06:rpage 2;$/;"	v
+rpage	644.H	/^bit	FMERR		@0X0C@0X02:rpage 2;$/;"	v
+rpage	644.H	/^bit	OD3			@0X0B@0X03:rpage 1;$/;"	v
+rpage	644.H	/^bit	OVERR		@0X0C@0X03:rpage 2;$/;"	v
+rpage	644.H	/^bit	P			@0X03@3:rpage 0;$/;"	v
+rpage	644.H	/^bit	P73			@0X07@0X03:rpage 0;$/;"	v
+rpage	644.H	/^bit	PD72		@0X0F@0X02:rpage 3;$/;"	v
+rpage	644.H	/^bit	PH72		@0X0F@0X02:rpage 2;$/;"	v
+rpage	644.H	/^bit	PH73		@0X0F@0X03:rpage 2;$/;"	v
+rpage	644.H	/^bit	PH74		@0X0F@0X04:rpage 2;$/;"	v
+rpage	644.H	/^bit	PH75		@0X0F@0X05:rpage 2;$/;"	v
+rpage	644.H	/^bit	PH76		@0X0F@0X06:rpage 2;$/;"	v
+rpage	644.H	/^bit	PH77		@0X0F@0X07:rpage 2;$/;"	v
+rpage	644.H	/^bit	PRE			@0X0C@0X05:rpage 2;$/;"	v
+rpage	644.H	/^bit	PRERR		@0X0C@0X04:rpage 2;$/;"	v
+rpage	644.H	/^bit	PS0			@0X03@5:rpage 0;$/;"	v
+rpage	644.H	/^bit	PS1			@0X03@6:rpage 0;$/;"	v
+rpage	644.H	/^bit	RXE			@0X0C@0X00:rpage 2;$/;"	v
+rpage	644.H	/^bit	SBIM0		@0X0B@0X04:rpage 2;$/;"	v
+rpage	644.H	/^bit	SBRS0		@0X0C@0X00:rpage 1;$/;"	v
+rpage	644.H	/^bit	SBRS1		@0X0C@0X01:rpage 1;$/;"	v
+rpage	644.H	/^bit	SSE			@0X0C@0X04:rpage 1;$/;"	v
+rpage	644.H	/^bit	TC1ES		@0X05@0X02:rpage 1;$/;"	v
+rpage	644.H	/^bit	TC3CK0		@0X0D@0X02:rpage 3;$/;"	v
+rpage	644.H	/^bit	TC3CK1		@0X0D@0X03:rpage 3;$/;"	v
+rpage	644.H	/^bit	TC3FF1		@0X0D@0X07:rpage 3;$/;"	v
+rpage	644.H	/^bit	TC3M1		@0X0D@0X01:rpage 3;$/;"	v
+rpage	644.H	/^bit	TCS3S		@0X0D@0X05:rpage 3;$/;"	v
+rpage	644.H	/^bit	UINVEN		@0X0B@0X03:rpage 2;$/;"	v
+rpage	644.H	/^bit	URBF		@0X0C@0X01:rpage 2;$/;"	v
+rpage	644.H	/^bit	URRD8		@0X0C@0X07:rpage 2;$/;"	v
+rpage	644.H	/^bit	Z			@0X03@2:rpage 0;$/;"	v
+rpage	644.H	/^bit BRATE0		@0X0A@0X02:rpage 2;$/;"	v
+rpage	644.H	/^bit BRATE1		@0X0A@0X03:rpage 2;$/;"	v
+rpage	644.H	/^bit BRATE2		@0X0A@0X04:rpage 2;$/;"	v
+rpage	644.H	/^bit CES			@0X0C@0X07:rpage 1;$/;"	v
+rpage	644.H	/^bit CMP2WE		@0X0A@0X07:rpage 0;$/;"	v
+rpage	644.H	/^bit DC			@0X03@1:rpage 0;$/;"	v
+rpage	644.H	/^bit DORD		@0X0B@0X07:rpage 1;$/;"	v
+rpage	644.H	/^bit EEDF		@0X0B@0X04:rpage 0;$/;"	v
+rpage	644.H	/^bit EEPC		@0X0B@0X03:rpage 0;$/;"	v
+rpage	644.H	/^bit EEWE		@0X0B@0X05:rpage 0;$/;"	v
+rpage	644.H	/^bit EXIF		@0X0F@0X02:rpage 0;$/;"	v
+rpage	644.H	/^bit EXWE		@0X0A@0X04:rpage 0;$/;"	v
+rpage	644.H	/^bit ICIF		@0X0F@0X01:rpage 0;$/;"	v
+rpage	644.H	/^bit ICWE		@0X0A@0X06:rpage 0;$/;"	v
+rpage	644.H	/^bit LEDC		@0X05@6:rpage 0;$/;"	v
+rpage	644.H	/^bit OD4			@0X0B@0X02:rpage 1;$/;"	v
+rpage	644.H	/^bit P51			@0X05@1:rpage 0;$/;"	v
+rpage	644.H	/^bit P52			@0X05@2:rpage 0;$/;"	v
+rpage	644.H	/^bit P54			@0X05@4:rpage 0;$/;"	v
+rpage	644.H	/^bit P55			@0X05@5:rpage 0;$/;"	v
+rpage	644.H	/^bit PD73		@0X0F@0X03:rpage 3;$/;"	v
+rpage	644.H	/^bit PD74		@0X0F@0X04:rpage 3;$/;"	v
+rpage	644.H	/^bit PD75		@0X0F@0X05:rpage 3;$/;"	v
+rpage	644.H	/^bit PD76		@0X0F@0X06:rpage 3;$/;"	v
+rpage	644.H	/^bit PD77		@0X0F@0X07:rpage 3;$/;"	v
+rpage	644.H	/^bit PKT_FLAG	@0X07@0X07:rpage 0;$/;"	v
+rpage	644.H	/^bit PWMAIF		@0X0F@0X03:rpage 0;$/;"	v
+rpage	644.H	/^bit PWMBIF		@0X0F@0X04:rpage 0;$/;"	v
+rpage	644.H	/^bit RBF			@0X0B@0X00:rpage 1;$/;"	v
+rpage	644.H	/^bit RD			@0X0B@0X07:rpage 0;$/;"	v
+rpage	644.H	/^bit RESET_N		@0X05@7:rpage 0;$/;"	v
+rpage	644.H	/^bit SBIM1		@0X0B@0X05:rpage 2;$/;"	v
+rpage	644.H	/^bit SBRS2		@0X0C@0X02:rpage 1;$/;"	v
+rpage	644.H	/^bit SDOC		@0X0C@0X03:rpage 1;$/;"	v
+rpage	644.H	/^bit SPIE		@0X0C@0X06:rpage 1;$/;"	v
+rpage	644.H	/^bit SPIIF		@0X0F@0X05:rpage 0;$/;"	v
+rpage	644.H	/^bit SPIWE		@0X0A@0X03:rpage 0;$/;"	v
+rpage	644.H	/^bit SPI_CLK		@0X05@3:rpage 0;$/;"	v
+rpage	644.H	/^bit SPI_SS		@0X05@0:rpage 0;$/;"	v
+rpage	644.H	/^bit SRO			@0X0C@0X05:rpage 1;$/;"	v
+rpage	644.H	/^bit T			@0X03@4:rpage 0;$/;"	v
+rpage	644.H	/^bit TC1CAP		@0X05@0X07:rpage 1;$/;"	v
+rpage	644.H	/^bit TC1CK0		@0X05@0X04:rpage 1;$/;"	v
+rpage	644.H	/^bit TC1CK1		@0X05@0X05:rpage 1;$/;"	v
+rpage	644.H	/^bit TC1M		@0X05@0X03:rpage 1;$/;"	v
+rpage	644.H	/^bit TC1S		@0X05@0X06:rpage 1;$/;"	v
+rpage	644.H	/^bit TC2CK0		@0X08@0X00:rpage 1;$/;"	v
+rpage	644.H	/^bit TC2CK1		@0X08@0X01:rpage 1;$/;"	v
+rpage	644.H	/^bit TC2CK2		@0X08@0X02:rpage 1;$/;"	v
+rpage	644.H	/^bit TC2ES		@0X08@0X05:rpage 1;$/;"	v
+rpage	644.H	/^bit TC2M		@0X08@0X04:rpage 1;$/;"	v
+rpage	644.H	/^bit TC2S		@0X08@0X03:rpage 1;$/;"	v
+rpage	644.H	/^bit TC3CK2		@0X0D@0X04:rpage 3;$/;"	v
+rpage	644.H	/^bit TC3FF0		@0X0D@0X06:rpage 3;$/;"	v
+rpage	644.H	/^bit TC3M0		@0X0D@0X00:rpage 3;$/;"	v
+rpage	644.H	/^bit TCIF		@0X0F@0X00:rpage 0;$/;"	v
+rpage	644.H	/^bit TD0			@0X0B@0X05:rpage 1;$/;"	v
+rpage	644.H	/^bit TD1			@0X0B@0X06:rpage 1;$/;"	v
+rpage	644.H	/^bit TXE			@0X0A@0X00:rpage 2;$/;"	v
+rpage	644.H	/^bit UMODE0		@0X0A@0X05:rpage 2;$/;"	v
+rpage	644.H	/^bit UMODE1		@0X0A@0X06:rpage 2;$/;"	v
+rpage	644.H	/^bit URTD8		@0X0A@0X07:rpage 2;$/;"	v
+rpage	644.H	/^bit UTBE		@0X0A@0X01:rpage 2;$/;"	v
+rpage	644.H	/^bit WR			@0X0B@0X06:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	CMPCON		@0X07:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	DTAH		@0X0A:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	DTBH		@0X0C:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	EEADDR	@0X0C:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	EECR	@0X0B:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	EEDATA	@0X0D:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	ISR1	@0X0F:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	ISR2	@0X0F:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	P7PD		@0X0F:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	P7PH		@0X0F:rpage 2;$/;"	v
+rpage	644.H	/^unsigned char	PC		@0X02:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	PORT5	@0X05:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	PORT6	@0X06:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	PORT7	@0X07:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	PORT8	@0X08:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	PRDAH		@0X09:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	PRDBH		@0X0B:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	PWMCON		@0X08:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	R0		@0X00:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	R4	@0X04:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	RMUST	@0X0E:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	SPIC	@0X0C:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	SPIRB	@0X0D:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	SPIS	@0X0B:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	SPIWB	@0X0E:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	STATUS	@0X03:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	TC1CR	@0X05:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	TC2CR	@0X08:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	TC2DH	@0X09:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	TC2DL	@0X0A:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	TC3CR		@0X0D:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	TCC		@0X01:rpage 0;$/;"	v
+rpage	644.H	/^unsigned char	TCR1DA	@0X06:rpage 1;$/;"	v
+rpage	644.H	/^unsigned char	TCR1DB	@0X07:rpage	1;$/;"	v
+rpage	644.H	/^unsigned char	TCR3D		@0X0E:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	TMRCON		@0X05:rpage 3;$/;"	v
+rpage	644.H	/^unsigned char	URC1	@0X0A:rpage 2;$/;"	v
+rpage	644.H	/^unsigned char	URC2	@0X0B:rpage 2;$/;"	v
+rpage	644.H	/^unsigned char	URRD		@0X0D:rpage 2;$/;"	v
+rpage	644.H	/^unsigned char	URS		@0X0C:rpage 2;$/;"	v
+rpage	644.H	/^unsigned char	URTD		@0X0E:rpage 2;$/;"	v
+rpage	644.H	/^unsigned char	WUCR	@0X0A:rpage 0;$/;"	v
+rssi_init	elan.c	/^static void rssi_init()$/;"	f	file:
+smschipreset	smsspiphy_jz.c	/^void smschipreset(void *context)$/;"	f
+smsspibus_xfer	smsspiphy_jz.c	/^void smsspibus_xfer(void *context, unsigned char *txbuf,$/;"	f
+smsspiphy_deinit	smsspiphy_jz.c	/^void smsspiphy_deinit(void *context)$/;"	f
+smsspiphy_init	smsspiphy_jz.c	/^void *smsspiphy_init(void *context, void (*smsspi_interruptHandler) (void *),$/;"	f
+spi_rw_char	elan.c	/^static unsigned char spi_rw_char(unsigned char wr_data)$/;"	f	file:
+spi_rw_char	smsspiphy_jz.c	/^unsigned char spi_rw_char(unsigned char wr_data)$/;"	f
+sub	main.s	/^sub ecx,a$/;"	l
+test_table	elan.c	/^static unsigned char test_table[]={0X07,0X58,0X0E,0X11,0X2E,0X23,0X0E,0X91,0XFF};$/;"	v	file:
+uchar	main.c	2;"	d	file:
+write_fifo	elan.c	/^static void write_fifo(unsigned char *data, unsigned char cnt)$/;"	f	file:

@@ -1,0 +1,7 @@
+nandcorr.o: src/nandcorr.c src/nandecc.h \
+  /opt/mipsel-linux-uclibc/usr/include/stdint.h \
+  /opt/mipsel-linux-uclibc/usr/include/features.h \
+  /opt/mipsel-linux-uclibc/usr/include/bits/uClibc_config.h \
+  /opt/mipsel-linux-uclibc/usr/include/bits/uClibc_arch_features.h \
+  /opt/mipsel-linux-uclibc/usr/include/sys/cdefs.h \
+  /opt/mipsel-linux-uclibc/usr/include/bits/wordsize.h

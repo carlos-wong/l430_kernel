@@ -1,0 +1,2535 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADCSEL_BIT	wm9712.h	8;"	d
+ADCSEL_BMON	wm9712.h	16;"	d
+ADCSEL_COMP1	wm9712.h	14;"	d
+ADCSEL_COMP2	wm9712.h	15;"	d
+ADCSEL_MASK	wm9712.h	9;"	d
+ADCSEL_NONE	wm9712.h	10;"	d
+ADCSEL_PRESSURE	wm9712.h	13;"	d
+ADCSEL_WIPER	wm9712.h	17;"	d
+ADCSEL_XPOS	wm9712.h	11;"	d
+ADCSEL_YPOS	wm9712.h	12;"	d
+ADD	c_demo/main.s	/^ADD	A,@1$/;"	l
+ADDR_WARM_RESET	ata2508.c	27;"	d	file:
+ATA2508_SENSOR_MASK	ata2508.c	28;"	d	file:
+AUTO_SEEK	radio-rda5807p.c	23;"	d	file:
+AUTO_SEEK_JAPAN	radio-rda5807p.c	24;"	d	file:
+AcquireEvent	ak4182.c	/^int AcquireEvent(struct jz_ts_t *ts, struct ts_event *event)$/;"	f
+AcquireEvent	jz_sadc.c	/^int AcquireEvent(struct jz_ts_t *ts, struct ts_event *event)$/;"	f
+AcquireEvent	ucb1400.c	/^int AcquireEvent(struct jz_ts_t *ts, struct ts_event *event)$/;"	f
+AcquireEvent	wm9712.c	/^int AcquireEvent(struct jz_ts_t *ts, struct ts_event *event)$/;"	f
+Bit_TX	c_demo/main.c	/^bit Bit_TX;	\/\/标识为TX端，1有效$/;"	v
+CFG	jz_ow.c	/^static char CFG[OWI_MAX];$/;"	v	file:
+CHK_FrameTable	c_demo/main.c	/^const uchar CHK_FrameTable[]={0X4E,0X02,0X43,0XC4,0X44,0X06,0X45,0X10,$/;"	v
+CHK_PLLD	c_demo/main.c	/^uchar	CHK_PLLD()$/;"	f
+CIM_MINOR	jzchars.h	10;"	d
+CIM_NAME	cim.c	44;"	d	file:
+CONTW	c_demo/main.s	/^CONTW$/;"	l
+CTL	jz_ow.c	/^static char CTL[OWI_MAX];$/;"	v	file:
+Chk_Up_Down_Board	c_demo/main.c	/^void	Chk_Up_Down_Board()$/;"	f
+Clr_All_Ram	c_demo/main.c	/^void	Clr_All_Ram()$/;"	f
+DAT	jz_ow.c	/^static char DAT[OWI_MAX];$/;"	v	file:
+DEBUG	poweroff.c	39;"	d	file:
+DECMB	c_demo/main.s	/^DECMB Delay_1ms_bp-5,0$/;"	l
+DECMB	c_demo/main.s	/^DECMB Delay_1us_bp-5,0$/;"	l
+DECMB	c_demo/main.s	/^DECMB Read_FIFO_bp+0,0$/;"	l
+DECMB	c_demo/main.s	/^DECMB Write_FIFO_bp+0,0$/;"	l
+DIFF	ak4182.c	251;"	d	file:
+DIFF	jz_sadc.c	171;"	d	file:
+DIFF	ucb1400.c	251;"	d	file:
+DIGI_READBACK	wm9712.h	6;"	d
+DIGI_READBACK_PNDN	wm9712.h	55;"	d
+DIGI_REG1	wm9712.h	4;"	d
+DIGI_REG1_COO	wm9712.h	23;"	d
+DIGI_REG1_CR_BIT	wm9712.h	21;"	d
+DIGI_REG1_CR_MASK	wm9712.h	22;"	d
+DIGI_REG1_CTC	wm9712.h	19;"	d
+DIGI_REG1_DEL_BIT	wm9712.h	35;"	d
+DIGI_REG1_DEL_MASK	wm9712.h	36;"	d
+DIGI_REG1_POLL	wm9712.h	20;"	d
+DIGI_REG1_SLEN	wm9712.h	24;"	d
+DIGI_REG1_SLT_10	wm9712.h	32;"	d
+DIGI_REG1_SLT_11	wm9712.h	33;"	d
+DIGI_REG1_SLT_5	wm9712.h	27;"	d
+DIGI_REG1_SLT_6	wm9712.h	28;"	d
+DIGI_REG1_SLT_7	wm9712.h	29;"	d
+DIGI_REG1_SLT_8	wm9712.h	30;"	d
+DIGI_REG1_SLT_9	wm9712.h	31;"	d
+DIGI_REG1_SLT_BIT	wm9712.h	25;"	d
+DIGI_REG1_SLT_MASK	wm9712.h	26;"	d
+DIGI_REG1_SLT_RES	wm9712.h	34;"	d
+DIGI_REG2	wm9712.h	5;"	d
+DIGI_REG2_PDEN	wm9712.h	52;"	d
+DIGI_REG2_PIL_200uA	wm9712.h	43;"	d
+DIGI_REG2_PIL_400uA	wm9712.h	42;"	d
+DIGI_REG2_PRP_ALLOFF	wm9712.h	46;"	d
+DIGI_REG2_PRP_ALLON	wm9712.h	49;"	d
+DIGI_REG2_PRP_BIT	wm9712.h	44;"	d
+DIGI_REG2_PRP_MASK	wm9712.h	45;"	d
+DIGI_REG2_PRP_NWOP	wm9712.h	48;"	d
+DIGI_REG2_PRP_WOP	wm9712.h	47;"	d
+DIGI_REG2_RPR_NWOR	wm9712.h	51;"	d
+DIGI_REG2_RPR_WOR	wm9712.h	50;"	d
+DIGI_REG2_RPU_BIT	wm9712.h	40;"	d
+DIGI_REG2_RPU_MASK	wm9712.h	41;"	d
+DIGI_REG2_WAIT	wm9712.h	53;"	d
+DIGI_REG2_WIRE_4	wm9712.h	39;"	d
+DIGI_REG2_WIRE_5	wm9712.h	38;"	d
+DIV	jz_ow.c	/^static char DIV[OWI_MAX];$/;"	v	file:
+DMA_ID_TSSI	jz_tssi.c	41;"	d	file:
+DO_SHUTDOWN_SYSTEM	poweroff.c	106;"	d	file:
+DO_SHUTDOWN_SYSTEM	poweroff.c	54;"	d	file:
+DO_SHUTDOWN_SYSTEM	poweroff.c	74;"	d	file:
+DO_SHUTDOWN_SYSTEM	poweroff.c	94;"	d	file:
+DO_SUSPEND	poweroff.c	107;"	d	file:
+DO_SUSPEND	poweroff.c	55;"	d	file:
+DO_SUSPEND	poweroff.c	75;"	d	file:
+DO_SUSPEND	poweroff.c	95;"	d	file:
+Delay_1ms	c_demo/main.c	/^void	Delay_1ms(unsigned char i)$/;"	f
+Delay_1us	c_demo/main.c	/^void	Delay_1us(uchar i)$/;"	f
+EEPROM_MINOR_BASE	jzchars.h	29;"	d
+EJTAG_MINOR	jzchars.h	17;"	d
+EM198850_Initial	c_demo/main.c	/^void	EM198850_Initial()$/;"	f
+EM198850_REG_INITIAL1	c_demo/main.c	/^void	EM198850_REG_INITIAL1()$/;"	f
+EM198850_REG_INITIAL2	c_demo/main.c	/^void	EM198850_REG_INITIAL2()$/;"	f
+EM198850_REG_READ	c_demo/main.c	/^uchar	EM198850_REG_READ(uchar R_Addr)$/;"	f
+EM198850_REG_Test	c_demo/main.c	/^uchar	EM198850_REG_Test()$/;"	f
+EM198850_REG_WRITE	c_demo/main.c	/^void	EM198850_REG_WRITE(uchar R_Addr,uchar R_DATA)$/;"	f
+EM_FIFO_W	em198850.c	8;"	d	file:
+EM_PKT_W	em198850.c	7;"	d	file:
+EM_RESET	em198850.c	9;"	d	file:
+EM_SPI_CLK	em198850.c	11;"	d	file:
+EM_SPI_CS	em198850.c	14;"	d	file:
+EM_SPI_DIN	em198850.c	12;"	d	file:
+EM_SPI_DOUT	em198850.c	13;"	d	file:
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB CHK_PLLD_bp-6,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB Delay_1ms_bp-5,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB Delay_1us_bp-5,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB EM198850_Initial_bp-5,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB RSSI_INITIAL_bp-6,5$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB Read_FIFO_bp+0,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB Write_FIFO_bp+0,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB _R4,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,0$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,10$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,19$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,22$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,25$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,255$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,28$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,31$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,34$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,37$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,4$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,40$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,43$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,46$/;"	l
+EQNEPRIB	c_demo/main.s	/^EQNEPRIB ecx,7$/;"	l
+EQNEPRRB	c_demo/main.s	/^EQNEPRRB eax,ecx$/;"	l
+EVENT_BUFSIZE	jz_ts.h	26;"	d
+EVENT_POWER_ADD	udc_hotplug.c	44;"	d	file:
+EVENT_POWER_REMOVE	udc_hotplug.c	45;"	d	file:
+EVENT_POWER_TO_USB	udc_hotplug.c	46;"	d	file:
+EVENT_USB_ADD	udc_hotplug.c	42;"	d	file:
+EVENT_USB_REMOVE	udc_hotplug.c	43;"	d	file:
+EVENT_USB_SUSPEND_POWER	udc_hotplug.c	47;"	d	file:
+FM_DEV_NAME	radio-rda5807p.c	18;"	d	file:
+FM_I2C_ADDR	radio-rda5807p.c	21;"	d	file:
+FM_MINOR	radio-rda5807p.c	19;"	d	file:
+FM_POWER_OFF	radio-rda5807p.c	31;"	d	file:
+FM_POWER_ON	radio-rda5807p.c	30;"	d	file:
+FrameTable	c_demo/main.c	/^const uchar FrameTable[]={0X4E,0X02,0X4D,0X01,0X42,0X98,0X43,0XC4,0X44,0X06,$/;"	v
+FrameTable2	c_demo/main.c	/^const uchar FrameTable2[]={0X05,0X40,0X02,0X00,0X0C,0XE0,0XFF};$/;"	v
+GPIO_CMMB_CLK	c_demo/smsspiphy_jz.c	14;"	d	file:
+GPIO_CMMB_CS	c_demo/smsspiphy_jz.c	17;"	d	file:
+GPIO_CMMB_DIN	c_demo/smsspiphy_jz.c	15;"	d	file:
+GPIO_CMMB_DOUT	c_demo/smsspiphy_jz.c	16;"	d	file:
+GPIO_DISP_OFF_N	poweroff.c	57;"	d	file:
+GPIO_DISP_OFF_N	poweroff.c	81;"	d	file:
+GPIO_FIFO_INT	c_demo/elan.c	8;"	d	file:
+GPIO_FIFO_INT	elan.c	12;"	d	file:
+GPIO_PKT_INT	c_demo/elan.c	7;"	d	file:
+GPIO_PKT_INT	elan.c	11;"	d	file:
+GPIO_PWM	poweroff.c	82;"	d	file:
+GPIO_PW_I	poweroff.c	103;"	d	file:
+GPIO_PW_I	poweroff.c	50;"	d	file:
+GPIO_PW_I	poweroff.c	71;"	d	file:
+GPIO_PW_I	poweroff.c	91;"	d	file:
+GPIO_PW_O	poweroff.c	51;"	d	file:
+GPIO_RESET	c_demo/elan.c	9;"	d	file:
+GPIO_RESET	elan.c	13;"	d	file:
+GPIO_TS_PENIRQ	ucb1400.c	31;"	d	file:
+GPIO_UDC_HOTPLUG	udc_hotplug.c	28;"	d	file:
+IMG_PARAM	cim.h	/^} IMG_PARAM;$/;"	t	typeref:struct:__anon4
+IOCTL_CIM_CONFIG	cim.c	76;"	d	file:
+IOCTL_SET_IMG_PARAM	cim.c	75;"	d	file:
+IOCTL_SET_IMG_PARAM	cim.h	34;"	d
+IOCTL_SET_MSG	jz_ts.h	7;"	d
+IOCTL_SET_NUM	jz_ts.h	8;"	d
+IOCTL_TSSI_ADDPID	jz_tssi.h	12;"	d
+IOCTL_TSSI_DEFILTER	jz_tssi.h	11;"	d
+IOCTL_TSSI_DISABLE	jz_tssi.h	8;"	d
+IOCTL_TSSI_DISABLE_DMA	jz_tssi.h	15;"	d
+IOCTL_TSSI_ENABLE	jz_tssi.h	7;"	d
+IOCTL_TSSI_ENFILTER	jz_tssi.h	10;"	d
+IOCTL_TSSI_FLUSHPID	jz_tssi.h	13;"	d
+IOCTL_TSSI_INIT_DMA	jz_tssi.h	14;"	d
+IOCTL_TSSI_SOFTRESET	jz_tssi.h	9;"	d
+JBS	c_demo/main.s	/^JBS	0X03,2$/;"	l
+JMP	c_demo/main.s	/^JMP	TD$/;"	l
+JZ_CHAR_MAJOR	jzchars.h	7;"	d
+KEYPAD_MINOR	jzchars.h	12;"	d
+L$1	c_demo/main.s	/^L$1:$/;"	l
+L$104	c_demo/main.s	/^L$104:$/;"	l
+L$111	c_demo/main.s	/^L$111:$/;"	l
+L$118	c_demo/main.s	/^L$118:$/;"	l
+L$125	c_demo/main.s	/^L$125:$/;"	l
+L$132	c_demo/main.s	/^L$132:$/;"	l
+L$139	c_demo/main.s	/^L$139:$/;"	l
+L$146	c_demo/main.s	/^L$146:$/;"	l
+L$153	c_demo/main.s	/^L$153:$/;"	l
+L$160	c_demo/main.s	/^L$160:$/;"	l
+L$167	c_demo/main.s	/^L$167:$/;"	l
+L$174	c_demo/main.s	/^L$174:$/;"	l
+L$2	c_demo/main.s	/^L$2:$/;"	l
+L$212	c_demo/main.s	/^L$212:$/;"	l
+L$213	c_demo/main.s	/^L$213:$/;"	l
+L$214	c_demo/main.s	/^L$214:$/;"	l
+L$215	c_demo/main.s	/^L$215:$/;"	l
+L$216	c_demo/main.s	/^L$216:$/;"	l
+L$218	c_demo/main.s	/^L$218:$/;"	l
+L$237	c_demo/main.s	/^L$237:$/;"	l
+L$238	c_demo/main.s	/^L$238:$/;"	l
+L$248	c_demo/main.s	/^L$248:$/;"	l
+L$249	c_demo/main.s	/^L$249:$/;"	l
+L$250	c_demo/main.s	/^L$250:$/;"	l
+L$272	c_demo/main.s	/^L$272:$/;"	l
+L$273	c_demo/main.s	/^L$273:$/;"	l
+L$274	c_demo/main.s	/^L$274:$/;"	l
+L$288	c_demo/main.s	/^L$288:$/;"	l
+L$289	c_demo/main.s	/^L$289:$/;"	l
+L$290	c_demo/main.s	/^L$290:$/;"	l
+L$3	c_demo/main.s	/^L$3:$/;"	l
+L$304	c_demo/main.s	/^L$304:$/;"	l
+L$320	c_demo/main.s	/^L$320:$/;"	l
+L$331	c_demo/main.s	/^L$331:$/;"	l
+L$332	c_demo/main.s	/^L$332:$/;"	l
+L$333	c_demo/main.s	/^L$333:$/;"	l
+L$350	c_demo/main.s	/^L$350:$/;"	l
+L$351	c_demo/main.s	/^L$351:$/;"	l
+L$352	c_demo/main.s	/^L$352:$/;"	l
+L$369	c_demo/main.s	/^L$369:$/;"	l
+L$370	c_demo/main.s	/^L$370:$/;"	l
+L$371	c_demo/main.s	/^L$371:$/;"	l
+L$373	c_demo/main.s	/^L$373:$/;"	l
+L$395	c_demo/main.s	/^L$395:$/;"	l
+L$396	c_demo/main.s	/^L$396:$/;"	l
+L$397	c_demo/main.s	/^L$397:$/;"	l
+L$399	c_demo/main.s	/^L$399:$/;"	l
+L$4	c_demo/main.s	/^L$4:$/;"	l
+L$401	c_demo/main.s	/^L$401:$/;"	l
+L$402	c_demo/main.s	/^L$402:$/;"	l
+L$442	c_demo/main.s	/^L$442:$/;"	l
+L$443	c_demo/main.s	/^L$443:$/;"	l
+L$444	c_demo/main.s	/^L$444:$/;"	l
+L$445	c_demo/main.s	/^L$445:$/;"	l
+L$446	c_demo/main.s	/^L$446:$/;"	l
+L$45	c_demo/main.s	/^L$45:$/;"	l
+L$46	c_demo/main.s	/^L$46:$/;"	l
+L$47	c_demo/main.s	/^L$47:$/;"	l
+L$471	c_demo/main.s	/^L$471:$/;"	l
+L$472	c_demo/main.s	/^L$472:$/;"	l
+L$473	c_demo/main.s	/^L$473:$/;"	l
+L$495	c_demo/main.s	/^L$495:$/;"	l
+L$5	c_demo/main.s	/^L$5:$/;"	l
+L$501	c_demo/main.s	/^L$501:$/;"	l
+L$512	c_demo/main.s	/^L$512:$/;"	l
+L$523	c_demo/main.s	/^L$523:$/;"	l
+L$524	c_demo/main.s	/^L$524:$/;"	l
+L$525	c_demo/main.s	/^L$525:$/;"	l
+L$543	c_demo/main.s	/^L$543:$/;"	l
+L$544	c_demo/main.s	/^L$544:$/;"	l
+L$545	c_demo/main.s	/^L$545:$/;"	l
+L$553	c_demo/main.s	/^L$553:$/;"	l
+L$554	c_demo/main.s	/^L$554:$/;"	l
+L$555	c_demo/main.s	/^L$555:$/;"	l
+L$7	c_demo/main.s	/^L$7:$/;"	l
+L$8	c_demo/main.s	/^L$8:$/;"	l
+L$83	c_demo/main.s	/^L$83:$/;"	l
+L$90	c_demo/main.s	/^L$90:$/;"	l
+L$97	c_demo/main.s	/^L$97:$/;"	l
+L10	c_demo/main.s	/^L10:$/;"	l
+L100	c_demo/main.s	/^L100:$/;"	l
+L101	c_demo/main.s	/^L101:$/;"	l
+L102	c_demo/main.s	/^L102:$/;"	l
+L103	c_demo/main.s	/^L103:$/;"	l
+L105	c_demo/main.s	/^L105:$/;"	l
+L106	c_demo/main.s	/^L106:$/;"	l
+L107	c_demo/main.s	/^L107:$/;"	l
+L108	c_demo/main.s	/^L108:$/;"	l
+L109	c_demo/main.s	/^L109:$/;"	l
+L110	c_demo/main.s	/^L110:$/;"	l
+L112	c_demo/main.s	/^L112:$/;"	l
+L113	c_demo/main.s	/^L113:$/;"	l
+L114	c_demo/main.s	/^L114:$/;"	l
+L115	c_demo/main.s	/^L115:$/;"	l
+L116	c_demo/main.s	/^L116:$/;"	l
+L117	c_demo/main.s	/^L117:$/;"	l
+L119	c_demo/main.s	/^L119:$/;"	l
+L12	c_demo/main.s	/^L12:$/;"	l
+L120	c_demo/main.s	/^L120:$/;"	l
+L121	c_demo/main.s	/^L121:$/;"	l
+L122	c_demo/main.s	/^L122:$/;"	l
+L123	c_demo/main.s	/^L123:$/;"	l
+L124	c_demo/main.s	/^L124:$/;"	l
+L126	c_demo/main.s	/^L126:$/;"	l
+L127	c_demo/main.s	/^L127:$/;"	l
+L128	c_demo/main.s	/^L128:$/;"	l
+L129	c_demo/main.s	/^L129:$/;"	l
+L13	c_demo/main.s	/^L13:$/;"	l
+L130	c_demo/main.s	/^L130:$/;"	l
+L131	c_demo/main.s	/^L131:$/;"	l
+L133	c_demo/main.s	/^L133:$/;"	l
+L134	c_demo/main.s	/^L134:$/;"	l
+L135	c_demo/main.s	/^L135:$/;"	l
+L136	c_demo/main.s	/^L136:$/;"	l
+L137	c_demo/main.s	/^L137:$/;"	l
+L138	c_demo/main.s	/^L138:$/;"	l
+L14	c_demo/main.s	/^L14:$/;"	l
+L140	c_demo/main.s	/^L140:$/;"	l
+L141	c_demo/main.s	/^L141:$/;"	l
+L142	c_demo/main.s	/^L142:$/;"	l
+L143	c_demo/main.s	/^L143:$/;"	l
+L144	c_demo/main.s	/^L144:$/;"	l
+L145	c_demo/main.s	/^L145:$/;"	l
+L147	c_demo/main.s	/^L147:$/;"	l
+L148	c_demo/main.s	/^L148:$/;"	l
+L149	c_demo/main.s	/^L149:$/;"	l
+L15	c_demo/main.s	/^L15:$/;"	l
+L150	c_demo/main.s	/^L150:$/;"	l
+L151	c_demo/main.s	/^L151:$/;"	l
+L152	c_demo/main.s	/^L152:$/;"	l
+L154	c_demo/main.s	/^L154:$/;"	l
+L155	c_demo/main.s	/^L155:$/;"	l
+L156	c_demo/main.s	/^L156:$/;"	l
+L157	c_demo/main.s	/^L157:$/;"	l
+L158	c_demo/main.s	/^L158:$/;"	l
+L159	c_demo/main.s	/^L159:$/;"	l
+L16	c_demo/main.s	/^L16:$/;"	l
+L161	c_demo/main.s	/^L161:$/;"	l
+L162	c_demo/main.s	/^L162:$/;"	l
+L163	c_demo/main.s	/^L163:$/;"	l
+L164	c_demo/main.s	/^L164:$/;"	l
+L165	c_demo/main.s	/^L165:$/;"	l
+L166	c_demo/main.s	/^L166:$/;"	l
+L168	c_demo/main.s	/^L168:$/;"	l
+L169	c_demo/main.s	/^L169:$/;"	l
+L17	c_demo/main.s	/^L17:$/;"	l
+L170	c_demo/main.s	/^L170:$/;"	l
+L171	c_demo/main.s	/^L171:$/;"	l
+L172	c_demo/main.s	/^L172:$/;"	l
+L173	c_demo/main.s	/^L173:$/;"	l
+L175	c_demo/main.s	/^L175:$/;"	l
+L176	c_demo/main.s	/^L176:$/;"	l
+L177	c_demo/main.s	/^L177:$/;"	l
+L178	c_demo/main.s	/^L178:$/;"	l
+L179	c_demo/main.s	/^L179:$/;"	l
+L18	c_demo/main.s	/^L18:$/;"	l
+L180	c_demo/main.s	/^L180:$/;"	l
+L181	c_demo/main.s	/^L181:$/;"	l
+L182	c_demo/main.s	/^L182:$/;"	l
+L183	c_demo/main.s	/^L183:$/;"	l
+L184	c_demo/main.s	/^L184:$/;"	l
+L185	c_demo/main.s	/^L185:$/;"	l
+L186	c_demo/main.s	/^L186:$/;"	l
+L187	c_demo/main.s	/^L187:$/;"	l
+L188	c_demo/main.s	/^L188:$/;"	l
+L189	c_demo/main.s	/^L189:$/;"	l
+L19	c_demo/main.s	/^L19:$/;"	l
+L190	c_demo/main.s	/^L190:$/;"	l
+L191	c_demo/main.s	/^L191:$/;"	l
+L192	c_demo/main.s	/^L192:$/;"	l
+L193	c_demo/main.s	/^L193:$/;"	l
+L194	c_demo/main.s	/^L194:$/;"	l
+L195	c_demo/main.s	/^L195:$/;"	l
+L196	c_demo/main.s	/^L196:$/;"	l
+L197	c_demo/main.s	/^L197:$/;"	l
+L198	c_demo/main.s	/^L198:$/;"	l
+L199	c_demo/main.s	/^L199:$/;"	l
+L20	c_demo/main.s	/^L20:$/;"	l
+L200	c_demo/main.s	/^L200:$/;"	l
+L201	c_demo/main.s	/^L201:$/;"	l
+L202	c_demo/main.s	/^L202:$/;"	l
+L203	c_demo/main.s	/^L203:$/;"	l
+L204	c_demo/main.s	/^L204:$/;"	l
+L205	c_demo/main.s	/^L205:$/;"	l
+L206	c_demo/main.s	/^L206:$/;"	l
+L207	c_demo/main.s	/^L207:$/;"	l
+L208	c_demo/main.s	/^L208:$/;"	l
+L209	c_demo/main.s	/^L209:$/;"	l
+L21	c_demo/main.s	/^L21:$/;"	l
+L210	c_demo/main.s	/^L210:$/;"	l
+L211	c_demo/main.s	/^L211:$/;"	l
+L22	c_demo/main.s	/^L22:$/;"	l
+L220	c_demo/main.s	/^L220:$/;"	l
+L221	c_demo/main.s	/^L221:$/;"	l
+L222	c_demo/main.s	/^L222:$/;"	l
+L223	c_demo/main.s	/^L223:$/;"	l
+L224	c_demo/main.s	/^L224:$/;"	l
+L225	c_demo/main.s	/^L225:$/;"	l
+L226	c_demo/main.s	/^L226:$/;"	l
+L227	c_demo/main.s	/^L227:$/;"	l
+L228	c_demo/main.s	/^L228:$/;"	l
+L229	c_demo/main.s	/^L229:$/;"	l
+L23	c_demo/main.s	/^L23:$/;"	l
+L230	c_demo/main.s	/^L230:$/;"	l
+L231	c_demo/main.s	/^L231:$/;"	l
+L232	c_demo/main.s	/^L232:$/;"	l
+L233	c_demo/main.s	/^L233:$/;"	l
+L234	c_demo/main.s	/^L234:$/;"	l
+L235	c_demo/main.s	/^L235:$/;"	l
+L236	c_demo/main.s	/^L236:$/;"	l
+L24	c_demo/main.s	/^L24:$/;"	l
+L240	c_demo/main.s	/^L240:$/;"	l
+L241	c_demo/main.s	/^L241:$/;"	l
+L242	c_demo/main.s	/^L242:$/;"	l
+L243	c_demo/main.s	/^L243:$/;"	l
+L244	c_demo/main.s	/^L244:$/;"	l
+L245	c_demo/main.s	/^L245:$/;"	l
+L246	c_demo/main.s	/^L246:$/;"	l
+L247	c_demo/main.s	/^L247:$/;"	l
+L25	c_demo/main.s	/^L25:$/;"	l
+L252	c_demo/main.s	/^L252:$/;"	l
+L253	c_demo/main.s	/^L253:$/;"	l
+L254	c_demo/main.s	/^L254:$/;"	l
+L255	c_demo/main.s	/^L255:$/;"	l
+L256	c_demo/main.s	/^L256:$/;"	l
+L257	c_demo/main.s	/^L257:$/;"	l
+L258	c_demo/main.s	/^L258:$/;"	l
+L259	c_demo/main.s	/^L259:$/;"	l
+L26	c_demo/main.s	/^L26:$/;"	l
+L260	c_demo/main.s	/^L260:$/;"	l
+L261	c_demo/main.s	/^L261:$/;"	l
+L262	c_demo/main.s	/^L262:$/;"	l
+L263	c_demo/main.s	/^L263:$/;"	l
+L264	c_demo/main.s	/^L264:$/;"	l
+L265	c_demo/main.s	/^L265:$/;"	l
+L266	c_demo/main.s	/^L266:$/;"	l
+L267	c_demo/main.s	/^L267:$/;"	l
+L268	c_demo/main.s	/^L268:$/;"	l
+L269	c_demo/main.s	/^L269:$/;"	l
+L27	c_demo/main.s	/^L27:$/;"	l
+L270	c_demo/main.s	/^L270:$/;"	l
+L271	c_demo/main.s	/^L271:$/;"	l
+L276	c_demo/main.s	/^L276:$/;"	l
+L277	c_demo/main.s	/^L277:$/;"	l
+L278	c_demo/main.s	/^L278:$/;"	l
+L279	c_demo/main.s	/^L279:$/;"	l
+L28	c_demo/main.s	/^L28:$/;"	l
+L280	c_demo/main.s	/^L280:$/;"	l
+L281	c_demo/main.s	/^L281:$/;"	l
+L282	c_demo/main.s	/^L282:$/;"	l
+L283	c_demo/main.s	/^L283:$/;"	l
+L284	c_demo/main.s	/^L284:$/;"	l
+L285	c_demo/main.s	/^L285:$/;"	l
+L286	c_demo/main.s	/^L286:$/;"	l
+L287	c_demo/main.s	/^L287:$/;"	l
+L29	c_demo/main.s	/^L29:$/;"	l
+L292	c_demo/main.s	/^L292:$/;"	l
+L293	c_demo/main.s	/^L293:$/;"	l
+L294	c_demo/main.s	/^L294:$/;"	l
+L295	c_demo/main.s	/^L295:$/;"	l
+L296	c_demo/main.s	/^L296:$/;"	l
+L297	c_demo/main.s	/^L297:$/;"	l
+L298	c_demo/main.s	/^L298:$/;"	l
+L299	c_demo/main.s	/^L299:$/;"	l
+L30	c_demo/main.s	/^L30:$/;"	l
+L300	c_demo/main.s	/^L300:$/;"	l
+L301	c_demo/main.s	/^L301:$/;"	l
+L302	c_demo/main.s	/^L302:$/;"	l
+L303	c_demo/main.s	/^L303:$/;"	l
+L305	c_demo/main.s	/^L305:$/;"	l
+L306	c_demo/main.s	/^L306:$/;"	l
+L307	c_demo/main.s	/^L307:$/;"	l
+L308	c_demo/main.s	/^L308:$/;"	l
+L309	c_demo/main.s	/^L309:$/;"	l
+L31	c_demo/main.s	/^L31:$/;"	l
+L310	c_demo/main.s	/^L310:$/;"	l
+L311	c_demo/main.s	/^L311:$/;"	l
+L312	c_demo/main.s	/^L312:$/;"	l
+L313	c_demo/main.s	/^L313:$/;"	l
+L314	c_demo/main.s	/^L314:$/;"	l
+L315	c_demo/main.s	/^L315:$/;"	l
+L316	c_demo/main.s	/^L316:$/;"	l
+L317	c_demo/main.s	/^L317:$/;"	l
+L318	c_demo/main.s	/^L318:$/;"	l
+L319	c_demo/main.s	/^L319:$/;"	l
+L32	c_demo/main.s	/^L32:$/;"	l
+L321	c_demo/main.s	/^L321:$/;"	l
+L322	c_demo/main.s	/^L322:$/;"	l
+L323	c_demo/main.s	/^L323:$/;"	l
+L324	c_demo/main.s	/^L324:$/;"	l
+L325	c_demo/main.s	/^L325:$/;"	l
+L326	c_demo/main.s	/^L326:$/;"	l
+L327	c_demo/main.s	/^L327:$/;"	l
+L328	c_demo/main.s	/^L328:$/;"	l
+L329	c_demo/main.s	/^L329:$/;"	l
+L33	c_demo/main.s	/^L33:$/;"	l
+L330	c_demo/main.s	/^L330:$/;"	l
+L335	c_demo/main.s	/^L335:$/;"	l
+L336	c_demo/main.s	/^L336:$/;"	l
+L337	c_demo/main.s	/^L337:$/;"	l
+L338	c_demo/main.s	/^L338:$/;"	l
+L339	c_demo/main.s	/^L339:$/;"	l
+L34	c_demo/main.s	/^L34:$/;"	l
+L340	c_demo/main.s	/^L340:$/;"	l
+L341	c_demo/main.s	/^L341:$/;"	l
+L342	c_demo/main.s	/^L342:$/;"	l
+L343	c_demo/main.s	/^L343:$/;"	l
+L344	c_demo/main.s	/^L344:$/;"	l
+L345	c_demo/main.s	/^L345:$/;"	l
+L346	c_demo/main.s	/^L346:$/;"	l
+L347	c_demo/main.s	/^L347:$/;"	l
+L348	c_demo/main.s	/^L348:$/;"	l
+L349	c_demo/main.s	/^L349:$/;"	l
+L35	c_demo/main.s	/^L35:$/;"	l
+L354	c_demo/main.s	/^L354:$/;"	l
+L355	c_demo/main.s	/^L355:$/;"	l
+L356	c_demo/main.s	/^L356:$/;"	l
+L357	c_demo/main.s	/^L357:$/;"	l
+L358	c_demo/main.s	/^L358:$/;"	l
+L359	c_demo/main.s	/^L359:$/;"	l
+L36	c_demo/main.s	/^L36:$/;"	l
+L360	c_demo/main.s	/^L360:$/;"	l
+L361	c_demo/main.s	/^L361:$/;"	l
+L362	c_demo/main.s	/^L362:$/;"	l
+L363	c_demo/main.s	/^L363:$/;"	l
+L364	c_demo/main.s	/^L364:$/;"	l
+L365	c_demo/main.s	/^L365:$/;"	l
+L366	c_demo/main.s	/^L366:$/;"	l
+L367	c_demo/main.s	/^L367:$/;"	l
+L368	c_demo/main.s	/^L368:$/;"	l
+L37	c_demo/main.s	/^L37:$/;"	l
+L375	c_demo/main.s	/^L375:$/;"	l
+L376	c_demo/main.s	/^L376:$/;"	l
+L377	c_demo/main.s	/^L377:$/;"	l
+L378	c_demo/main.s	/^L378:$/;"	l
+L379	c_demo/main.s	/^L379:$/;"	l
+L38	c_demo/main.s	/^L38:$/;"	l
+L380	c_demo/main.s	/^L380:$/;"	l
+L381	c_demo/main.s	/^L381:$/;"	l
+L382	c_demo/main.s	/^L382:$/;"	l
+L383	c_demo/main.s	/^L383:$/;"	l
+L384	c_demo/main.s	/^L384:$/;"	l
+L385	c_demo/main.s	/^L385:$/;"	l
+L386	c_demo/main.s	/^L386:$/;"	l
+L387	c_demo/main.s	/^L387:$/;"	l
+L388	c_demo/main.s	/^L388:$/;"	l
+L389	c_demo/main.s	/^L389:$/;"	l
+L39	c_demo/main.s	/^L39:$/;"	l
+L390	c_demo/main.s	/^L390:$/;"	l
+L391	c_demo/main.s	/^L391:$/;"	l
+L392	c_demo/main.s	/^L392:$/;"	l
+L393	c_demo/main.s	/^L393:$/;"	l
+L394	c_demo/main.s	/^L394:$/;"	l
+L40	c_demo/main.s	/^L40:$/;"	l
+L404	c_demo/main.s	/^L404:$/;"	l
+L405	c_demo/main.s	/^L405:$/;"	l
+L406	c_demo/main.s	/^L406:$/;"	l
+L407	c_demo/main.s	/^L407:$/;"	l
+L408	c_demo/main.s	/^L408:$/;"	l
+L409	c_demo/main.s	/^L409:$/;"	l
+L41	c_demo/main.s	/^L41:$/;"	l
+L410	c_demo/main.s	/^L410:$/;"	l
+L411	c_demo/main.s	/^L411:$/;"	l
+L412	c_demo/main.s	/^L412:$/;"	l
+L413	c_demo/main.s	/^L413:$/;"	l
+L414	c_demo/main.s	/^L414:$/;"	l
+L415	c_demo/main.s	/^L415:$/;"	l
+L416	c_demo/main.s	/^L416:$/;"	l
+L417	c_demo/main.s	/^L417:$/;"	l
+L418	c_demo/main.s	/^L418:$/;"	l
+L419	c_demo/main.s	/^L419:$/;"	l
+L42	c_demo/main.s	/^L42:$/;"	l
+L420	c_demo/main.s	/^L420:$/;"	l
+L421	c_demo/main.s	/^L421:$/;"	l
+L422	c_demo/main.s	/^L422:$/;"	l
+L423	c_demo/main.s	/^L423:$/;"	l
+L424	c_demo/main.s	/^L424:$/;"	l
+L425	c_demo/main.s	/^L425:$/;"	l
+L426	c_demo/main.s	/^L426:$/;"	l
+L427	c_demo/main.s	/^L427:$/;"	l
+L428	c_demo/main.s	/^L428:$/;"	l
+L429	c_demo/main.s	/^L429:$/;"	l
+L43	c_demo/main.s	/^L43:$/;"	l
+L430	c_demo/main.s	/^L430:$/;"	l
+L431	c_demo/main.s	/^L431:$/;"	l
+L432	c_demo/main.s	/^L432:$/;"	l
+L433	c_demo/main.s	/^L433:$/;"	l
+L434	c_demo/main.s	/^L434:$/;"	l
+L435	c_demo/main.s	/^L435:$/;"	l
+L436	c_demo/main.s	/^L436:$/;"	l
+L437	c_demo/main.s	/^L437:$/;"	l
+L438	c_demo/main.s	/^L438:$/;"	l
+L439	c_demo/main.s	/^L439:$/;"	l
+L44	c_demo/main.s	/^L44:$/;"	l
+L440	c_demo/main.s	/^L440:$/;"	l
+L441	c_demo/main.s	/^L441:$/;"	l
+L448	c_demo/main.s	/^L448:$/;"	l
+L449	c_demo/main.s	/^L449:$/;"	l
+L450	c_demo/main.s	/^L450:$/;"	l
+L451	c_demo/main.s	/^L451:$/;"	l
+L452	c_demo/main.s	/^L452:$/;"	l
+L453	c_demo/main.s	/^L453:$/;"	l
+L454	c_demo/main.s	/^L454:$/;"	l
+L455	c_demo/main.s	/^L455:$/;"	l
+L456	c_demo/main.s	/^L456:$/;"	l
+L457	c_demo/main.s	/^L457:$/;"	l
+L458	c_demo/main.s	/^L458:$/;"	l
+L459	c_demo/main.s	/^L459:$/;"	l
+L460	c_demo/main.s	/^L460:$/;"	l
+L461	c_demo/main.s	/^L461:$/;"	l
+L462	c_demo/main.s	/^L462:$/;"	l
+L463	c_demo/main.s	/^L463:$/;"	l
+L464	c_demo/main.s	/^L464:$/;"	l
+L465	c_demo/main.s	/^L465:$/;"	l
+L466	c_demo/main.s	/^L466:$/;"	l
+L467	c_demo/main.s	/^L467:$/;"	l
+L468	c_demo/main.s	/^L468:$/;"	l
+L469	c_demo/main.s	/^L469:$/;"	l
+L470	c_demo/main.s	/^L470:$/;"	l
+L475	c_demo/main.s	/^L475:$/;"	l
+L476	c_demo/main.s	/^L476:$/;"	l
+L477	c_demo/main.s	/^L477:$/;"	l
+L478	c_demo/main.s	/^L478:$/;"	l
+L479	c_demo/main.s	/^L479:$/;"	l
+L480	c_demo/main.s	/^L480:$/;"	l
+L481	c_demo/main.s	/^L481:$/;"	l
+L482	c_demo/main.s	/^L482:$/;"	l
+L483	c_demo/main.s	/^L483:$/;"	l
+L484	c_demo/main.s	/^L484:$/;"	l
+L485	c_demo/main.s	/^L485:$/;"	l
+L486	c_demo/main.s	/^L486:$/;"	l
+L487	c_demo/main.s	/^L487:$/;"	l
+L488	c_demo/main.s	/^L488:$/;"	l
+L489	c_demo/main.s	/^L489:$/;"	l
+L490	c_demo/main.s	/^L490:$/;"	l
+L491	c_demo/main.s	/^L491:$/;"	l
+L492	c_demo/main.s	/^L492:$/;"	l
+L493	c_demo/main.s	/^L493:$/;"	l
+L494	c_demo/main.s	/^L494:$/;"	l
+L496	c_demo/main.s	/^L496:$/;"	l
+L497	c_demo/main.s	/^L497:$/;"	l
+L498	c_demo/main.s	/^L498:$/;"	l
+L499	c_demo/main.s	/^L499:$/;"	l
+L500	c_demo/main.s	/^L500:$/;"	l
+L502	c_demo/main.s	/^L502:$/;"	l
+L503	c_demo/main.s	/^L503:$/;"	l
+L504	c_demo/main.s	/^L504:$/;"	l
+L505	c_demo/main.s	/^L505:$/;"	l
+L506	c_demo/main.s	/^L506:$/;"	l
+L507	c_demo/main.s	/^L507:$/;"	l
+L508	c_demo/main.s	/^L508:$/;"	l
+L509	c_demo/main.s	/^L509:$/;"	l
+L510	c_demo/main.s	/^L510:$/;"	l
+L511	c_demo/main.s	/^L511:$/;"	l
+L513	c_demo/main.s	/^L513:$/;"	l
+L514	c_demo/main.s	/^L514:$/;"	l
+L515	c_demo/main.s	/^L515:$/;"	l
+L516	c_demo/main.s	/^L516:$/;"	l
+L517	c_demo/main.s	/^L517:$/;"	l
+L518	c_demo/main.s	/^L518:$/;"	l
+L519	c_demo/main.s	/^L519:$/;"	l
+L520	c_demo/main.s	/^L520:$/;"	l
+L521	c_demo/main.s	/^L521:$/;"	l
+L522	c_demo/main.s	/^L522:$/;"	l
+L527	c_demo/main.s	/^L527:$/;"	l
+L528	c_demo/main.s	/^L528:$/;"	l
+L529	c_demo/main.s	/^L529:$/;"	l
+L530	c_demo/main.s	/^L530:$/;"	l
+L531	c_demo/main.s	/^L531:$/;"	l
+L532	c_demo/main.s	/^L532:$/;"	l
+L533	c_demo/main.s	/^L533:$/;"	l
+L534	c_demo/main.s	/^L534:$/;"	l
+L535	c_demo/main.s	/^L535:$/;"	l
+L536	c_demo/main.s	/^L536:$/;"	l
+L537	c_demo/main.s	/^L537:$/;"	l
+L538	c_demo/main.s	/^L538:$/;"	l
+L539	c_demo/main.s	/^L539:$/;"	l
+L540	c_demo/main.s	/^L540:$/;"	l
+L541	c_demo/main.s	/^L541:$/;"	l
+L542	c_demo/main.s	/^L542:$/;"	l
+L547	c_demo/main.s	/^L547:$/;"	l
+L548	c_demo/main.s	/^L548:$/;"	l
+L549	c_demo/main.s	/^L549:$/;"	l
+L550	c_demo/main.s	/^L550:$/;"	l
+L551	c_demo/main.s	/^L551:$/;"	l
+L552	c_demo/main.s	/^L552:$/;"	l
+L557	c_demo/main.s	/^L557:$/;"	l
+L558	c_demo/main.s	/^L558:$/;"	l
+L559	c_demo/main.s	/^L559:$/;"	l
+L560	c_demo/main.s	/^L560:$/;"	l
+L561	c_demo/main.s	/^L561:$/;"	l
+L562	c_demo/main.s	/^L562:$/;"	l
+L563	c_demo/main.s	/^L563:$/;"	l
+L564	c_demo/main.s	/^L564:$/;"	l
+L565	c_demo/main.s	/^L565:$/;"	l
+L566	c_demo/main.s	/^L566:$/;"	l
+L567	c_demo/main.s	/^L567:$/;"	l
+L568	c_demo/main.s	/^L568:$/;"	l
+L569	c_demo/main.s	/^L569:$/;"	l
+L570	c_demo/main.s	/^L570:$/;"	l
+L571	c_demo/main.s	/^L571:$/;"	l
+L572	c_demo/main.s	/^L572:$/;"	l
+L61	c_demo/main.s	/^L61:$/;"	l
+L62	c_demo/main.s	/^L62:$/;"	l
+L63	c_demo/main.s	/^L63:$/;"	l
+L64	c_demo/main.s	/^L64:$/;"	l
+L65	c_demo/main.s	/^L65:$/;"	l
+L66	c_demo/main.s	/^L66:$/;"	l
+L67	c_demo/main.s	/^L67:$/;"	l
+L68	c_demo/main.s	/^L68:$/;"	l
+L69	c_demo/main.s	/^L69:$/;"	l
+L70	c_demo/main.s	/^L70:$/;"	l
+L71	c_demo/main.s	/^L71:$/;"	l
+L72	c_demo/main.s	/^L72:$/;"	l
+L73	c_demo/main.s	/^L73:$/;"	l
+L74	c_demo/main.s	/^L74:$/;"	l
+L75	c_demo/main.s	/^L75:$/;"	l
+L76	c_demo/main.s	/^L76:$/;"	l
+L77	c_demo/main.s	/^L77:$/;"	l
+L78	c_demo/main.s	/^L78:$/;"	l
+L79	c_demo/main.s	/^L79:$/;"	l
+L80	c_demo/main.s	/^L80:$/;"	l
+L81	c_demo/main.s	/^L81:$/;"	l
+L82	c_demo/main.s	/^L82:$/;"	l
+L84	c_demo/main.s	/^L84:$/;"	l
+L85	c_demo/main.s	/^L85:$/;"	l
+L86	c_demo/main.s	/^L86:$/;"	l
+L87	c_demo/main.s	/^L87:$/;"	l
+L88	c_demo/main.s	/^L88:$/;"	l
+L89	c_demo/main.s	/^L89:$/;"	l
+L91	c_demo/main.s	/^L91:$/;"	l
+L92	c_demo/main.s	/^L92:$/;"	l
+L93	c_demo/main.s	/^L93:$/;"	l
+L94	c_demo/main.s	/^L94:$/;"	l
+L95	c_demo/main.s	/^L95:$/;"	l
+L96	c_demo/main.s	/^L96:$/;"	l
+L98	c_demo/main.s	/^L98:$/;"	l
+L99	c_demo/main.s	/^L99:$/;"	l
+LDA	c_demo/main.s	/^LDA CHK_PLLD_bp-5,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA CHK_PLLD_bp-6,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA CHK_PLLD_bp-7,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA CHK_PLLD_bp-8,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA Delay_1ms_bp+0,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA Delay_1us_bp-5,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_INITIAL1_bp-5,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_INITIAL1_bp-6,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_INITIAL1_bp-7,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_INITIAL2_bp-5,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_INITIAL2_bp-6,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_INITIAL2_bp-7,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_READ_bp+0,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_Test_bp-5,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_Test_bp-6,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_Test_bp-7,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_Test_bp-8,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_WRITE_bp+0,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA EM198850_REG_WRITE_bp+1,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA RF_CHANNEL_SET_bp+0,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA RSSI_INITIAL_bp-5,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA RSSI_INITIAL_bp-6,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA RSSI_INITIAL_bp-7,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA Read_FIFO_bp+0,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA _IntVecIdx,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA _R4,0,0$/;"	l
+LDA	c_demo/main.s	/^LDA _SPIRB,0,0$/;"	l
+MAGCARD_MINOR	jzchars.h	14;"	d
+MAX_DELTA	jz_sadc.c	518;"	d	file:
+MAX_FRAME_SIZE	cim.c	56;"	d	file:
+MAX_GPIO_TIME	udc_hotplug.c	40;"	d	file:
+MAX_IMAGE_BPP	cim.c	55;"	d	file:
+MAX_IMAGE_HEIGHT	cim.c	54;"	d	file:
+MAX_IMAGE_WIDTH	cim.c	53;"	d	file:
+MAX_PID_NUM	jz_tssi.h	32;"	d
+MEMCARD_MINOR	jzchars.h	13;"	d
+MIN	jz_sadc.c	172;"	d	file:
+MOV	c_demo/main.s	/^MOV	A,@6$/;"	l
+MOV	c_demo/main.s	/^MOV A,0x2$/;"	l
+MP4_KEY_RST	ata2508.c	21;"	d	file:
+MP4_KEY_SCL	ata2508.c	23;"	d	file:
+MP4_KEY_SDA	ata2508.c	24;"	d	file:
+MP4_KEY_TINT	ata2508.c	22;"	d	file:
+MP4_TINT_IRQ	ata2508.c	25;"	d	file:
+MPEG2_TS_PACHAGE_SIZE	jz_tssi.h	33;"	d
+NOP	c_demo/main.s	/^NOP$/;"	l
+NOT_CONNECT	udc_hotplug.c	38;"	d	file:
+OWI_MAX	jz_ow.c	39;"	d	file:
+OW_CPU_READ_ROM	jz_ow.c	32;"	d	file:
+OW_CPU_SEARCH_ROM	jz_ow.c	34;"	d	file:
+OW_DEBUG	jz_ow.c	37;"	d	file:
+OW_INTC_READ_ROM	jz_ow.c	33;"	d	file:
+OW_INTC_SEARCH_ROM	jz_ow.c	35;"	d	file:
+OW_MINOR	jzchars.h	31;"	d
+PENDOWN	jz_ts.h	24;"	d
+PENUP	jz_ts.h	23;"	d
+PFX	jz_ts.c	33;"	d	file:
+PFX	jz_tssi.c	36;"	d	file:
+POLL_TIMES	wm9712.c	29;"	d	file:
+POWERFAIL_MINOR	jzchars.h	16;"	d
+POWEROFF_DELAY	poweroff.c	119;"	d	file:
+POWEROFF_IRQ	poweroff.c	116;"	d	file:
+POWEROFF_PERIOD	poweroff.c	118;"	d	file:
+POWEROFF_PIN	poweroff.c	115;"	d	file:
+POWEROFF_PIN_DOWN	poweroff.c	104;"	d	file:
+POWEROFF_PIN_DOWN	poweroff.c	52;"	d	file:
+POWEROFF_PIN_DOWN	poweroff.c	72;"	d	file:
+POWEROFF_PIN_DOWN	poweroff.c	92;"	d	file:
+PenIsDown	ak4182.c	/^int PenIsDown(void)$/;"	f
+PenIsDown	jz_sadc.c	/^int PenIsDown(void)$/;"	f
+PenIsDown	ucb1400.c	/^int PenIsDown(void)$/;"	f
+PenIsDown	wm9712.c	/^int PenIsDown(void)$/;"	f
+READ_INTER	sensor.c	46;"	d	file:
+READ_VOLUME	radio-rda5807p.c	27;"	d	file:
+REMR0_MINOR	jzchars.h	18;"	d
+REMR1_MINOR	jzchars.h	19;"	d
+RF_CHANNEL	c_demo/main.c	4;"	d	file:
+RF_CHANNEL_SET	c_demo/main.c	/^void	RF_CHANNEL_SET(uchar RF_Channel)$/;"	f
+RF_Enter_RX_NoAck_NoCRC_Payload5	c_demo/main.c	/^void	RF_Enter_RX_NoAck_NoCRC_Payload5()$/;"	f
+RF_Enter_TX_NoAck_NoCRC_Payload5	c_demo/main.c	/^void	RF_Enter_TX_NoAck_NoCRC_Payload5()$/;"	f
+RF_SPI_WRITE_READ	c_demo/main.c	/^void	RF_SPI_WRITE_READ()$/;"	f
+RING_BUF_NUM	jz_tssi.c	37;"	d	file:
+RSSI_INITIAL	c_demo/main.c	/^void	RSSI_INITIAL()$/;"	f
+Read_FIFO	c_demo/main.c	/^void	Read_FIFO(uchar R_DATA_CNT)$/;"	f
+Read_Flag	c_demo/main.c	3;"	d	file:
+Reg_Initial	c_demo/main.c	/^void	Reg_Initial()$/;"	f
+Resume_Table	c_demo/main.c	/^const uchar Resume_Table[]={0x07,0x18,0x0E,0X11,0X2E,0X03,0X0E,0X91,0XFF};$/;"	v
+SADC_MINOR	jzchars.h	21;"	d
+SADC_NAME	jz_sadc.c	47;"	d	file:
+SCC_MINOR	jzchars.h	25;"	d
+SCREEN_X	ak4182.c	401;"	d	file:
+SCREEN_X	jz_sadc.c	294;"	d	file:
+SCREEN_X	ucb1400.c	401;"	d	file:
+SCREEN_X	wm9712.c	249;"	d	file:
+SCREEN_Y	ak4182.c	402;"	d	file:
+SCREEN_Y	jz_sadc.c	295;"	d	file:
+SCREEN_Y	ucb1400.c	402;"	d	file:
+SCREEN_Y	wm9712.c	250;"	d	file:
+SENSOR_I2C_ADDR	sensor.c	43;"	d	file:
+SENSOR_MINOR	jzchars.h	27;"	d
+SENSOR_NAME	sensor.c	42;"	d	file:
+SET_FREQ	radio-rda5807p.c	25;"	d	file:
+SET_MUTE	radio-rda5807p.c	32;"	d	file:
+SET_POWEROFF_PIN_AS_IRQ	poweroff.c	105;"	d	file:
+SET_POWEROFF_PIN_AS_IRQ	poweroff.c	53;"	d	file:
+SET_POWEROFF_PIN_AS_IRQ	poweroff.c	73;"	d	file:
+SET_POWEROFF_PIN_AS_IRQ	poweroff.c	93;"	d	file:
+SET_STEREO	radio-rda5807p.c	28;"	d	file:
+SET_THRESHOLD	radio-rda5807p.c	33;"	d	file:
+SET_VOLUME	radio-rda5807p.c	26;"	d	file:
+SIANO_CMMB_IRQ	c_demo/smsspiphy_jz.c	12;"	d	file:
+SIANO_CMMB_PWREN	c_demo/smsspiphy_jz.c	11;"	d	file:
+SIANO_CMMB_SLEEP	c_demo/smsspiphy_jz.c	10;"	d	file:
+SLCD_MINOR	jzchars.h	22;"	d
+SOF	c_demo/elan.c	200;"	d	file:
+SOF	c_demo/main.c	5;"	d	file:
+SOF	elan.c	280;"	d	file:
+SPI_CLK	elan.c	7;"	d	file:
+SPI_CS	elan.c	6;"	d	file:
+SPI_DI	elan.c	9;"	d	file:
+SPI_DO	elan.c	8;"	d	file:
+STA	c_demo/main.s	/^STA CHK_PLLD_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA CHK_PLLD_bp-6,0,0$/;"	l
+STA	c_demo/main.s	/^STA CHK_PLLD_bp-7,0,0$/;"	l
+STA	c_demo/main.s	/^STA CHK_PLLD_bp-8,0,0$/;"	l
+STA	c_demo/main.s	/^STA Delay_1ms_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA Delay_1us_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_Initial_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_INITIAL1_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_INITIAL1_bp-6,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_INITIAL1_bp-7,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_INITIAL2_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_INITIAL2_bp-6,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_INITIAL2_bp-7,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_Test_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_Test_bp-6,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_Test_bp-7,0,0$/;"	l
+STA	c_demo/main.s	/^STA EM198850_REG_Test_bp-8,0,0$/;"	l
+STA	c_demo/main.s	/^STA RF_SPI_WRITE_READ_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA RSSI_INITIAL_bp-5,0,0$/;"	l
+STA	c_demo/main.s	/^STA RSSI_INITIAL_bp-6,0,0$/;"	l
+STA	c_demo/main.s	/^STA RSSI_INITIAL_bp-7,0,0$/;"	l
+STA	c_demo/main.s	/^STA _IMR1,0,2$/;"	l
+STA	c_demo/main.s	/^STA _IMR2,0,2$/;"	l
+STA	c_demo/main.s	/^STA _P56PD,0,2$/;"	l
+STA	c_demo/main.s	/^STA _P5CR,0,2$/;"	l
+STA	c_demo/main.s	/^STA _P6CR,0,2$/;"	l
+STA	c_demo/main.s	/^STA _P6OD,0,2$/;"	l
+STA	c_demo/main.s	/^STA _P6PH,0,2$/;"	l
+STA	c_demo/main.s	/^STA _P7CR,0,2$/;"	l
+STA	c_demo/main.s	/^STA _P7PD,0,0$/;"	l
+STA	c_demo/main.s	/^STA _P7PH,0,0$/;"	l
+STA	c_demo/main.s	/^STA _P8CR,0,2$/;"	l
+STA	c_demo/main.s	/^STA _PORT5,0,0$/;"	l
+STA	c_demo/main.s	/^STA _R4,0,0$/;"	l
+STA	c_demo/main.s	/^STA _RMUST,0,0$/;"	l
+STA	c_demo/main.s	/^STA _SPIC,0,0$/;"	l
+STA	c_demo/main.s	/^STA _SPIWB,0,0$/;"	l
+STA	c_demo/main.s	/^STA _URC2,0,0$/;"	l
+STA	c_demo/main.s	/^STA _WDTCR,0,2$/;"	l
+STA	c_demo/main.s	/^STA _WUCR,0,0$/;"	l
+STPB	c_demo/main.s	/^STPB eax,ecx,0$/;"	l
+STS	jz_ow.c	/^static char STS[OWI_MAX];$/;"	v	file:
+TCSM_MINOR	jzchars.h	33;"	d
+TD	c_demo/main.s	/^TD:$/;"	l
+TPANEL_MINOR	jzchars.h	11;"	d
+TRIG_PIN	jz_tssi.c	40;"	d	file:
+TSMAXX	ak4182.c	396;"	d	file:
+TSMAXX	jz_sadc.c	289;"	d	file:
+TSMAXX	ucb1400.c	396;"	d	file:
+TSMAXX	wm9712.c	244;"	d	file:
+TSMAXY	ak4182.c	397;"	d	file:
+TSMAXY	jz_sadc.c	290;"	d	file:
+TSMAXY	ucb1400.c	397;"	d	file:
+TSMAXY	wm9712.c	245;"	d	file:
+TSMINX	ak4182.c	398;"	d	file:
+TSMINX	jz_sadc.c	291;"	d	file:
+TSMINX	ucb1400.c	398;"	d	file:
+TSMINX	wm9712.c	246;"	d	file:
+TSMINY	ak4182.c	399;"	d	file:
+TSMINY	jz_sadc.c	292;"	d	file:
+TSMINY	ucb1400.c	399;"	d	file:
+TSMINY	wm9712.c	247;"	d	file:
+TSSI_IRQ	jz_tssi.c	35;"	d	file:
+TSSI_MINOR	jz_tssi.c	34;"	d	file:
+TSSI_NAME	jz_tssi.c	33;"	d	file:
+TS_IRQ	ak4182.c	33;"	d	file:
+TS_IRQ	ucb1400.c	35;"	d	file:
+TS_MINOR	jz_ts.c	32;"	d	file:
+TS_NAME	jz_ts.c	31;"	d	file:
+TS_PIN	ak4182.c	32;"	d	file:
+TS_PIN	ucb1400.c	34;"	d	file:
+Test_Table	c_demo/main.c	/^const uchar Test_Table[]={0X07,0X58,0X0E,0X11,0X2E,0X23,0X0E,0X91,0XFF};$/;"	v
+UCB_AC_B_IN_ENA	ucb1400.h	53;"	d
+UCB_AC_B_LOOP	ucb1400.h	51;"	d
+UCB_AC_B_MUTE	ucb1400.h	52;"	d
+UCB_AC_B_OUT_ENA	ucb1400.h	54;"	d
+UCB_ADC_CR	ucb1400.h	13;"	d
+UCB_ADC_DAT	ucb1400.h	17;"	d
+UCB_ADC_DATA	ucb1400.h	14;"	d
+UCB_ADC_DAT_VAL	ucb1400.h	85;"	d
+UCB_ADC_ENA	ucb1400.h	83;"	d
+UCB_ADC_EXT_REF	ucb1400.h	81;"	d
+UCB_ADC_INP_AD0	ucb1400.h	77;"	d
+UCB_ADC_INP_AD1	ucb1400.h	78;"	d
+UCB_ADC_INP_AD2	ucb1400.h	79;"	d
+UCB_ADC_INP_AD3	ucb1400.h	80;"	d
+UCB_ADC_INP_TSMX	ucb1400.h	74;"	d
+UCB_ADC_INP_TSMY	ucb1400.h	76;"	d
+UCB_ADC_INP_TSPX	ucb1400.h	73;"	d
+UCB_ADC_INP_TSPY	ucb1400.h	75;"	d
+UCB_ADC_START	ucb1400.h	82;"	d
+UCB_ADC_SYNC_ENA	ucb1400.h	71;"	d
+UCB_ADC_VREFBYP_CON	ucb1400.h	72;"	d
+UCB_FALLING	ucb1400.h	99;"	d
+UCB_ID	ucb1400.h	15;"	d
+UCB_ID_1200	ucb1400.h	87;"	d
+UCB_ID_1300	ucb1400.h	88;"	d
+UCB_ID_1400	ucb1400.h	89;"	d
+UCB_ID_1400_BUGGY	ucb1400.h	90;"	d
+UCB_IE_ACLIP	ucb1400.h	36;"	d
+UCB_IE_ADC	ucb1400.h	32;"	d
+UCB_IE_CLEAR	ucb1400.h	11;"	d
+UCB_IE_FAL	ucb1400.h	9;"	d
+UCB_IE_RIS	ucb1400.h	8;"	d
+UCB_IE_STATUS	ucb1400.h	10;"	d
+UCB_IE_TCLIP	ucb1400.h	35;"	d
+UCB_IE_TSMX	ucb1400.h	34;"	d
+UCB_IE_TSPX	ucb1400.h	33;"	d
+UCB_IO_0	ucb1400.h	21;"	d
+UCB_IO_1	ucb1400.h	22;"	d
+UCB_IO_2	ucb1400.h	23;"	d
+UCB_IO_3	ucb1400.h	24;"	d
+UCB_IO_4	ucb1400.h	25;"	d
+UCB_IO_5	ucb1400.h	26;"	d
+UCB_IO_6	ucb1400.h	27;"	d
+UCB_IO_7	ucb1400.h	28;"	d
+UCB_IO_8	ucb1400.h	29;"	d
+UCB_IO_9	ucb1400.h	30;"	d
+UCB_IO_DATA	ucb1400.h	6;"	d
+UCB_IO_DIR	ucb1400.h	7;"	d
+UCB_IRQ_TSPX	ucb1400.h	38;"	d
+UCB_MODE_AUD_OFF_CAN	ucb1400.h	93;"	d
+UCB_MODE_DYN_VFLAG_ENA	ucb1400.h	92;"	d
+UCB_RISING	ucb1400.h	98;"	d
+UCB_TC_A_AMPL	ucb1400.h	41;"	d
+UCB_TC_A_LOOP	ucb1400.h	40;"	d
+UCB_TC_B_ATT	ucb1400.h	45;"	d
+UCB_TC_B_CLIP	ucb1400.h	44;"	d
+UCB_TC_B_IN_ENA	ucb1400.h	48;"	d
+UCB_TC_B_MUTE	ucb1400.h	47;"	d
+UCB_TC_B_OUT_ENA	ucb1400.h	49;"	d
+UCB_TC_B_SIDE_ENA	ucb1400.h	46;"	d
+UCB_TC_B_VOICE_ENA	ucb1400.h	43;"	d
+UCB_TS_CR	ucb1400.h	12;"	d
+UCB_TS_CR_BIAS_ENA	ucb1400.h	67;"	d
+UCB_TS_CR_MODE_INT	ucb1400.h	64;"	d
+UCB_TS_CR_MODE_POS	ucb1400.h	66;"	d
+UCB_TS_CR_MODE_PRES	ucb1400.h	65;"	d
+UCB_TS_CR_TSMX_GND	ucb1400.h	60;"	d
+UCB_TS_CR_TSMX_LOW	ucb1400.h	69;"	d
+UCB_TS_CR_TSMX_POW	ucb1400.h	56;"	d
+UCB_TS_CR_TSMY_GND	ucb1400.h	62;"	d
+UCB_TS_CR_TSMY_POW	ucb1400.h	58;"	d
+UCB_TS_CR_TSPX_GND	ucb1400.h	61;"	d
+UCB_TS_CR_TSPX_LOW	ucb1400.h	68;"	d
+UCB_TS_CR_TSPX_POW	ucb1400.h	57;"	d
+UCB_TS_CR_TSPY_GND	ucb1400.h	63;"	d
+UCB_TS_CR_TSPY_POW	ucb1400.h	59;"	d
+UDC_HOTPLUG_IRQ	udc_hotplug.c	32;"	d	file:
+UDC_HOTPLUG_PIN	udc_hotplug.c	31;"	d	file:
+ULTRRB	c_demo/main.s	/^ULTRRB RSSI_INITIAL_bp-7,RSSI_INITIAL_bp-5$/;"	l
+UPRT_MINOR	jzchars.h	9;"	d
+USE_DMA	jz_tssi.c	39;"	d	file:
+USPI_MINOR	jzchars.h	20;"	d
+VFD_MINOR	jzchars.h	15;"	d
+Wait_PKT_High	c_demo/main.c	/^void	Wait_PKT_High()$/;"	f
+WriteFWtoStellar	c_demo/smsspiphy_jz.c	/^void WriteFWtoStellar(void *pSpiPhy, unsigned char *pFW, unsigned long Len)$/;"	f
+Write_FIFO	c_demo/main.c	/^void	Write_FIFO(uchar R_DATA_CNT)$/;"	f
+YES_CONNECT	udc_hotplug.c	39;"	d	file:
+_ALLint	c_demo/main.s	/^_ALLint:$/;"	l
+_BRATE0	c_demo/main.s	/^_BRATE0:$/;"	l
+_BRATE1	c_demo/main.s	/^_BRATE1:$/;"	l
+_BRATE2	c_demo/main.s	/^_BRATE2:$/;"	l
+_Bit_TX	c_demo/main.s	/^_Bit_TX:$/;"	l
+_C	c_demo/main.s	/^_C:$/;"	l
+_CES	c_demo/main.s	/^_CES:$/;"	l
+_CHK_FrameTable	c_demo/main.s	/^_CHK_FrameTable:$/;"	l
+_CHK_PLLD	c_demo/main.s	/^_CHK_PLLD:$/;"	l
+_CMP2WE	c_demo/main.s	/^_CMP2WE:$/;"	l
+_CMPCON	c_demo/main.s	/^_CMPCON:$/;"	l
+_Chk_Up_Down_Board	c_demo/main.s	/^_Chk_Up_Down_Board:$/;"	l
+_Clr_All_Ram	c_demo/main.s	/^_Clr_All_Ram:$/;"	l
+_Comparat_l	c_demo/main.s	/^_Comparat_l:$/;"	l
+_DC	c_demo/main.s	/^_DC:$/;"	l
+_DORD	c_demo/main.s	/^_DORD:$/;"	l
+_DTAH	c_demo/main.s	/^_DTAH:$/;"	l
+_DTBH	c_demo/main.s	/^_DTBH:$/;"	l
+_Delay_1ms	c_demo/main.s	/^_Delay_1ms:$/;"	l
+_Delay_1us	c_demo/main.s	/^_Delay_1us:$/;"	l
+_EEADDR	c_demo/main.s	/^_EEADDR:$/;"	l
+_EECR	c_demo/main.s	/^_EECR:$/;"	l
+_EEDATA	c_demo/main.s	/^_EEDATA:$/;"	l
+_EEDF	c_demo/main.s	/^_EEDF:$/;"	l
+_EEPC	c_demo/main.s	/^_EEPC:$/;"	l
+_EEWE	c_demo/main.s	/^_EEWE:$/;"	l
+_EM198850_Initial	c_demo/main.s	/^_EM198850_Initial:$/;"	l
+_EM198850_REG_INITIAL1	c_demo/main.s	/^_EM198850_REG_INITIAL1:$/;"	l
+_EM198850_REG_INITIAL2	c_demo/main.s	/^_EM198850_REG_INITIAL2:$/;"	l
+_EM198850_REG_READ	c_demo/main.s	/^_EM198850_REG_READ:$/;"	l
+_EM198850_REG_Test	c_demo/main.s	/^_EM198850_REG_Test:$/;"	l
+_EM198850_REG_WRITE	c_demo/main.s	/^_EM198850_REG_WRITE:$/;"	l
+_EVEN	c_demo/main.s	/^_EVEN:$/;"	l
+_EXIF	c_demo/main.s	/^_EXIF:$/;"	l
+_EXWE	c_demo/main.s	/^_EXWE:$/;"	l
+_FMERR	c_demo/main.s	/^_FMERR:$/;"	l
+_FrameTable	c_demo/main.s	/^_FrameTable:$/;"	l
+_FrameTable2	c_demo/main.s	/^_FrameTable2:$/;"	l
+_ICIF	c_demo/main.s	/^_ICIF:$/;"	l
+_ICWE	c_demo/main.s	/^_ICWE:$/;"	l
+_IMR1	c_demo/main.s	/^_IMR1:$/;"	l
+_IMR2	c_demo/main.s	/^_IMR2:$/;"	l
+_ISR1	c_demo/main.s	/^_ISR1:$/;"	l
+_ISR2	c_demo/main.s	/^_ISR2:$/;"	l
+_LEDC	c_demo/main.s	/^_LEDC:$/;"	l
+_OD3	c_demo/main.s	/^_OD3:$/;"	l
+_OD4	c_demo/main.s	/^_OD4:$/;"	l
+_OVERR	c_demo/main.s	/^_OVERR:$/;"	l
+_P	c_demo/main.s	/^_P:$/;"	l
+_P51	c_demo/main.s	/^_P51:$/;"	l
+_P52	c_demo/main.s	/^_P52:$/;"	l
+_P54	c_demo/main.s	/^_P54:$/;"	l
+_P55	c_demo/main.s	/^_P55:$/;"	l
+_P56PD	c_demo/main.s	/^_P56PD:$/;"	l
+_P5CR	c_demo/main.s	/^_P5CR:$/;"	l
+_P6CR	c_demo/main.s	/^_P6CR:$/;"	l
+_P6OD	c_demo/main.s	/^_P6OD:$/;"	l
+_P6PH	c_demo/main.s	/^_P6PH:$/;"	l
+_P73	c_demo/main.s	/^_P73:$/;"	l
+_P7CR	c_demo/main.s	/^_P7CR:$/;"	l
+_P7PD	c_demo/main.s	/^_P7PD:$/;"	l
+_P7PH	c_demo/main.s	/^_P7PH:$/;"	l
+_P8CR	c_demo/main.s	/^_P8CR:$/;"	l
+_PC	c_demo/main.s	/^_PC:$/;"	l
+_PD72	c_demo/main.s	/^_PD72:$/;"	l
+_PD73	c_demo/main.s	/^_PD73:$/;"	l
+_PD74	c_demo/main.s	/^_PD74:$/;"	l
+_PD75	c_demo/main.s	/^_PD75:$/;"	l
+_PD76	c_demo/main.s	/^_PD76:$/;"	l
+_PD77	c_demo/main.s	/^_PD77:$/;"	l
+_PH72	c_demo/main.s	/^_PH72:$/;"	l
+_PH73	c_demo/main.s	/^_PH73:$/;"	l
+_PH74	c_demo/main.s	/^_PH74:$/;"	l
+_PH75	c_demo/main.s	/^_PH75:$/;"	l
+_PH76	c_demo/main.s	/^_PH76:$/;"	l
+_PH77	c_demo/main.s	/^_PH77:$/;"	l
+_PKT_FLAG	c_demo/main.s	/^_PKT_FLAG:$/;"	l
+_PORT5	c_demo/main.s	/^_PORT5:$/;"	l
+_PORT6	c_demo/main.s	/^_PORT6:$/;"	l
+_PORT7	c_demo/main.s	/^_PORT7:$/;"	l
+_PORT8	c_demo/main.s	/^_PORT8:$/;"	l
+_PRDAH	c_demo/main.s	/^_PRDAH:$/;"	l
+_PRDBH	c_demo/main.s	/^_PRDBH:$/;"	l
+_PRE	c_demo/main.s	/^_PRE:$/;"	l
+_PRERR	c_demo/main.s	/^_PRERR:$/;"	l
+_PS0	c_demo/main.s	/^_PS0:$/;"	l
+_PS1	c_demo/main.s	/^_PS1:$/;"	l
+_PWMAIF	c_demo/main.s	/^_PWMAIF:$/;"	l
+_PWMA_l	c_demo/main.s	/^_PWMA_l:$/;"	l
+_PWMBIF	c_demo/main.s	/^_PWMBIF:$/;"	l
+_PWMB_l	c_demo/main.s	/^_PWMB_l:$/;"	l
+_PWMCON	c_demo/main.s	/^_PWMCON:$/;"	l
+_R0	c_demo/main.s	/^_R0:$/;"	l
+_R4	c_demo/main.s	/^_R4:$/;"	l
+_RBF	c_demo/main.s	/^_RBF:$/;"	l
+_RD	c_demo/main.s	/^_RD:$/;"	l
+_RESET_N	c_demo/main.s	/^_RESET_N:$/;"	l
+_RF_CHANNEL_SET	c_demo/main.s	/^_RF_CHANNEL_SET:$/;"	l
+_RF_Enter_RX_NoAck_NoCRC_Payload5	c_demo/main.s	/^_RF_Enter_RX_NoAck_NoCRC_Payload5:$/;"	l
+_RF_Enter_TX_NoAck_NoCRC_Payload5	c_demo/main.s	/^_RF_Enter_TX_NoAck_NoCRC_Payload5:$/;"	l
+_RF_SPI_WRITE_READ	c_demo/main.s	/^_RF_SPI_WRITE_READ:$/;"	l
+_RMUST	c_demo/main.s	/^_RMUST:$/;"	l
+_RSSI_INITIAL	c_demo/main.s	/^_RSSI_INITIAL:$/;"	l
+_RXE	c_demo/main.s	/^_RXE:$/;"	l
+_Read_FIFO	c_demo/main.s	/^_Read_FIFO:$/;"	l
+_Reg_Initial	c_demo/main.s	/^_Reg_Initial:$/;"	l
+_Resume_Table	c_demo/main.s	/^_Resume_Table:$/;"	l
+_SBIM0	c_demo/main.s	/^_SBIM0:$/;"	l
+_SBIM1	c_demo/main.s	/^_SBIM1:$/;"	l
+_SBRS0	c_demo/main.s	/^_SBRS0:$/;"	l
+_SBRS1	c_demo/main.s	/^_SBRS1:$/;"	l
+_SBRS2	c_demo/main.s	/^_SBRS2:$/;"	l
+_SDOC	c_demo/main.s	/^_SDOC:$/;"	l
+_SIMPLE_RSR_	c_demo/main.s	/^_SIMPLE_RSR_ EQU 1$/;"	d
+_SPIC	c_demo/main.s	/^_SPIC:$/;"	l
+_SPIE	c_demo/main.s	/^_SPIE:$/;"	l
+_SPIIF	c_demo/main.s	/^_SPIIF:$/;"	l
+_SPIRB	c_demo/main.s	/^_SPIRB:$/;"	l
+_SPIS	c_demo/main.s	/^_SPIS:$/;"	l
+_SPIWB	c_demo/main.s	/^_SPIWB:$/;"	l
+_SPIWE	c_demo/main.s	/^_SPIWE:$/;"	l
+_SPI_CLK	c_demo/main.s	/^_SPI_CLK:$/;"	l
+_SPI_SS	c_demo/main.s	/^_SPI_SS:$/;"	l
+_SRO	c_demo/main.s	/^_SRO:$/;"	l
+_SSE	c_demo/main.s	/^_SSE:$/;"	l
+_STATUS	c_demo/main.s	/^_STATUS:$/;"	l
+_T	c_demo/main.s	/^_T:$/;"	l
+_TC1CAP	c_demo/main.s	/^_TC1CAP:$/;"	l
+_TC1CK0	c_demo/main.s	/^_TC1CK0:$/;"	l
+_TC1CK1	c_demo/main.s	/^_TC1CK1:$/;"	l
+_TC1CR	c_demo/main.s	/^_TC1CR:$/;"	l
+_TC1ES	c_demo/main.s	/^_TC1ES:$/;"	l
+_TC1M	c_demo/main.s	/^_TC1M:$/;"	l
+_TC1S	c_demo/main.s	/^_TC1S:$/;"	l
+_TC1_l	c_demo/main.s	/^_TC1_l:$/;"	l
+_TC2CK0	c_demo/main.s	/^_TC2CK0:$/;"	l
+_TC2CK1	c_demo/main.s	/^_TC2CK1:$/;"	l
+_TC2CK2	c_demo/main.s	/^_TC2CK2:$/;"	l
+_TC2CR	c_demo/main.s	/^_TC2CR:$/;"	l
+_TC2DH	c_demo/main.s	/^_TC2DH:$/;"	l
+_TC2DL	c_demo/main.s	/^_TC2DL:$/;"	l
+_TC2ES	c_demo/main.s	/^_TC2ES:$/;"	l
+_TC2M	c_demo/main.s	/^_TC2M:$/;"	l
+_TC2S	c_demo/main.s	/^_TC2S:$/;"	l
+_TC2_l	c_demo/main.s	/^_TC2_l:$/;"	l
+_TC3CK0	c_demo/main.s	/^_TC3CK0:$/;"	l
+_TC3CK1	c_demo/main.s	/^_TC3CK1:$/;"	l
+_TC3CK2	c_demo/main.s	/^_TC3CK2:$/;"	l
+_TC3CR	c_demo/main.s	/^_TC3CR:$/;"	l
+_TC3FF0	c_demo/main.s	/^_TC3FF0:$/;"	l
+_TC3FF1	c_demo/main.s	/^_TC3FF1:$/;"	l
+_TC3M0	c_demo/main.s	/^_TC3M0:$/;"	l
+_TC3M1	c_demo/main.s	/^_TC3M1:$/;"	l
+_TC3_l	c_demo/main.s	/^_TC3_l:$/;"	l
+_TCC	c_demo/main.s	/^_TCC:$/;"	l
+_TCIF	c_demo/main.s	/^_TCIF:$/;"	l
+_TCR1DA	c_demo/main.s	/^_TCR1DA:$/;"	l
+_TCR1DB	c_demo/main.s	/^_TCR1DB:$/;"	l
+_TCR3D	c_demo/main.s	/^_TCR3D:$/;"	l
+_TCS3S	c_demo/main.s	/^_TCS3S:$/;"	l
+_TD0	c_demo/main.s	/^_TD0:$/;"	l
+_TD1	c_demo/main.s	/^_TD1:$/;"	l
+_TMRCON	c_demo/main.s	/^_TMRCON:$/;"	l
+_TXE	c_demo/main.s	/^_TXE:$/;"	l
+_Test_Table	c_demo/main.s	/^_Test_Table:$/;"	l
+_UARTRE_l	c_demo/main.s	/^_UARTRE_l:$/;"	l
+_UARTR_l	c_demo/main.s	/^_UARTR_l:$/;"	l
+_UARTT_l	c_demo/main.s	/^_UARTT_l:$/;"	l
+_UINVEN	c_demo/main.s	/^_UINVEN:$/;"	l
+_UMODE0	c_demo/main.s	/^_UMODE0:$/;"	l
+_UMODE1	c_demo/main.s	/^_UMODE1:$/;"	l
+_URBF	c_demo/main.s	/^_URBF:$/;"	l
+_URC1	c_demo/main.s	/^_URC1:$/;"	l
+_URC2	c_demo/main.s	/^_URC2:$/;"	l
+_URRD	c_demo/main.s	/^_URRD:$/;"	l
+_URRD8	c_demo/main.s	/^_URRD8:$/;"	l
+_URS	c_demo/main.s	/^_URS:$/;"	l
+_URTD	c_demo/main.s	/^_URTD:$/;"	l
+_URTD8	c_demo/main.s	/^_URTD8:$/;"	l
+_UTBE	c_demo/main.s	/^_UTBE:$/;"	l
+_WDTCR	c_demo/main.s	/^_WDTCR:$/;"	l
+_WR	c_demo/main.s	/^_WR:$/;"	l
+_WUCR	c_demo/main.s	/^_WUCR:$/;"	l
+_Wait_PKT_High	c_demo/main.s	/^_Wait_PKT_High:$/;"	l
+_Write_FIFO	c_demo/main.s	/^_Write_FIFO:$/;"	l
+_Z	c_demo/main.s	/^_Z:$/;"	l
+__AK4182_H__	ak4182.h	2;"	d
+__CIM_H__	cim.h	22;"	d
+__JZ_CHARS_H__	jzchars.h	2;"	d
+__JZ_TSSI_H__	jz_tssi.h	2;"	d
+__JZ_TS_H__	jz_ts.h	2;"	d
+__UCB1400_H__	ucb1400.h	2;"	d
+__WM9712_H__	wm9712.h	2;"	d
+__lcd_close_backlight	poweroff.c	64;"	d	file:
+__lcd_close_backlight	poweroff.c	83;"	d	file:
+__lcd_set_backlight_level	poweroff.c	58;"	d	file:
+_exit	c_demo/elan.c	/^void 198850_exit()$/;"	f
+_ext_interrupt_l	c_demo/main.s	/^_ext_interrupt_l:$/;"	l
+_init	c_demo/elan.c	/^int 198850_init()$/;"	f
+_main	c_demo/main.s	/^_main:$/;"	l
+_port6pinchange_l	c_demo/main.s	/^_port6pinchange_l:$/;"	l
+_spi_l	c_demo/main.s	/^_spi_l:$/;"	l
+_tccint_l	c_demo/main.s	/^_tccint_l:$/;"	l
+acq_timer	jz_ts.h	/^	struct timer_list acq_timer;      \/\/ Timer for triggering acquisitions$/;"	m	struct:jz_ts_t	typeref:struct:jz_ts_t::timer_list
+adc_cr	ak4182.h	/^	u16			adc_cr;$/;"	m	struct:ak4182
+adc_cr	ucb1400.h	/^	u16			adc_cr;$/;"	m	struct:ucb1400
+adc_sem	ak4182.h	/^	struct semaphore	adc_sem;$/;"	m	struct:ak4182	typeref:struct:ak4182::semaphore
+adc_sem	ucb1400.h	/^	struct semaphore	adc_sem;$/;"	m	struct:ucb1400	typeref:struct:ucb1400::semaphore
+adcsync	ak4182.c	/^static int adcsync = 0;$/;"	v	file:
+adcsync	ucb1400.c	/^static int adcsync = 0;$/;"	v	file:
+add	c_demo/main.s	/^add a,@1$/;"	l
+add	c_demo/main.s	/^add ecx,a$/;"	l
+adj_data	wm9712.c	186;"	d	file:
+adj_data	wm9712.c	206;"	d	file:
+ak	ak4182.c	/^static struct ak4182 *ak;$/;"	v	typeref:struct:ak4182	file:
+ak4182	ak4182.h	/^struct ak4182 {$/;"	s
+ak4182_adc_read	ak4182.c	/^static unsigned int ak4182_adc_read(int cmd_code, int sync)$/;"	f	file:
+ak4182_cleanup	ak4182.c	/^module_exit(ak4182_cleanup);$/;"	v
+ak4182_cleanup	ak4182.c	/^void ak4182_cleanup(void)$/;"	f
+ak4182_disable_irq	ak4182.c	/^static void ak4182_disable_irq(void)$/;"	f	file:
+ak4182_enable_irq	ak4182.c	/^static void ak4182_enable_irq(void)$/;"	f	file:
+ak4182_init	ak4182.c	/^int __init ak4182_init(void)$/;"	f
+ak4182_init	ak4182.c	/^module_init(ak4182_init);$/;"	v
+ak4182_pm_callback	ak4182.c	/^static int ak4182_pm_callback(struct pm_dev *pm_dev, pm_request_t rqst, void *data)$/;"	f	file:
+ak4182_read_battery	ak4182.c	/^unsigned int ak4182_read_battery(void)$/;"	f
+ak4182_reg_read	ak4182.c	/^static inline unsigned int ak4182_reg_read(void)$/;"	f	file:
+ak4182_reg_write	ak4182.c	/^static inline void ak4182_reg_write(unsigned short val)$/;"	f	file:
+ak4182_resume	ak4182.c	/^static int ak4182_resume(struct ak4182 *ak)$/;"	f	file:
+ak4182_ssi_disable	ak4182.c	/^static void ak4182_ssi_disable(void)$/;"	f	file:
+ak4182_ssi_enable	ak4182.c	/^static void ak4182_ssi_enable(void)$/;"	f	file:
+ak4182_ssi_reset	ak4182.c	/^static void ak4182_ssi_reset(void)$/;"	f	file:
+ak4182_ssi_set_IRQ	ak4182.c	/^static void ak4182_ssi_set_IRQ(void)$/;"	f	file:
+ak4182_ssi_set_clk_div_ratio	ak4182.c	/^static void ak4182_ssi_set_clk_div_ratio(int dev_clk, int ssi_clk)$/;"	f	file:
+ak4182_ssi_set_normal_mode	ak4182.c	/^static void ak4182_ssi_set_normal_mode(void)$/;"	f	file:
+ak4182_ssi_set_trans_mode_format	ak4182.c	/^static void ak4182_ssi_set_trans_mode_format(void)$/;"	f	file:
+ak4182_suspend	ak4182.c	/^static int ak4182_suspend(struct ak4182 *ak , int state)$/;"	f	file:
+ak4182_ts_read_pressure	ak4182.c	/^static inline unsigned int ak4182_ts_read_pressure(void)$/;"	f	file:
+ak4182_ts_read_xpos	ak4182.c	/^static inline unsigned int ak4182_ts_read_xpos(void)$/;"	f	file:
+ak4182_ts_read_ypos	ak4182.c	/^static inline unsigned int ak4182_ts_read_ypos(void)$/;"	f	file:
+and	c_demo/main.s	/^and a,@128$/;"	l
+and	c_demo/main.s	/^and ecx,a$/;"	l
+bc	c_demo/main.s	/^bc _Bit_TX,BIT$/;"	l
+bc	c_demo/main.s	/^bc _RESET_N,7$/;"	l
+bc	c_demo/main.s	/^bc _SPIE,6$/;"	l
+bc	c_demo/main.s	/^bc _SPI_CLK,3$/;"	l
+bc	c_demo/main.s	/^bc _SPI_SS,0$/;"	l
+bpp	cim.c	/^	u32 bpp;$/;"	m	struct:__anon2	file:
+bpp	cim.h	/^	u32 bpp;$/;"	m	struct:__anon4
+bs	c_demo/main.s	/^bs _Bit_TX,BIT$/;"	l
+bs	c_demo/main.s	/^bs _RESET_N,7$/;"	l
+bs	c_demo/main.s	/^bs _SPIE,6$/;"	l
+bs	c_demo/main.s	/^bs _SPI_SS,0$/;"	l
+bs	c_demo/main.s	/^bs _SSE,4$/;"	l
+buf	jz_tssi.h	/^	unsigned int *buf;$/;"	m	struct:jz_tssi_buf
+byteorder	jz_tssi.h	/^	unsigned char byteorder;$/;"	m	struct:jz_tssi_cfg_t
+cable_dev	udc_hotplug.c	/^static struct miscdevice cable_dev=$/;"	v	typeref:struct:miscdevice	file:
+cable_fops	udc_hotplug.c	/^static struct file_operations cable_fops = {$/;"	v	typeref:struct:file_operations	file:
+cable_stat	udc_hotplug.c	/^	char cable_stat, old_cable_stat;$/;"	m	struct:udc_pnp_stat	file:
+calibrate_samples	ak4182.c	/^static int calibrate_samples(void *xbuf, void *ybuf, void *pbuf, int count)$/;"	f	file:
+calibrate_samples	jz_sadc.c	/^static int calibrate_samples(void *xbuf, void *ybuf, void *pbuf, int count)$/;"	f	file:
+calibrate_samples	ucb1400.c	/^static int calibrate_samples(void *xbuf, void *ybuf, void *pbuf, int count)$/;"	f	file:
+call	c_demo/main.s	/^call _CHK_FrameTable$/;"	l
+call	c_demo/main.s	/^call _Chk_Up_Down_Board$/;"	l
+call	c_demo/main.s	/^call _Clr_All_Ram$/;"	l
+call	c_demo/main.s	/^call _Delay_1ms$/;"	l
+call	c_demo/main.s	/^call _Delay_1us$/;"	l
+call	c_demo/main.s	/^call _EM198850_Initial$/;"	l
+call	c_demo/main.s	/^call _EM198850_REG_INITIAL1$/;"	l
+call	c_demo/main.s	/^call _EM198850_REG_INITIAL2$/;"	l
+call	c_demo/main.s	/^call _EM198850_REG_READ$/;"	l
+call	c_demo/main.s	/^call _EM198850_REG_Test$/;"	l
+call	c_demo/main.s	/^call _EM198850_REG_WRITE$/;"	l
+call	c_demo/main.s	/^call _FrameTable$/;"	l
+call	c_demo/main.s	/^call _FrameTable2$/;"	l
+call	c_demo/main.s	/^call _RF_CHANNEL_SET$/;"	l
+call	c_demo/main.s	/^call _RF_Enter_RX_NoAck_NoCRC_Payload5$/;"	l
+call	c_demo/main.s	/^call _RF_Enter_TX_NoAck_NoCRC_Payload5$/;"	l
+call	c_demo/main.s	/^call _RF_SPI_WRITE_READ$/;"	l
+call	c_demo/main.s	/^call _RSSI_INITIAL$/;"	l
+call	c_demo/main.s	/^call _Read_FIFO$/;"	l
+call	c_demo/main.s	/^call _Reg_Initial$/;"	l
+call	c_demo/main.s	/^call _Resume_Table$/;"	l
+call	c_demo/main.s	/^call _Test_Table$/;"	l
+call	c_demo/main.s	/^call _Wait_PKT_High$/;"	l
+call	c_demo/main.s	/^call _Write_FIFO$/;"	l
+ccounter	c_demo/main.s	/^ccounter equ pr1$/;"	d
+cfg	cim.c	/^	u32 cfg;$/;"	m	struct:__anon3	file:
+check_frametable	c_demo/elan.c	/^static unsigned char check_frametable[]={0X4E,0X02,0X43,0XC4,0X44,0X06,0X45,0X10,$/;"	v	file:
+check_frametable	elan.c	/^static unsigned char check_frametable[]={0X4E,0X02,0X43,0XC4,0X44,0X06,0X45,0X10,$/;"	v	file:
+cim_config	cim.c	/^static void cim_config(cim_config_t *c)$/;"	f	file:
+cim_config_t	cim.c	/^} cim_config_t;$/;"	t	typeref:struct:__anon3	file:
+cim_desc	cim.c	/^struct cim_desc {$/;"	s	file:
+cim_dev	cim.c	/^static struct cim_device *cim_dev;$/;"	v	typeref:struct:cim_device	file:
+cim_device	cim.c	/^struct cim_device {$/;"	s	file:
+cim_exit	cim.c	/^module_exit(cim_exit);$/;"	v
+cim_exit	cim.c	/^static void __exit cim_exit(void)$/;"	f	file:
+cim_fb_alloc	cim.c	/^static int cim_fb_alloc(void)$/;"	f	file:
+cim_fb_destroy	cim.c	/^static void cim_fb_destroy(void)$/;"	f	file:
+cim_fops	cim.c	/^static struct file_operations cim_fops = $/;"	v	typeref:struct:file_operations	file:
+cim_init	cim.c	/^module_init(cim_init);$/;"	v
+cim_init	cim.c	/^static int __init cim_init(void)$/;"	f	file:
+cim_ioctl	cim.c	/^static int cim_ioctl(struct inode *inode, struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+cim_irq_handler	cim.c	/^static irqreturn_t cim_irq_handler(int irq, void *dev_id)$/;"	f	file:
+cim_open	cim.c	/^static int cim_open(struct inode *inode, struct file *filp)$/;"	f	file:
+cim_read	cim.c	/^static ssize_t cim_read(struct file *filp, char *buf, size_t size, loff_t *l)$/;"	f	file:
+cim_release	cim.c	/^static int cim_release(struct inode *inode, struct file *filp)$/;"	f	file:
+cim_start_dma	cim.c	/^static int cim_start_dma(char *ubuf)$/;"	f	file:
+cim_stop	cim.c	/^static void cim_stop(void)$/;"	f	file:
+cim_write	cim.c	/^static ssize_t cim_write(struct file *filp, const char *buf, size_t size, loff_t *l)$/;"	f	file:
+clkch	jz_tssi.h	/^	unsigned char clkch;$/;"	m	struct:jz_tssi_cfg_t
+clkpola	jz_tssi.h	/^	unsigned char clkpola;$/;"	m	struct:jz_tssi_cfg_t
+clr	c_demo/main.s	/^clr CHK_PLLD_bp-5$/;"	l
+clr	c_demo/main.s	/^clr CHK_PLLD_bp-8$/;"	l
+clr	c_demo/main.s	/^clr EM198850_REG_INITIAL1_bp-5$/;"	l
+clr	c_demo/main.s	/^clr EM198850_REG_INITIAL2_bp-5$/;"	l
+clr	c_demo/main.s	/^clr EM198850_REG_Test_bp-5$/;"	l
+clr	c_demo/main.s	/^clr EM198850_REG_Test_bp-8$/;"	l
+clr	c_demo/main.s	/^clr RSSI_INITIAL_bp-6$/;"	l
+clr	c_demo/main.s	/^clr RSSI_INITIAL_bp-7$/;"	l
+clr	c_demo/main.s	/^clr _CMPCON$/;"	l
+clr	c_demo/main.s	/^clr _ISR1$/;"	l
+clr	c_demo/main.s	/^clr _ISR2$/;"	l
+clr	c_demo/main.s	/^clr _PORT6$/;"	l
+clr	c_demo/main.s	/^clr _PORT7$/;"	l
+clr	c_demo/main.s	/^clr _PORT8$/;"	l
+clr	c_demo/main.s	/^clr _R0$/;"	l
+clr	c_demo/main.s	/^clr _SPIRB$/;"	l
+clr	c_demo/main.s	/^clr _SPIS$/;"	l
+clr	c_demo/main.s	/^clr _SPIWB$/;"	l
+clr	c_demo/main.s	/^clr _TC1CR$/;"	l
+clr	c_demo/main.s	/^clr _TC2CR$/;"	l
+clr	c_demo/main.s	/^clr _TC3CR$/;"	l
+clr	c_demo/main.s	/^clr _URC1$/;"	l
+clr	c_demo/main.s	/^clr _URC2$/;"	l
+clr	c_demo/main.s	/^clr _URS$/;"	l
+codec_read_battery	jz_ts.c	/^unsigned int (*codec_read_battery)(void) = NULL;$/;"	v
+ctrl	cim.c	/^	u32 ctrl;$/;"	m	struct:__anon3	file:
+cur_buf	jz_tssi.h	/^	struct jz_tssi_buf_ring_t *cur_buf;$/;"	m	struct:jz_tssi_t	typeref:struct:jz_tssi_t::jz_tssi_buf_ring_t
+cur_config	jz_tssi.h	/^	struct jz_tssi_cfg_t cur_config;$/;"	m	struct:jz_tssi_t	typeref:struct:jz_tssi_t::jz_tssi_cfg_t
+cur_pnp_stat	udc_hotplug.c	/^static struct udc_pnp_stat cur_pnp_stat;$/;"	v	typeref:struct:udc_pnp_stat	file:
+d4g_init	em198850.c	/^void *2d4g_init(void *context, void (*smsspi_interruptHandler) (void *),$/;"	f
+d4g_init	em198850.c	/^void 2d4g_init()$/;"	f
+data_s	jz_sadc.c	/^static datasource_t data_s;$/;"	v	file:
+dataploa	jz_tssi.h	/^	unsigned char dataploa;$/;"	m	struct:jz_tssi_cfg_t
+datasource	jz_sadc.c	/^typedef struct datasource {$/;"	s	file:
+datasource_t	jz_sadc.c	/^}datasource_t;$/;"	t	typeref:struct:datasource	file:
+db	c_demo/main.s	/^db 0$/;"	l
+db	c_demo/main.s	/^db 1$/;"	l
+db	c_demo/main.s	/^db 10$/;"	l
+db	c_demo/main.s	/^db 100$/;"	l
+db	c_demo/main.s	/^db 102$/;"	l
+db	c_demo/main.s	/^db 11$/;"	l
+db	c_demo/main.s	/^db 113$/;"	l
+db	c_demo/main.s	/^db 119$/;"	l
+db	c_demo/main.s	/^db 12$/;"	l
+db	c_demo/main.s	/^db 128$/;"	l
+db	c_demo/main.s	/^db 129$/;"	l
+db	c_demo/main.s	/^db 13$/;"	l
+db	c_demo/main.s	/^db 132$/;"	l
+db	c_demo/main.s	/^db 138$/;"	l
+db	c_demo/main.s	/^db 14$/;"	l
+db	c_demo/main.s	/^db 145$/;"	l
+db	c_demo/main.s	/^db 15$/;"	l
+db	c_demo/main.s	/^db 152$/;"	l
+db	c_demo/main.s	/^db 16$/;"	l
+db	c_demo/main.s	/^db 162$/;"	l
+db	c_demo/main.s	/^db 167$/;"	l
+db	c_demo/main.s	/^db 17$/;"	l
+db	c_demo/main.s	/^db 173$/;"	l
+db	c_demo/main.s	/^db 184$/;"	l
+db	c_demo/main.s	/^db 189$/;"	l
+db	c_demo/main.s	/^db 192$/;"	l
+db	c_demo/main.s	/^db 195$/;"	l
+db	c_demo/main.s	/^db 196$/;"	l
+db	c_demo/main.s	/^db 198$/;"	l
+db	c_demo/main.s	/^db 2$/;"	l
+db	c_demo/main.s	/^db 218$/;"	l
+db	c_demo/main.s	/^db 224$/;"	l
+db	c_demo/main.s	/^db 229$/;"	l
+db	c_demo/main.s	/^db 24$/;"	l
+db	c_demo/main.s	/^db 250$/;"	l
+db	c_demo/main.s	/^db 255$/;"	l
+db	c_demo/main.s	/^db 26$/;"	l
+db	c_demo/main.s	/^db 28$/;"	l
+db	c_demo/main.s	/^db 3$/;"	l
+db	c_demo/main.s	/^db 32$/;"	l
+db	c_demo/main.s	/^db 33$/;"	l
+db	c_demo/main.s	/^db 34$/;"	l
+db	c_demo/main.s	/^db 35$/;"	l
+db	c_demo/main.s	/^db 36$/;"	l
+db	c_demo/main.s	/^db 37$/;"	l
+db	c_demo/main.s	/^db 38$/;"	l
+db	c_demo/main.s	/^db 39$/;"	l
+db	c_demo/main.s	/^db 4$/;"	l
+db	c_demo/main.s	/^db 40$/;"	l
+db	c_demo/main.s	/^db 41$/;"	l
+db	c_demo/main.s	/^db 42$/;"	l
+db	c_demo/main.s	/^db 43$/;"	l
+db	c_demo/main.s	/^db 44$/;"	l
+db	c_demo/main.s	/^db 45$/;"	l
+db	c_demo/main.s	/^db 46$/;"	l
+db	c_demo/main.s	/^db 47$/;"	l
+db	c_demo/main.s	/^db 48$/;"	l
+db	c_demo/main.s	/^db 49$/;"	l
+db	c_demo/main.s	/^db 5$/;"	l
+db	c_demo/main.s	/^db 50$/;"	l
+db	c_demo/main.s	/^db 51$/;"	l
+db	c_demo/main.s	/^db 59$/;"	l
+db	c_demo/main.s	/^db 6$/;"	l
+db	c_demo/main.s	/^db 64$/;"	l
+db	c_demo/main.s	/^db 65$/;"	l
+db	c_demo/main.s	/^db 66$/;"	l
+db	c_demo/main.s	/^db 67$/;"	l
+db	c_demo/main.s	/^db 68$/;"	l
+db	c_demo/main.s	/^db 69$/;"	l
+db	c_demo/main.s	/^db 7$/;"	l
+db	c_demo/main.s	/^db 70$/;"	l
+db	c_demo/main.s	/^db 71$/;"	l
+db	c_demo/main.s	/^db 72$/;"	l
+db	c_demo/main.s	/^db 73$/;"	l
+db	c_demo/main.s	/^db 74$/;"	l
+db	c_demo/main.s	/^db 75$/;"	l
+db	c_demo/main.s	/^db 76$/;"	l
+db	c_demo/main.s	/^db 77$/;"	l
+db	c_demo/main.s	/^db 78$/;"	l
+db	c_demo/main.s	/^db 79$/;"	l
+db	c_demo/main.s	/^db 8$/;"	l
+db	c_demo/main.s	/^db 80$/;"	l
+db	c_demo/main.s	/^db 81$/;"	l
+db	c_demo/main.s	/^db 82$/;"	l
+db	c_demo/main.s	/^db 83$/;"	l
+db	c_demo/main.s	/^db 84$/;"	l
+db	c_demo/main.s	/^db 85$/;"	l
+db	c_demo/main.s	/^db 86$/;"	l
+db	c_demo/main.s	/^db 87$/;"	l
+db	c_demo/main.s	/^db 88$/;"	l
+db	c_demo/main.s	/^db 9$/;"	l
+db	c_demo/main.s	/^db 93$/;"	l
+dbg	jz_ts.c	38;"	d	file:
+dbg	jz_ts.c	40;"	d	file:
+dbg	jz_tssi.c	45;"	d	file:
+dbg	jz_tssi.c	47;"	d	file:
+dev_minor	jzchars.h	/^	unsigned short dev_minor;$/;"	m	struct:__anon1
+dma_chan	jz_sadc.c	/^	int dma_chan;$/;"	m	struct:sadc_device	file:
+dma_chan	jz_tssi.h	/^	int dma_chan, pid_num;$/;"	m	struct:jz_tssi_t
+dmacmd	cim.c	/^	u32 dmacmd;     \/* DMA command *\/$/;"	m	struct:cim_desc	file:
+do_cpu_mode_test	jz_ow.c	/^static void do_cpu_mode_test(void)$/;"	f	file:
+do_interrupt_mode_test	jz_ow.c	/^static void do_interrupt_mode_test(void)$/;"	f	file:
+do_ow_rddata	jz_ow.c	/^static void do_ow_rddata(void)$/;"	f	file:
+do_ow_rst	jz_ow.c	/^static void do_ow_rst(void)$/;"	f	file:
+do_ow_wr0	jz_ow.c	/^static void do_ow_wr0(void)$/;"	f	file:
+do_ow_wr1rd	jz_ow.c	/^static void do_ow_wr1rd(void)$/;"	f	file:
+do_ow_wrdata	jz_ow.c	/^static void do_ow_wrdata(void)$/;"	f	file:
+dprintk	poweroff.c	42;"	d	file:
+dprintk	poweroff.c	44;"	d	file:
+dprintk	udc_hotplug.c	34;"	d	file:
+ds	c_demo/main.s	/^ds 1$/;"	l
+dummy_device	c_demo/smsspiphy_jz.c	/^unsigned char *dummy_device = 0x12345678;$/;"	v
+dump_dma_channel	jz_tssi.c	/^void dump_dma_channel(unsigned int dmanr)$/;"	f
+em198850_exit	c_demo/elan.c	/^module_exit(em198850_exit);$/;"	v
+em198850_exit	elan.c	/^module_exit(em198850_exit);$/;"	v
+em198850_exit	elan.c	/^static void __exit em198850_exit()$/;"	f	file:
+em198850_init	c_demo/elan.c	/^module_init(em198850_init);$/;"	v
+em198850_init	elan.c	/^module_init(em198850_init);$/;"	v
+em198850_init	elan.c	/^static int __init em198850_init()$/;"	f	file:
+em198850_reg_init1	c_demo/elan.c	/^static void em198850_reg_init1()$/;"	f	file:
+em198850_reg_init1	elan.c	/^static void em198850_reg_init1()$/;"	f	file:
+em198850_reg_init2	c_demo/elan.c	/^static void em198850_reg_init2()$/;"	f	file:
+em198850_reg_init2	elan.c	/^static void em198850_reg_init2()$/;"	f	file:
+em198850_reg_read	c_demo/elan.c	/^static unsigned char em198850_reg_read(unsigned char addr)$/;"	f	file:
+em198850_reg_read	elan.c	/^static unsigned char em198850_reg_read(unsigned char addr)$/;"	f	file:
+em198850_reg_test	c_demo/elan.c	/^static unsigned char em198850_reg_test()$/;"	f	file:
+em198850_reg_test	elan.c	/^static unsigned char em198850_reg_test()$/;"	f	file:
+em198850_reg_write	c_demo/elan.c	/^static void em198850_reg_write(unsigned char addr, unsigned char data)$/;"	f	file:
+em198850_reg_write	elan.c	/^static void em198850_reg_write(unsigned char addr, unsigned char data)$/;"	f	file:
+end	c_demo/644_c.bat	/^:end$/;"	l
+err	jz_ts.c	42;"	d	file:
+err	jz_tssi.c	49;"	d	file:
+event_add	jz_ts.c	/^static void event_add(struct jz_ts_t *ts, struct ts_event *event)$/;"	f	file:
+event_buf	jz_ts.h	/^	struct ts_event event_buf[EVENT_BUFSIZE];\/\/ The event queue$/;"	m	struct:jz_ts_t	typeref:struct:jz_ts_t::ts_event
+event_count	jz_ts.h	/^	int event_count;$/;"	m	struct:jz_ts_t
+event_pull	jz_ts.c	/^static int event_pull(struct jz_ts_t *ts, struct ts_event *event)$/;"	f	file:
+exit_ata2508	ata2508.c	/^module_exit(exit_ata2508);$/;"	v
+exit_ata2508	ata2508.c	/^static void __exit exit_ata2508(void)$/;"	f	file:
+extrn	c_demo/main.s	/^extrn _IntVecIdx$/;"	l
+failpola	jz_tssi.h	/^	unsigned char failpola;$/;"	m	struct:jz_tssi_cfg_t
+fasync	jz_ts.h	/^	struct fasync_struct *fasync;     \/\/ asynch notification$/;"	m	struct:jz_ts_t	typeref:struct:jz_ts_t::fasync_struct
+filter	jz_ts.h	/^        int filter, prints;$/;"	m	struct:jz_ts_t
+first_read	jz_ts.h	/^	int first_read;$/;"	m	struct:jz_ts_t
+first_time	ak4182.c	/^static int first_time = 0;$/;"	v	file:
+first_time	jz_sadc.c	/^static int first_time = 0;$/;"	v	file:
+first_time	ucb1400.c	/^static int first_time = 0;$/;"	v	file:
+fm_device	radio-rda5807p.c	/^static struct miscdevice fm_device = {$/;"	v	typeref:struct:miscdevice	file:
+fm_fops	radio-rda5807p.c	/^static struct file_operations fm_fops = {$/;"	v	typeref:struct:file_operations	file:
+fm_ioctl	radio-rda5807p.c	/^static int fm_ioctl(struct inode *inode, struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+fm_open	radio-rda5807p.c	/^static int fm_open(struct inode *inode, struct file *filp)$/;"	f	file:
+fm_read	radio-rda5807p.c	/^static ssize_t fm_read(struct file *filp, char __user *buf, size_t count, loff_t *f_ops)$/;"	f	file:
+fm_release	radio-rda5807p.c	/^static int fm_release(struct inode *inode, struct file *filp)$/;"	f	file:
+fm_write	radio-rda5807p.c	/^static ssize_t fm_write(struct file *filp, char __user *buf, size_t count, loff_t *f_ops)$/;"	f	file:
+fops	jzchars.h	/^	struct file_operations *fops;$/;"	m	struct:__anon1	typeref:struct:__anon1::file_operations
+frame_desc	cim.c	/^	struct cim_desc frame_desc __attribute__ ((aligned (16)));$/;"	m	struct:cim_device	typeref:struct:cim_device::cim_desc	file:
+frame_size	cim.c	/^	unsigned int frame_size;$/;"	m	struct:cim_device	file:
+frame_table	c_demo/elan.c	/^static unsigned char frame_table[]={0X4E,0X02,0X4D,0X01,0X42,0X98,0X43,0XC4,0X44,0X06,$/;"	v	file:
+frame_table	elan.c	/^static unsigned char frame_table[]={0X4E,0X02,0X4D,0X01,0X42,0X98,0X43,0XC4,0X44,0X06,$/;"	v	file:
+frame_table2	c_demo/elan.c	/^static unsigned char frame_table2[]={0X05,0X40,0X02,0X00,0X0C,0XE0,0XFF};$/;"	v	file:
+frame_table2	elan.c	/^static unsigned char frame_table2[]={0X05,0X40,0X02,0X00,0X0C,0XE0,0XFF};$/;"	v	file:
+framebuf	cim.c	/^	u32 framebuf;   \/* Physical address of frame buffer *\/$/;"	m	struct:cim_desc	file:
+framebuf	cim.c	/^	unsigned char *framebuf;$/;"	m	struct:cim_device	file:
+frameid	cim.c	/^	u32 frameid;    \/* Frame ID *\/ $/;"	m	struct:cim_desc	file:
+freq	radio-rda5807p.c	/^unsigned int freq[220];$/;"	v
+frmpola	jz_tssi.h	/^	unsigned char frmpola;$/;"	m	struct:jz_tssi_cfg_t
+front	jz_tssi.h	/^	struct jz_tssi_buf	*front;$/;"	m	struct:jz_tssi_buf_ring_t	typeref:struct:jz_tssi_buf_ring_t::jz_tssi_buf
+fu_num	jz_tssi.h	/^	unsigned int  fu_num;$/;"	m	struct:jz_tssi_buf_ring_t
+fwDnlComplete	c_demo/smsspiphy_jz.c	/^void fwDnlComplete(void *context, int App)$/;"	f
+height	cim.c	/^	u32 height;$/;"	m	struct:__anon2	file:
+height	cim.h	/^	u32 height;$/;"	m	struct:__anon4
+i2c_addr	ata2508.c	/^static unsigned int i2c_addr = 0x58;$/;"	v	file:
+i2c_clk	ata2508.c	/^static unsigned int i2c_clk = 100000;$/;"	v	file:
+img_bpp	cim.c	/^static int img_width = MAX_IMAGE_WIDTH, img_height = MAX_IMAGE_HEIGHT, img_bpp = MAX_IMAGE_BPP;$/;"	v	file:
+img_height	cim.c	/^static int img_width = MAX_IMAGE_WIDTH, img_height = MAX_IMAGE_HEIGHT, img_bpp = MAX_IMAGE_BPP;$/;"	v	file:
+img_param_t	cim.c	/^} img_param_t;$/;"	t	typeref:struct:__anon2	file:
+img_width	cim.c	/^static int img_width = MAX_IMAGE_WIDTH, img_height = MAX_IMAGE_HEIGHT, img_bpp = MAX_IMAGE_BPP;$/;"	v	file:
+index	jz_tssi.h	/^	unsigned int   index;$/;"	m	struct:jz_tssi_buf
+info	jz_ts.c	43;"	d	file:
+info	jz_tssi.c	50;"	d	file:
+init_ata2508	ata2508.c	/^module_init(init_ata2508);$/;"	v
+init_ata2508	ata2508.c	/^static int __init init_ata2508(void)$/;"	f	file:
+init_data_alpha	ata2508.c	/^const unsigned char init_data_alpha[] = {\/\/Address:0x00-0x0C$/;"	v
+init_data_burst	ata2508.c	/^const unsigned char init_data_burst[] = {\/\/Address:0x0D-0x3E$/;"	v
+inited	wm9712.c	/^static int inited = 0, started = 0;$/;"	v	file:
+iopage	c_demo/644.H	/^io	unsigned char	IMR2		@0X0E:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io	unsigned char	P56PD		@0X0B:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io	unsigned char	P5CR		@0X05:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io	unsigned char	P6CR		@0X06:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io	unsigned char	P6OD		@0X0C:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io	unsigned char	P6PH		@0X0D:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io	unsigned char	P8CR		@0X08:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io	unsigned char	WDTCR		@0X0A:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io 	unsigned char	P7CR		@0X07:iopage 0;$/;"	v
+iopage	c_demo/644.H	/^io  unsigned char	IMR1		@0X0F:iopage 0;$/;"	v
+irq_enabled	ak4182.h	/^	int			irq_enabled;$/;"	m	struct:ak4182
+irq_enabled	jz_ts.h	/^	int irq_enabled;$/;"	m	struct:jz_ts_t
+irq_enabled	ucb1400.h	/^	int			irq_enabled;$/;"	m	struct:ucb1400
+irq_fal_enbl	ak4182.h	/^	u16			irq_fal_enbl;$/;"	m	struct:ak4182
+irq_fal_enbl	ucb1400.h	/^	u16			irq_fal_enbl;$/;"	m	struct:ucb1400
+irq_handler	wm9712.c	/^static void (*irq_handler)(int, void *, struct pt_regs *) = NULL;$/;"	v	file:
+irq_ris_enbl	ak4182.h	/^	u16			irq_ris_enbl;$/;"	m	struct:ak4182
+irq_ris_enbl	ucb1400.h	/^	u16			irq_ris_enbl;$/;"	m	struct:ucb1400
+jbc	c_demo/main.s	/^jbc STATUS,cf$/;"	l
+jbc	c_demo/main.s	/^jbc STATUS,zf$/;"	l
+jbc	c_demo/main.s	/^jbc _P73,3$/;"	l
+jbc	c_demo/main.s	/^jbc _SSE,4$/;"	l
+jbs	c_demo/main.s	/^jbs STATUS,zf$/;"	l
+jbs	c_demo/main.s	/^jbs _Bit_TX,BIT$/;"	l
+jbs	c_demo/main.s	/^jbs _PKT_FLAG,7$/;"	l
+jmp	c_demo/main.s	/^jmp @L$2$/;"	l
+jmp	c_demo/main.s	/^jmp @L$213$/;"	l
+jmp	c_demo/main.s	/^jmp @L$214$/;"	l
+jmp	c_demo/main.s	/^jmp @L$215$/;"	l
+jmp	c_demo/main.s	/^jmp @L$216$/;"	l
+jmp	c_demo/main.s	/^jmp @L$218$/;"	l
+jmp	c_demo/main.s	/^jmp @L$238$/;"	l
+jmp	c_demo/main.s	/^jmp @L$249$/;"	l
+jmp	c_demo/main.s	/^jmp @L$250$/;"	l
+jmp	c_demo/main.s	/^jmp @L$273$/;"	l
+jmp	c_demo/main.s	/^jmp @L$274$/;"	l
+jmp	c_demo/main.s	/^jmp @L$289$/;"	l
+jmp	c_demo/main.s	/^jmp @L$3$/;"	l
+jmp	c_demo/main.s	/^jmp @L$332$/;"	l
+jmp	c_demo/main.s	/^jmp @L$333$/;"	l
+jmp	c_demo/main.s	/^jmp @L$351$/;"	l
+jmp	c_demo/main.s	/^jmp @L$352$/;"	l
+jmp	c_demo/main.s	/^jmp @L$370$/;"	l
+jmp	c_demo/main.s	/^jmp @L$371$/;"	l
+jmp	c_demo/main.s	/^jmp @L$373$/;"	l
+jmp	c_demo/main.s	/^jmp @L$396$/;"	l
+jmp	c_demo/main.s	/^jmp @L$397$/;"	l
+jmp	c_demo/main.s	/^jmp @L$399$/;"	l
+jmp	c_demo/main.s	/^jmp @L$4$/;"	l
+jmp	c_demo/main.s	/^jmp @L$401$/;"	l
+jmp	c_demo/main.s	/^jmp @L$402$/;"	l
+jmp	c_demo/main.s	/^jmp @L$443$/;"	l
+jmp	c_demo/main.s	/^jmp @L$444$/;"	l
+jmp	c_demo/main.s	/^jmp @L$445$/;"	l
+jmp	c_demo/main.s	/^jmp @L$446$/;"	l
+jmp	c_demo/main.s	/^jmp @L$46$/;"	l
+jmp	c_demo/main.s	/^jmp @L$47$/;"	l
+jmp	c_demo/main.s	/^jmp @L$472$/;"	l
+jmp	c_demo/main.s	/^jmp @L$473$/;"	l
+jmp	c_demo/main.s	/^jmp @L$5$/;"	l
+jmp	c_demo/main.s	/^jmp @L$524$/;"	l
+jmp	c_demo/main.s	/^jmp @L$525$/;"	l
+jmp	c_demo/main.s	/^jmp @L$544$/;"	l
+jmp	c_demo/main.s	/^jmp @L$554$/;"	l
+jmp	c_demo/main.s	/^jmp @L$555$/;"	l
+jmp	c_demo/main.s	/^jmp @L$7$/;"	l
+jmp	c_demo/main.s	/^jmp @L$8$/;"	l
+jz4740_adc_read	jz_sadc.c	/^static int  jz4740_adc_read(struct jz_ts_t *ts)$/;"	f	file:
+jz4740_read_battery	jz_sadc.c	/^unsigned int jz4740_read_battery(void)$/;"	f
+jz_acq_timer	jz_ts.c	/^jz_acq_timer(unsigned long data)$/;"	f	file:
+jz_char_dev_t	jzchars.h	/^} jz_char_dev_t;$/;"	t	typeref:struct:__anon1
+jz_char_devs	jzchars.c	/^LIST_HEAD(jz_char_devs);$/;"	v
+jz_char_family_exit	jzchars.c	/^module_exit(jz_char_family_exit);$/;"	v
+jz_char_family_exit	jzchars.c	/^static void __exit jz_char_family_exit(void)$/;"	f	file:
+jz_char_family_init	jzchars.c	/^module_init(jz_char_family_init);$/;"	v
+jz_char_family_init	jzchars.c	/^static int __init jz_char_family_init(void)$/;"	f	file:
+jz_char_fops	jzchars.c	/^static struct file_operations jz_char_fops =$/;"	v	typeref:struct:file_operations	file:
+jz_char_ioctl	jzchars.c	/^static int jz_char_ioctl(struct inode *inode, struct file *filp,$/;"	f	file:
+jz_char_open	jzchars.c	/^static int jz_char_open(struct inode *inode, struct file *filp)$/;"	f	file:
+jz_char_read	jzchars.c	/^static ssize_t jz_char_read(struct file *filp, char *buf,$/;"	f	file:
+jz_char_release	jzchars.c	/^static int jz_char_release(struct inode *inode, struct file *filp)$/;"	f	file:
+jz_char_write	jzchars.c	/^static ssize_t jz_char_write(struct file *filp, const char *buf,$/;"	f	file:
+jz_fasync	jz_ts.c	/^jz_fasync(int fd, struct file *filp, int mode)$/;"	f	file:
+jz_ioctl	jz_ts.c	/^static int jz_ioctl(struct inode *inode, struct file *file, unsigned int ioctl_num, unsigned long ioctl_param)$/;"	f	file:
+jz_ioctl	jz_tssi.c	/^static int jz_ioctl(struct inode *inode, struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+jz_open	jz_ts.c	/^jz_open(struct inode * inode, struct file * filp)$/;"	f	file:
+jz_open	jz_tssi.c	/^static int jz_open(struct inode * inode, struct file * filp)$/;"	f	file:
+jz_poll	jz_ts.c	/^jz_poll(struct file * filp, poll_table * wait)$/;"	f	file:
+jz_read	jz_ts.c	/^jz_read(struct file * filp, char * buffer, size_t count, loff_t * ppos)$/;"	f	file:
+jz_read	jz_tssi.c	/^static ssize_t jz_read(struct file * filp, char * buffer, size_t count, loff_t * ppos)$/;"	f	file:
+jz_read_battery	jz_ts.c	/^unsigned int jz_read_battery(void)$/;"	f
+jz_register_chrdev	jzchars.c	/^EXPORT_SYMBOL(jz_register_chrdev);$/;"	v
+jz_register_chrdev	jzchars.c	/^int jz_register_chrdev(unsigned char minor, const char *name,$/;"	f
+jz_release	jz_ts.c	/^jz_release(struct inode * inode, struct file * filp)$/;"	f	file:
+jz_release	jz_tssi.c	/^static int jz_release(struct inode * inode, struct file * filp)$/;"	f	file:
+jz_spi_deinit	c_demo/elan.c	/^static void jz_spi_deinit()$/;"	f	file:
+jz_spi_deinit	elan.c	/^static void jz_spi_deinit()$/;"	f	file:
+jz_spi_init	c_demo/elan.c	/^static void jz_spi_init()$/;"	f	file:
+jz_spi_init	elan.c	/^static void jz_spi_init()$/;"	f	file:
+jz_ts	jz_ts.c	/^static struct jz_ts_t jz_ts;$/;"	v	typeref:struct:jz_ts_t	file:
+jz_ts_dev	jz_ts.c	/^static struct miscdevice jz_ts_dev = {$/;"	v	typeref:struct:miscdevice	file:
+jz_ts_t	jz_ts.h	/^struct jz_ts_t {$/;"	s
+jz_tssi_buf	jz_tssi.h	/^struct jz_tssi_buf$/;"	s
+jz_tssi_buf_ring_t	jz_tssi.h	/^struct jz_tssi_buf_ring_t$/;"	s
+jz_tssi_cfg_t	jz_tssi.h	/^struct jz_tssi_cfg_t$/;"	s
+jz_tssi_g	jz_tssi.c	/^static struct jz_tssi_t jz_tssi_g;$/;"	v	typeref:struct:jz_tssi_t	file:
+jz_tssi_ring_g	jz_tssi.c	/^static struct jz_tssi_buf_ring_t jz_tssi_ring_g;$/;"	v	typeref:struct:jz_tssi_buf_ring_t	file:
+jz_tssi_t	jz_tssi.h	/^struct jz_tssi_t$/;"	s
+jz_udc_active	udc_hotplug.c	/^EXPORT_SYMBOL(jz_udc_active);$/;"	v
+jz_udc_active	udc_hotplug.c	/^int jz_udc_active = 0; \/* 0: Have no actions; 1: Have actions *\/$/;"	v
+jz_unregister_chrdev	jzchars.c	/^EXPORT_SYMBOL(jz_unregister_chrdev);$/;"	v
+jz_unregister_chrdev	jzchars.c	/^int jz_unregister_chrdev(unsigned char minor, const char *name)$/;"	f
+jzts_cleanup_module	jz_ts.c	/^module_exit(jzts_cleanup_module);$/;"	v
+jzts_cleanup_module	jz_ts.c	/^static void jzts_cleanup_module(void)$/;"	f	file:
+jzts_init_module	jz_ts.c	/^module_init(jzts_init_module);$/;"	v
+jzts_init_module	jz_ts.c	/^static int __init jzts_init_module(void)$/;"	f	file:
+jztssi_cleanup_module	jz_tssi.c	/^module_exit(jztssi_cleanup_module);$/;"	v
+jztssi_cleanup_module	jz_tssi.c	/^static void jztssi_cleanup_module(void)$/;"	f	file:
+jztssi_init_module	jz_tssi.c	/^module_init(jztssi_init_module);$/;"	v
+jztssi_init_module	jz_tssi.c	/^static int __init jztssi_init_module(void)$/;"	f	file:
+kudcd_task	udc_hotplug.c	/^static struct task_struct *kudcd_task;$/;"	v	typeref:struct:task_struct	file:
+l009_gsensor_flag	sensor.c	/^EXPORT_SYMBOL(l009_gsensor_flag);$/;"	v
+l009_gsensor_flag	sensor.c	/^unsigned int l009_gsensor_flag = 0;$/;"	v
+l009_gsensor_read	sensor.c	/^EXPORT_SYMBOL(l009_gsensor_read);$/;"	v
+l009_gsensor_read	sensor.c	/^unsigned int l009_gsensor_read()$/;"	f
+last_p	ak4182.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_p	jz_sadc.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_p	ucb1400.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_x	ak4182.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_x	jz_sadc.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_x	ucb1400.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_y	ak4182.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_y	jz_sadc.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+last_y	ucb1400.c	/^static unsigned long last_x, last_y, last_p;$/;"	v	file:
+list	jzchars.h	/^	struct list_head list;$/;"	m	struct:__anon1	typeref:struct:__anon1::list_head
+lock	ak4182.h	/^	spinlock_t		lock;$/;"	m	struct:ak4182
+lock	jz_ts.h	/^	spinlock_t lock;$/;"	m	struct:jz_ts_t
+lock	ucb1400.h	/^	spinlock_t		lock;$/;"	m	struct:ucb1400
+main	c_demo/main.c	/^void main()$/;"	f
+maxx	jz_ts.h	/^        int minx, miny, maxx, maxy;$/;"	m	struct:jz_ts_t
+maxx_setup	jz_ts.c	/^static int __init maxx_setup(char *str)$/;"	f	file:
+maxy	jz_ts.h	/^        int minx, miny, maxx, maxy;$/;"	m	struct:jz_ts_t
+maxy_setup	jz_ts.c	/^static int __init maxy_setup(char *str)$/;"	f	file:
+mclk	cim.c	/^	u32 mclk;$/;"	m	struct:__anon3	file:
+minx	jz_ts.h	/^        int minx, miny, maxx, maxy;$/;"	m	struct:jz_ts_t
+minx_setup	jz_ts.c	/^static int __init minx_setup(char *str)$/;"	f	file:
+miny	jz_ts.h	/^        int minx, miny, maxx, maxy;$/;"	m	struct:jz_ts_t
+miny_setup	jz_ts.c	/^static int __init miny_setup(char *str)$/;"	f	file:
+mode	jz_sadc.c	/^	int mode;$/;"	m	struct:sadc_device	file:
+mode	jz_tssi.h	/^	unsigned char mode;$/;"	m	struct:jz_tssi_cfg_t
+mov	c_demo/main.s	/^mov		A,@0X80$/;"	l
+mov	c_demo/main.s	/^mov CHK_PLLD_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov CHK_PLLD_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov CHK_PLLD_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov CHK_PLLD_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Chk_Up_Down_Board_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Chk_Up_Down_Board_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Chk_Up_Down_Board_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Chk_Up_Down_Board_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Clr_All_Ram_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Clr_All_Ram_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Clr_All_Ram_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Clr_All_Ram_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1ms_bp+0,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1ms_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1ms_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1ms_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1ms_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1us_bp+0,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1us_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1us_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1us_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Delay_1us_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_Initial_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_Initial_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_Initial_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_Initial_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL1_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL1_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL1_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL1_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL2_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL2_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL2_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_INITIAL2_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_READ_bp+0,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_READ_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_READ_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_READ_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_READ_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_Test_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_Test_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_Test_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_Test_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_WRITE_bp+0,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_WRITE_bp+1,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_WRITE_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_WRITE_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_WRITE_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov EM198850_REG_WRITE_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov RF_CHANNEL_SET_bp+0,a$/;"	l
+mov	c_demo/main.s	/^mov RF_CHANNEL_SET_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov RF_CHANNEL_SET_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov RF_CHANNEL_SET_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov RF_CHANNEL_SET_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_RX_NoAck_NoCRC_Payload5_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov RF_Enter_TX_NoAck_NoCRC_Payload5_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov RF_SPI_WRITE_READ_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov RF_SPI_WRITE_READ_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov RF_SPI_WRITE_READ_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov RF_SPI_WRITE_READ_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov RSSI_INITIAL_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov RSSI_INITIAL_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov RSSI_INITIAL_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov RSSI_INITIAL_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Read_FIFO_bp+0,a$/;"	l
+mov	c_demo/main.s	/^mov Read_FIFO_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Read_FIFO_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Read_FIFO_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Read_FIFO_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Reg_Initial_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Reg_Initial_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Reg_Initial_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Reg_Initial_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Wait_PKT_High_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Wait_PKT_High_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Wait_PKT_High_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Wait_PKT_High_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov Write_FIFO_bp+0,a$/;"	l
+mov	c_demo/main.s	/^mov Write_FIFO_bp-1,a$/;"	l
+mov	c_demo/main.s	/^mov Write_FIFO_bp-2,a$/;"	l
+mov	c_demo/main.s	/^mov Write_FIFO_bp-3,a$/;"	l
+mov	c_demo/main.s	/^mov Write_FIFO_bp-4,a$/;"	l
+mov	c_demo/main.s	/^mov a,@0$/;"	l
+mov	c_demo/main.s	/^mov a,@1$/;"	l
+mov	c_demo/main.s	/^mov a,@112$/;"	l
+mov	c_demo/main.s	/^mov a,@127$/;"	l
+mov	c_demo/main.s	/^mov a,@128$/;"	l
+mov	c_demo/main.s	/^mov a,@129$/;"	l
+mov	c_demo/main.s	/^mov a,@132$/;"	l
+mov	c_demo/main.s	/^mov a,@135$/;"	l
+mov	c_demo/main.s	/^mov a,@159$/;"	l
+mov	c_demo/main.s	/^mov a,@16$/;"	l
+mov	c_demo/main.s	/^mov a,@17$/;"	l
+mov	c_demo/main.s	/^mov a,@2$/;"	l
+mov	c_demo/main.s	/^mov a,@20$/;"	l
+mov	c_demo/main.s	/^mov a,@200$/;"	l
+mov	c_demo/main.s	/^mov a,@202$/;"	l
+mov	c_demo/main.s	/^mov a,@23$/;"	l
+mov	c_demo/main.s	/^mov a,@248$/;"	l
+mov	c_demo/main.s	/^mov a,@250$/;"	l
+mov	c_demo/main.s	/^mov a,@255$/;"	l
+mov	c_demo/main.s	/^mov a,@32$/;"	l
+mov	c_demo/main.s	/^mov a,@5$/;"	l
+mov	c_demo/main.s	/^mov a,@63$/;"	l
+mov	c_demo/main.s	/^mov a,@64$/;"	l
+mov	c_demo/main.s	/^mov a,@65$/;"	l
+mov	c_demo/main.s	/^mov a,@67$/;"	l
+mov	c_demo/main.s	/^mov a,@68$/;"	l
+mov	c_demo/main.s	/^mov a,@69$/;"	l
+mov	c_demo/main.s	/^mov a,@71$/;"	l
+mov	c_demo/main.s	/^mov a,@74$/;"	l
+mov	c_demo/main.s	/^mov a,@75$/;"	l
+mov	c_demo/main.s	/^mov a,@81$/;"	l
+mov	c_demo/main.s	/^mov a,@82$/;"	l
+mov	c_demo/main.s	/^mov a,@85$/;"	l
+mov	c_demo/main.s	/^mov a,@96$/;"	l
+mov	c_demo/main.s	/^mov a,@Read_FIFO_bp-9$/;"	l
+mov	c_demo/main.s	/^mov a,CHK_PLLD_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,CHK_PLLD_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,CHK_PLLD_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,CHK_PLLD_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Chk_Up_Down_Board_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Chk_Up_Down_Board_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Chk_Up_Down_Board_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Chk_Up_Down_Board_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Clr_All_Ram_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Clr_All_Ram_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Clr_All_Ram_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Clr_All_Ram_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1ms_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1ms_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1ms_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1ms_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1us_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1us_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1us_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Delay_1us_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_Initial_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_Initial_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_Initial_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_Initial_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL1_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL1_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL1_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL1_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL2_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL2_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL2_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_INITIAL2_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_READ_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_READ_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_READ_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_READ_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_Test_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_Test_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_Test_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_Test_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_WRITE_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_WRITE_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_WRITE_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,EM198850_REG_WRITE_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,RF_CHANNEL_SET_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,RF_CHANNEL_SET_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,RF_CHANNEL_SET_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,RF_CHANNEL_SET_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_RX_NoAck_NoCRC_Payload5_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,RF_Enter_TX_NoAck_NoCRC_Payload5_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,RF_SPI_WRITE_READ_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,RF_SPI_WRITE_READ_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,RF_SPI_WRITE_READ_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,RF_SPI_WRITE_READ_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,RSSI_INITIAL_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,RSSI_INITIAL_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,RSSI_INITIAL_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,RSSI_INITIAL_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Read_FIFO_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Read_FIFO_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Read_FIFO_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Read_FIFO_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Reg_Initial_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Reg_Initial_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Reg_Initial_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Reg_Initial_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Wait_PKT_High_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Wait_PKT_High_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Wait_PKT_High_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Wait_PKT_High_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,Write_FIFO_bp-1$/;"	l
+mov	c_demo/main.s	/^mov a,Write_FIFO_bp-2$/;"	l
+mov	c_demo/main.s	/^mov a,Write_FIFO_bp-3$/;"	l
+mov	c_demo/main.s	/^mov a,Write_FIFO_bp-4$/;"	l
+mov	c_demo/main.s	/^mov a,eax$/;"	l
+mov	c_demo/main.s	/^mov a,ecx$/;"	l
+mov	c_demo/main.s	/^mov a,ecx+1$/;"	l
+mov	c_demo/main.s	/^mov a,ecx+2$/;"	l
+mov	c_demo/main.s	/^mov a,ecx+3$/;"	l
+mov	c_demo/main.s	/^mov eax,a$/;"	l
+mov	c_demo/main.s	/^mov ecx+1,a$/;"	l
+mov	c_demo/main.s	/^mov ecx+2,a$/;"	l
+mov	c_demo/main.s	/^mov ecx+3,a$/;"	l
+mov	c_demo/main.s	/^mov ecx,a$/;"	l
+mp4_tint_irq	ata2508.c	/^static irqreturn_t mp4_tint_irq(int irq, void *dev_id)$/;"	f	file:
+name	jzchars.h	/^	char *name;$/;"	m	struct:__anon1
+next	jz_tssi.h	/^	struct jz_tssi_buf *next;$/;"	m	struct:jz_tssi_buf	typeref:struct:jz_tssi_buf::jz_tssi_buf
+nextIn	jz_ts.h	/^	int nextIn, nextOut;$/;"	m	struct:jz_ts_t
+nextOut	jz_ts.h	/^	int nextIn, nextOut;$/;"	m	struct:jz_ts_t
+nextdesc	cim.c	/^	u32 nextdesc;   \/* Physical address of next desc *\/$/;"	m	struct:cim_desc	file:
+nop	c_demo/main.s	/^nop$/;"	l
+num_seconds	poweroff.c	/^static int num_seconds = 0;$/;"	v	file:
+object_stat1	udc_hotplug.c	/^	char object_stat1;$/;"	m	struct:udc_pnp_stat	file:
+object_stat2	udc_hotplug.c	/^	char object_stat2;$/;"	m	struct:udc_pnp_stat	file:
+old_cable_stat	udc_hotplug.c	/^	char cable_stat, old_cable_stat;$/;"	m	struct:udc_pnp_stat	file:
+old_protl_stat	udc_hotplug.c	/^	char protl_stat, old_protl_stat;$/;"	m	struct:udc_pnp_stat	file:
+old_x	jz_sadc.c	/^static unsigned int old_x, old_y;$/;"	v	file:
+old_y	jz_sadc.c	/^static unsigned int old_x, old_y;$/;"	v	file:
+or	c_demo/main.s	/^or a,@128$/;"	l
+or	c_demo/main.s	/^or a,@32$/;"	l
+ow_comm_bit	jz_ow.c	/^static void ow_comm_bit(unsigned comm)$/;"	f	file:
+ow_cpum_read_rom	jz_ow.c	/^static void ow_cpum_read_rom(char *rom)$/;"	f	file:
+ow_cpum_search_rom	jz_ow.c	/^static void ow_cpum_search_rom(void)$/;"	f	file:
+ow_exit	jz_ow.c	/^module_exit(ow_exit);$/;"	v
+ow_exit	jz_ow.c	/^static void __exit ow_exit(void)$/;"	f	file:
+ow_fops	jz_ow.c	/^static struct file_operations ow_fops = $/;"	v	typeref:struct:file_operations	file:
+ow_init	jz_ow.c	/^module_init(ow_init);$/;"	v
+ow_init	jz_ow.c	/^static int __init ow_init(void)$/;"	f	file:
+ow_intcm_read_rom	jz_ow.c	/^static void ow_intcm_read_rom(char *rom)$/;"	f	file:
+ow_intcm_search_rom	jz_ow.c	/^static void ow_intcm_search_rom(void)$/;"	f	file:
+ow_interrupt	jz_ow.c	/^static irqreturn_t ow_interrupt(int irq, void *dev_id)$/;"	f	file:
+ow_ioctl	jz_ow.c	/^static int ow_ioctl(struct inode *inode, struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+ow_open	jz_ow.c	/^static int ow_open(struct inode *inode, struct file *filp)$/;"	f	file:
+ow_read	jz_ow.c	/^static ssize_t ow_read(struct file *filp, char *buf, size_t size, loff_t *l)$/;"	f	file:
+ow_release	jz_ow.c	/^static int ow_release(struct inode *inode, struct file *filp)$/;"	f	file:
+ow_write	jz_ow.c	/^static ssize_t ow_write(struct file *filp, const char *buf, size_t size, loff_t *l)$/;"	f	file:
+owi_register_dump	jz_ow.c	/^static void owi_register_dump(int i)$/;"	f	file:
+owi_register_print	jz_ow.c	/^static void owi_register_print(int i)$/;"	f	file:
+p	jz_sadc.c	/^static unsigned int p;$/;"	v	file:
+pad	jz_ts.h	/^        u16 pad;$/;"	m	struct:ts_event
+page_order	cim.c	/^	unsigned int page_order;$/;"	m	struct:cim_device	file:
+pbat_buf	jz_sadc.c	/^	char *pbat_buf;$/;"	m	struct:sadc_device	file:
+pen_is_down	jz_ts.c	/^static int pen_is_down = 0;$/;"	v	file:
+pen_is_down	jz_ts.h	/^	int pen_is_down;       \/\/ 1 = pen is down, 0 = pen is up$/;"	m	struct:jz_ts_t
+pendown_interrupt	jz_ts.c	/^static irqreturn_t pendown_interrupt(int irq, void * dev_id)$/;"	f	file:
+pendown_irq	jz_ts.h	/^	int pendown_irq;       \/\/ IRQ of pendown interrupt$/;"	m	struct:jz_ts_t
+pid	jz_tssi.h	/^	unsigned short pid;$/;"	m	struct:jz_tssi_cfg_t
+pid_index	jz_tssi.h	/^	unsigned char pid_index;          \/\/0 to 15$/;"	m	struct:jz_tssi_cfg_t
+pid_num	jz_tssi.h	/^	int dma_chan, pid_num;$/;"	m	struct:jz_tssi_t
+pmdev	ak4182.h	/^	struct pm_dev		*pmdev;$/;"	m	struct:ak4182	typeref:struct:ak4182::pm_dev
+pmdev	ucb1400.h	/^	struct pm_dev		*pmdev;$/;"	m	struct:ucb1400	typeref:struct:ucb1400::pm_dev
+pndn_detect	wm9712.c	/^static void pndn_detect(unsigned long data)$/;"	f	file:
+pndn_timer	wm9712.c	/^static struct timer_list pndn_timer;$/;"	v	typeref:struct:timer_list	file:
+pos	jz_tssi.h	/^	unsigned int   pos;$/;"	m	struct:jz_tssi_buf
+power_dev	udc_hotplug.c	/^static struct miscdevice power_dev=$/;"	v	typeref:struct:miscdevice	file:
+power_fops	udc_hotplug.c	/^static struct file_operations power_fops = {$/;"	v	typeref:struct:file_operations	file:
+power_on_chip	radio-rda5807p.c	/^unsigned char power_on_chip[2] = {0xc0, 0x01};$/;"	v
+poweroff_delaytimer	poweroff.c	/^static struct timer_list poweroff_delaytimer;$/;"	v	typeref:struct:timer_list	file:
+poweroff_delaytimer_routine	poweroff.c	/^static void poweroff_delaytimer_routine(unsigned long dummy)$/;"	f	file:
+poweroff_dev	poweroff.c	/^static struct pm_dev *poweroff_dev;$/;"	v	typeref:struct:pm_dev	file:
+poweroff_exit	poweroff.c	/^module_exit(poweroff_exit);$/;"	v
+poweroff_exit	poweroff.c	/^static void __exit poweroff_exit(void)$/;"	f	file:
+poweroff_flag	poweroff.c	/^static int poweroff_flag = 0; $/;"	v	file:
+poweroff_init	poweroff.c	/^module_init(poweroff_init);$/;"	v
+poweroff_init	poweroff.c	/^static int __init poweroff_init(void)$/;"	f	file:
+poweroff_irq	poweroff.c	/^static irqreturn_t poweroff_irq(int irq, void *dev_id)$/;"	f	file:
+poweroff_pm_callback	poweroff.c	/^static int poweroff_pm_callback(struct pm_dev *pm_dev, pm_request_t rqst, void *data)$/;"	f	file:
+poweroff_resume	poweroff.c	/^static int poweroff_resume(int *poweroff)$/;"	f	file:
+poweroff_suspend	poweroff.c	/^static int poweroff_suspend(int *poweroff , int state)$/;"	f	file:
+poweroff_timer	poweroff.c	/^static struct timer_list poweroff_timer;$/;"	v	typeref:struct:timer_list	file:
+poweroff_timer_routine	poweroff.c	/^static void poweroff_timer_routine(unsigned long dummy)$/;"	f	file:
+prepareForFWDnl	c_demo/smsspiphy_jz.c	/^void prepareForFWDnl(void *pSpiPhy)$/;"	f
+pressure	jz_ts.h	/^        u16 pressure;$/;"	m	struct:ts_event
+print_reg	jz_tssi.c	/^static void print_reg( void )$/;"	f	file:
+printraw_setup	jz_ts.c	/^static int __init printraw_setup(char *str)$/;"	f	file:
+prints	jz_ts.h	/^        int filter, prints;$/;"	m	struct:jz_ts_t
+proc_gsensor_read_proc	sensor.c	/^static int proc_gsensor_read_proc($/;"	f	file:
+proc_gsensor_write_proc	sensor.c	/^static int proc_gsensor_write_proc($/;"	f	file:
+proc_sadc_battery_fops	jz_sadc.c	/^static const struct file_operations proc_sadc_battery_fops = {$/;"	v	typeref:struct:file_operations	file:
+proc_sadc_battery_open	jz_sadc.c	/^static int proc_sadc_battery_open(struct inode *inode, struct file *file)$/;"	f	file:
+proc_sadc_battery_show	jz_sadc.c	/^static int proc_sadc_battery_show(struct seq_file *m, void *v)$/;"	f	file:
+protl_stat	udc_hotplug.c	/^	char protl_stat, old_protl_stat;$/;"	m	struct:udc_pnp_stat	file:
+public	c_demo/main.s	/^public ALLint_bp$/;"	l
+public	c_demo/main.s	/^public CHK_PLLD_bp$/;"	l
+public	c_demo/main.s	/^public Chk_Up_Down_Board_bp$/;"	l
+public	c_demo/main.s	/^public Clr_All_Ram_bp$/;"	l
+public	c_demo/main.s	/^public Comparat_l_bp$/;"	l
+public	c_demo/main.s	/^public Delay_1ms_bp$/;"	l
+public	c_demo/main.s	/^public Delay_1us_bp$/;"	l
+public	c_demo/main.s	/^public EM198850_Initial_bp$/;"	l
+public	c_demo/main.s	/^public EM198850_REG_INITIAL1_bp$/;"	l
+public	c_demo/main.s	/^public EM198850_REG_INITIAL2_bp$/;"	l
+public	c_demo/main.s	/^public EM198850_REG_READ_bp$/;"	l
+public	c_demo/main.s	/^public EM198850_REG_Test_bp$/;"	l
+public	c_demo/main.s	/^public EM198850_REG_WRITE_bp$/;"	l
+public	c_demo/main.s	/^public PWMA_l_bp$/;"	l
+public	c_demo/main.s	/^public PWMB_l_bp$/;"	l
+public	c_demo/main.s	/^public RF_CHANNEL_SET_bp$/;"	l
+public	c_demo/main.s	/^public RF_Enter_RX_NoAck_NoCRC_Payload5_bp$/;"	l
+public	c_demo/main.s	/^public RF_Enter_TX_NoAck_NoCRC_Payload5_bp$/;"	l
+public	c_demo/main.s	/^public RF_SPI_WRITE_READ_bp$/;"	l
+public	c_demo/main.s	/^public RSSI_INITIAL_bp$/;"	l
+public	c_demo/main.s	/^public Read_FIFO_bp$/;"	l
+public	c_demo/main.s	/^public Reg_Initial_bp$/;"	l
+public	c_demo/main.s	/^public TC1_l_bp$/;"	l
+public	c_demo/main.s	/^public TC2_l_bp$/;"	l
+public	c_demo/main.s	/^public TC3_l_bp$/;"	l
+public	c_demo/main.s	/^public UARTRE_l_bp$/;"	l
+public	c_demo/main.s	/^public UARTR_l_bp$/;"	l
+public	c_demo/main.s	/^public UARTT_l_bp$/;"	l
+public	c_demo/main.s	/^public Wait_PKT_High_bp$/;"	l
+public	c_demo/main.s	/^public Write_FIFO_bp$/;"	l
+public	c_demo/main.s	/^public _ALLint$/;"	l
+public	c_demo/main.s	/^public _BRATE0$/;"	l
+public	c_demo/main.s	/^public _BRATE1$/;"	l
+public	c_demo/main.s	/^public _BRATE2$/;"	l
+public	c_demo/main.s	/^public _Bit_TX$/;"	l
+public	c_demo/main.s	/^public _C$/;"	l
+public	c_demo/main.s	/^public _CES$/;"	l
+public	c_demo/main.s	/^public _CHK_FrameTable$/;"	l
+public	c_demo/main.s	/^public _CHK_PLLD$/;"	l
+public	c_demo/main.s	/^public _CMP2WE$/;"	l
+public	c_demo/main.s	/^public _CMPCON$/;"	l
+public	c_demo/main.s	/^public _Chk_Up_Down_Board$/;"	l
+public	c_demo/main.s	/^public _Clr_All_Ram$/;"	l
+public	c_demo/main.s	/^public _Comparat_l$/;"	l
+public	c_demo/main.s	/^public _DC$/;"	l
+public	c_demo/main.s	/^public _DORD$/;"	l
+public	c_demo/main.s	/^public _DTAH$/;"	l
+public	c_demo/main.s	/^public _DTBH$/;"	l
+public	c_demo/main.s	/^public _Delay_1ms$/;"	l
+public	c_demo/main.s	/^public _Delay_1us$/;"	l
+public	c_demo/main.s	/^public _EEADDR$/;"	l
+public	c_demo/main.s	/^public _EECR$/;"	l
+public	c_demo/main.s	/^public _EEDATA$/;"	l
+public	c_demo/main.s	/^public _EEDF$/;"	l
+public	c_demo/main.s	/^public _EEPC$/;"	l
+public	c_demo/main.s	/^public _EEWE$/;"	l
+public	c_demo/main.s	/^public _EM198850_Initial$/;"	l
+public	c_demo/main.s	/^public _EM198850_REG_INITIAL1$/;"	l
+public	c_demo/main.s	/^public _EM198850_REG_INITIAL2$/;"	l
+public	c_demo/main.s	/^public _EM198850_REG_READ$/;"	l
+public	c_demo/main.s	/^public _EM198850_REG_Test$/;"	l
+public	c_demo/main.s	/^public _EM198850_REG_WRITE$/;"	l
+public	c_demo/main.s	/^public _EVEN$/;"	l
+public	c_demo/main.s	/^public _EXIF$/;"	l
+public	c_demo/main.s	/^public _EXWE$/;"	l
+public	c_demo/main.s	/^public _FMERR$/;"	l
+public	c_demo/main.s	/^public _FrameTable$/;"	l
+public	c_demo/main.s	/^public _FrameTable2$/;"	l
+public	c_demo/main.s	/^public _ICIF$/;"	l
+public	c_demo/main.s	/^public _ICWE$/;"	l
+public	c_demo/main.s	/^public _IMR1$/;"	l
+public	c_demo/main.s	/^public _IMR2$/;"	l
+public	c_demo/main.s	/^public _ISR1$/;"	l
+public	c_demo/main.s	/^public _ISR2$/;"	l
+public	c_demo/main.s	/^public _LEDC$/;"	l
+public	c_demo/main.s	/^public _OD3$/;"	l
+public	c_demo/main.s	/^public _OD4$/;"	l
+public	c_demo/main.s	/^public _OVERR$/;"	l
+public	c_demo/main.s	/^public _P$/;"	l
+public	c_demo/main.s	/^public _P51$/;"	l
+public	c_demo/main.s	/^public _P52$/;"	l
+public	c_demo/main.s	/^public _P54$/;"	l
+public	c_demo/main.s	/^public _P55$/;"	l
+public	c_demo/main.s	/^public _P56PD$/;"	l
+public	c_demo/main.s	/^public _P5CR$/;"	l
+public	c_demo/main.s	/^public _P6CR$/;"	l
+public	c_demo/main.s	/^public _P6OD$/;"	l
+public	c_demo/main.s	/^public _P6PH$/;"	l
+public	c_demo/main.s	/^public _P73$/;"	l
+public	c_demo/main.s	/^public _P7CR$/;"	l
+public	c_demo/main.s	/^public _P7PD$/;"	l
+public	c_demo/main.s	/^public _P7PH$/;"	l
+public	c_demo/main.s	/^public _P8CR$/;"	l
+public	c_demo/main.s	/^public _PC$/;"	l
+public	c_demo/main.s	/^public _PD72$/;"	l
+public	c_demo/main.s	/^public _PD73$/;"	l
+public	c_demo/main.s	/^public _PD74$/;"	l
+public	c_demo/main.s	/^public _PD75$/;"	l
+public	c_demo/main.s	/^public _PD76$/;"	l
+public	c_demo/main.s	/^public _PD77$/;"	l
+public	c_demo/main.s	/^public _PH72$/;"	l
+public	c_demo/main.s	/^public _PH73$/;"	l
+public	c_demo/main.s	/^public _PH74$/;"	l
+public	c_demo/main.s	/^public _PH75$/;"	l
+public	c_demo/main.s	/^public _PH76$/;"	l
+public	c_demo/main.s	/^public _PH77$/;"	l
+public	c_demo/main.s	/^public _PKT_FLAG$/;"	l
+public	c_demo/main.s	/^public _PORT5$/;"	l
+public	c_demo/main.s	/^public _PORT6$/;"	l
+public	c_demo/main.s	/^public _PORT7$/;"	l
+public	c_demo/main.s	/^public _PORT8$/;"	l
+public	c_demo/main.s	/^public _PRDAH$/;"	l
+public	c_demo/main.s	/^public _PRDBH$/;"	l
+public	c_demo/main.s	/^public _PRE$/;"	l
+public	c_demo/main.s	/^public _PRERR$/;"	l
+public	c_demo/main.s	/^public _PS0$/;"	l
+public	c_demo/main.s	/^public _PS1$/;"	l
+public	c_demo/main.s	/^public _PWMAIF$/;"	l
+public	c_demo/main.s	/^public _PWMA_l$/;"	l
+public	c_demo/main.s	/^public _PWMBIF$/;"	l
+public	c_demo/main.s	/^public _PWMB_l$/;"	l
+public	c_demo/main.s	/^public _PWMCON$/;"	l
+public	c_demo/main.s	/^public _R0$/;"	l
+public	c_demo/main.s	/^public _R4$/;"	l
+public	c_demo/main.s	/^public _RBF$/;"	l
+public	c_demo/main.s	/^public _RD$/;"	l
+public	c_demo/main.s	/^public _RESET_N$/;"	l
+public	c_demo/main.s	/^public _RF_CHANNEL_SET$/;"	l
+public	c_demo/main.s	/^public _RF_Enter_RX_NoAck_NoCRC_Payload5$/;"	l
+public	c_demo/main.s	/^public _RF_Enter_TX_NoAck_NoCRC_Payload5$/;"	l
+public	c_demo/main.s	/^public _RF_SPI_WRITE_READ$/;"	l
+public	c_demo/main.s	/^public _RMUST$/;"	l
+public	c_demo/main.s	/^public _RSSI_INITIAL$/;"	l
+public	c_demo/main.s	/^public _RXE$/;"	l
+public	c_demo/main.s	/^public _Read_FIFO$/;"	l
+public	c_demo/main.s	/^public _Reg_Initial$/;"	l
+public	c_demo/main.s	/^public _Resume_Table$/;"	l
+public	c_demo/main.s	/^public _SBIM0$/;"	l
+public	c_demo/main.s	/^public _SBIM1$/;"	l
+public	c_demo/main.s	/^public _SBRS0$/;"	l
+public	c_demo/main.s	/^public _SBRS1$/;"	l
+public	c_demo/main.s	/^public _SBRS2$/;"	l
+public	c_demo/main.s	/^public _SDOC$/;"	l
+public	c_demo/main.s	/^public _SPIC$/;"	l
+public	c_demo/main.s	/^public _SPIE$/;"	l
+public	c_demo/main.s	/^public _SPIIF$/;"	l
+public	c_demo/main.s	/^public _SPIRB$/;"	l
+public	c_demo/main.s	/^public _SPIS$/;"	l
+public	c_demo/main.s	/^public _SPIWB$/;"	l
+public	c_demo/main.s	/^public _SPIWE$/;"	l
+public	c_demo/main.s	/^public _SPI_CLK$/;"	l
+public	c_demo/main.s	/^public _SPI_SS$/;"	l
+public	c_demo/main.s	/^public _SRO$/;"	l
+public	c_demo/main.s	/^public _SSE$/;"	l
+public	c_demo/main.s	/^public _STATUS$/;"	l
+public	c_demo/main.s	/^public _T$/;"	l
+public	c_demo/main.s	/^public _TC1CAP$/;"	l
+public	c_demo/main.s	/^public _TC1CK0$/;"	l
+public	c_demo/main.s	/^public _TC1CK1$/;"	l
+public	c_demo/main.s	/^public _TC1CR$/;"	l
+public	c_demo/main.s	/^public _TC1ES$/;"	l
+public	c_demo/main.s	/^public _TC1M$/;"	l
+public	c_demo/main.s	/^public _TC1S$/;"	l
+public	c_demo/main.s	/^public _TC1_l$/;"	l
+public	c_demo/main.s	/^public _TC2CK0$/;"	l
+public	c_demo/main.s	/^public _TC2CK1$/;"	l
+public	c_demo/main.s	/^public _TC2CK2$/;"	l
+public	c_demo/main.s	/^public _TC2CR$/;"	l
+public	c_demo/main.s	/^public _TC2DH$/;"	l
+public	c_demo/main.s	/^public _TC2DL$/;"	l
+public	c_demo/main.s	/^public _TC2ES$/;"	l
+public	c_demo/main.s	/^public _TC2M$/;"	l
+public	c_demo/main.s	/^public _TC2S$/;"	l
+public	c_demo/main.s	/^public _TC2_l$/;"	l
+public	c_demo/main.s	/^public _TC3CK0$/;"	l
+public	c_demo/main.s	/^public _TC3CK1$/;"	l
+public	c_demo/main.s	/^public _TC3CK2$/;"	l
+public	c_demo/main.s	/^public _TC3CR$/;"	l
+public	c_demo/main.s	/^public _TC3FF0$/;"	l
+public	c_demo/main.s	/^public _TC3FF1$/;"	l
+public	c_demo/main.s	/^public _TC3M0$/;"	l
+public	c_demo/main.s	/^public _TC3M1$/;"	l
+public	c_demo/main.s	/^public _TC3_l$/;"	l
+public	c_demo/main.s	/^public _TCC$/;"	l
+public	c_demo/main.s	/^public _TCIF$/;"	l
+public	c_demo/main.s	/^public _TCR1DA$/;"	l
+public	c_demo/main.s	/^public _TCR1DB$/;"	l
+public	c_demo/main.s	/^public _TCR3D$/;"	l
+public	c_demo/main.s	/^public _TCS3S$/;"	l
+public	c_demo/main.s	/^public _TD0$/;"	l
+public	c_demo/main.s	/^public _TD1$/;"	l
+public	c_demo/main.s	/^public _TMRCON$/;"	l
+public	c_demo/main.s	/^public _TXE$/;"	l
+public	c_demo/main.s	/^public _Test_Table$/;"	l
+public	c_demo/main.s	/^public _UARTRE_l$/;"	l
+public	c_demo/main.s	/^public _UARTR_l$/;"	l
+public	c_demo/main.s	/^public _UARTT_l$/;"	l
+public	c_demo/main.s	/^public _UINVEN$/;"	l
+public	c_demo/main.s	/^public _UMODE0$/;"	l
+public	c_demo/main.s	/^public _UMODE1$/;"	l
+public	c_demo/main.s	/^public _URBF$/;"	l
+public	c_demo/main.s	/^public _URC1$/;"	l
+public	c_demo/main.s	/^public _URC2$/;"	l
+public	c_demo/main.s	/^public _URRD$/;"	l
+public	c_demo/main.s	/^public _URRD8$/;"	l
+public	c_demo/main.s	/^public _URS$/;"	l
+public	c_demo/main.s	/^public _URTD$/;"	l
+public	c_demo/main.s	/^public _URTD8$/;"	l
+public	c_demo/main.s	/^public _UTBE$/;"	l
+public	c_demo/main.s	/^public _WDTCR$/;"	l
+public	c_demo/main.s	/^public _WR$/;"	l
+public	c_demo/main.s	/^public _WUCR$/;"	l
+public	c_demo/main.s	/^public _Wait_PKT_High$/;"	l
+public	c_demo/main.s	/^public _Write_FIFO$/;"	l
+public	c_demo/main.s	/^public _Z$/;"	l
+public	c_demo/main.s	/^public _ext_interrupt_l$/;"	l
+public	c_demo/main.s	/^public _main$/;"	l
+public	c_demo/main.s	/^public _port6pinchange_l$/;"	l
+public	c_demo/main.s	/^public _spi_l$/;"	l
+public	c_demo/main.s	/^public _tccint_l$/;"	l
+public	c_demo/main.s	/^public ext_interrupt_l_bp$/;"	l
+public	c_demo/main.s	/^public main_bp$/;"	l
+public	c_demo/main.s	/^public port6pinchange_l_bp$/;"	l
+public	c_demo/main.s	/^public spi_l_bp$/;"	l
+public	c_demo/main.s	/^public tccint_l_bp$/;"	l
+radio_reset	radio-rda5807p.c	/^static void radio_reset(void)$/;"	f	file:
+radio_set_volume	radio-rda5807p.c	/^static void radio_set_volume(int val)$/;"	f	file:
+radio_write_reg	radio-rda5807p.c	/^void radio_write_reg(int addr, int val)$/;"	f
+radio_write_reg_bit	radio-rda5807p.c	/^static int radio_write_reg_bit(int addr, int bitval, int mask_bit)$/;"	f	file:
+rda5807p_exit	radio-rda5807p.c	/^module_exit(rda5807p_exit);$/;"	v
+rda5807p_exit	radio-rda5807p.c	/^static void __exit rda5807p_exit(void)$/;"	f	file:
+rda5807p_freq_to_chan	radio-rda5807p.c	/^u16 rda5807p_freq_to_chan(u16 frequency) $/;"	f
+rda5807p_init	radio-rda5807p.c	/^module_init(rda5807p_init);$/;"	v
+rda5807p_init	radio-rda5807p.c	/^static int __init rda5807p_init(void)$/;"	f	file:
+rda5807p_set_freq	radio-rda5807p.c	/^void rda5807p_set_freq(u16 cur_freq)$/;"	f
+read_adc	wm9712.c	/^static int read_adc(unsigned int *sdata)$/;"	f	file:
+read_data	radio-rda5807p.c	/^unsigned char read_data[5] = {0x00, 0x00, 0x00, 0x00, 0x00};$/;"	v
+read_fifo	c_demo/elan.c	/^static void read_fifo(unsigned char *data, unsigned char cnt)$/;"	f	file:
+read_fifo	elan.c	/^static void read_fifo(unsigned char *data, unsigned char cnt)$/;"	f	file:
+read_reg	ata2508.c	/^static u8 read_reg(u8 reg)$/;"	f	file:
+rear	jz_tssi.h	/^	struct jz_tssi_buf	*rear;$/;"	m	struct:jz_tssi_buf_ring_t	typeref:struct:jz_tssi_buf_ring_t::jz_tssi_buf
+reset_chip	radio-rda5807p.c	/^unsigned char reset_chip[2] = {0x00, 0x02};$/;"	v
+resume_table	c_demo/elan.c	/^static unsigned char resume_table[]={0x07,0x18,0x0E,0X11,0X2E,0X03,0X0E,0X91,0XFF};$/;"	v	file:
+resume_table	elan.c	/^static unsigned char resume_table[]={0x07,0x18,0x0E,0X11,0X2E,0X03,0X0E,0X91,0XFF};$/;"	v	file:
+ret	c_demo/main.s	/^ret$/;"	l
+reti	c_demo/main.s	/^reti$/;"	l
+rf_channel_set	c_demo/elan.c	/^static void rf_channel_set(unsigned char channel)$/;"	f	file:
+rf_channel_set	elan.c	/^static void rf_channel_set(unsigned char channel)$/;"	f	file:
+rf_enter_rx_noack_nocrc_payload5	c_demo/elan.c	/^static void rf_enter_rx_noack_nocrc_payload5()$/;"	f	file:
+rf_enter_rx_noack_nocrc_payload5	elan.c	/^static void rf_enter_rx_noack_nocrc_payload5()$/;"	f	file:
+rf_enter_tx_noack_nocrc_payload5	c_demo/elan.c	/^static void rf_enter_tx_noack_nocrc_payload5()$/;"	f	file:
+rf_enter_tx_noack_nocrc_payload5	elan.c	/^static void rf_enter_tx_noack_nocrc_payload5()$/;"	f	file:
+rpage	c_demo/644.H	/^bit	C			@0X03@0:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit	EVEN		@0X0C@0X06:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	FMERR		@0X0C@0X02:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	OD3			@0X0B@0X03:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit	OVERR		@0X0C@0X03:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	P			@0X03@3:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit	P73			@0X07@0X03:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit	PD72		@0X0F@0X02:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit	PH72		@0X0F@0X02:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PH73		@0X0F@0X03:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PH74		@0X0F@0X04:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PH75		@0X0F@0X05:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PH76		@0X0F@0X06:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PH77		@0X0F@0X07:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PRE			@0X0C@0X05:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PRERR		@0X0C@0X04:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	PS0			@0X03@5:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit	PS1			@0X03@6:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit	RXE			@0X0C@0X00:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	SBIM0		@0X0B@0X04:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	SBRS0		@0X0C@0X00:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit	SBRS1		@0X0C@0X01:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit	SSE			@0X0C@0X04:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit	TC1ES		@0X05@0X02:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit	TC3CK0		@0X0D@0X02:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit	TC3CK1		@0X0D@0X03:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit	TC3FF1		@0X0D@0X07:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit	TC3M1		@0X0D@0X01:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit	TCS3S		@0X0D@0X05:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit	UINVEN		@0X0B@0X03:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	URBF		@0X0C@0X01:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	URRD8		@0X0C@0X07:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit	Z			@0X03@2:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit BRATE0		@0X0A@0X02:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit BRATE1		@0X0A@0X03:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit BRATE2		@0X0A@0X04:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit CES			@0X0C@0X07:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit CMP2WE		@0X0A@0X07:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit DC			@0X03@1:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit DORD		@0X0B@0X07:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit EEDF		@0X0B@0X04:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit EEPC		@0X0B@0X03:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit EEWE		@0X0B@0X05:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit EXIF		@0X0F@0X02:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit EXWE		@0X0A@0X04:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit ICIF		@0X0F@0X01:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit ICWE		@0X0A@0X06:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit LEDC		@0X05@6:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit OD4			@0X0B@0X02:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit P51			@0X05@1:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit P52			@0X05@2:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit P54			@0X05@4:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit P55			@0X05@5:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit PD73		@0X0F@0X03:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit PD74		@0X0F@0X04:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit PD75		@0X0F@0X05:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit PD76		@0X0F@0X06:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit PD77		@0X0F@0X07:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit PKT_FLAG	@0X07@0X07:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit PWMAIF		@0X0F@0X03:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit PWMBIF		@0X0F@0X04:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit RBF			@0X0B@0X00:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit RD			@0X0B@0X07:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit RESET_N		@0X05@7:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit SBIM1		@0X0B@0X05:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit SBRS2		@0X0C@0X02:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit SDOC		@0X0C@0X03:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit SPIE		@0X0C@0X06:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit SPIIF		@0X0F@0X05:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit SPIWE		@0X0A@0X03:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit SPI_CLK		@0X05@3:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit SPI_SS		@0X05@0:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit SRO			@0X0C@0X05:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit T			@0X03@4:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit TC1CAP		@0X05@0X07:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC1CK0		@0X05@0X04:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC1CK1		@0X05@0X05:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC1M		@0X05@0X03:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC1S		@0X05@0X06:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC2CK0		@0X08@0X00:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC2CK1		@0X08@0X01:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC2CK2		@0X08@0X02:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC2ES		@0X08@0X05:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC2M		@0X08@0X04:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC2S		@0X08@0X03:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TC3CK2		@0X0D@0X04:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit TC3FF0		@0X0D@0X06:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit TC3M0		@0X0D@0X00:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^bit TCIF		@0X0F@0X00:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^bit TD0			@0X0B@0X05:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TD1			@0X0B@0X06:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^bit TXE			@0X0A@0X00:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit UMODE0		@0X0A@0X05:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit UMODE1		@0X0A@0X06:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit URTD8		@0X0A@0X07:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit UTBE		@0X0A@0X01:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^bit WR			@0X0B@0X06:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	CMPCON		@0X07:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	DTAH		@0X0A:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	DTBH		@0X0C:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	EEADDR	@0X0C:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	EECR	@0X0B:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	EEDATA	@0X0D:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	ISR1	@0X0F:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	ISR2	@0X0F:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	P7PD		@0X0F:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	P7PH		@0X0F:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PC		@0X02:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PORT5	@0X05:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PORT6	@0X06:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PORT7	@0X07:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PORT8	@0X08:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PRDAH		@0X09:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PRDBH		@0X0B:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	PWMCON		@0X08:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	R0		@0X00:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	R4	@0X04:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	RMUST	@0X0E:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	SPIC	@0X0C:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	SPIRB	@0X0D:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	SPIS	@0X0B:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	SPIWB	@0X0E:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	STATUS	@0X03:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TC1CR	@0X05:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TC2CR	@0X08:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TC2DH	@0X09:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TC2DL	@0X0A:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TC3CR		@0X0D:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TCC		@0X01:rpage 0;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TCR1DA	@0X06:rpage 1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TCR1DB	@0X07:rpage	1;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TCR3D		@0X0E:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	TMRCON		@0X05:rpage 3;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	URC1	@0X0A:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	URC2	@0X0B:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	URRD		@0X0D:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	URS		@0X0C:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	URTD		@0X0E:rpage 2;$/;"	v
+rpage	c_demo/644.H	/^unsigned char	WUCR	@0X0A:rpage 0;$/;"	v
+rssi_init	c_demo/elan.c	/^static void rssi_init()$/;"	f	file:
+rssi_init	elan.c	/^static void rssi_init()$/;"	f	file:
+run_sbin_hotplug	poweroff.c	/^static void run_sbin_hotplug(int state)$/;"	f	file:
+run_sbin_poweroff	poweroff.c	/^static void run_sbin_poweroff()$/;"	f	file:
+sadc_dev	jz_sadc.c	/^static struct sadc_device *sadc_dev;$/;"	v	typeref:struct:sadc_device	file:
+sadc_device	jz_sadc.c	/^struct sadc_device {$/;"	s	file:
+sadc_exit	jz_sadc.c	/^module_exit(sadc_exit);$/;"	v
+sadc_exit	jz_sadc.c	/^static void __exit sadc_exit(void)$/;"	f	file:
+sadc_fops	jz_sadc.c	/^static struct file_operations sadc_fops = $/;"	v	typeref:struct:file_operations	file:
+sadc_init	jz_sadc.c	/^module_init(sadc_init);$/;"	v
+sadc_init	jz_sadc.c	/^static int __init sadc_init(void)$/;"	f	file:
+sadc_init_clock	jz_sadc.c	/^static void sadc_init_clock(int div)$/;"	f	file:
+sadc_ioctl	jz_sadc.c	/^static int sadc_ioctl(struct inode *inode, struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+sadc_open	jz_sadc.c	/^static int sadc_open(struct inode *inode, struct file *filp)$/;"	f	file:
+sadc_release	jz_sadc.c	/^static int sadc_release(struct inode *inode, struct file *filp)$/;"	f	file:
+samples	ak4182.c	/^static int samples = 5;$/;"	v	file:
+samples	jz_sadc.c	/^static int samples = 3; \/* we sample 3 every time *\/$/;"	v	file:
+samples	ucb1400.c	/^static int samples = 5; \/* we sample 5 every time, and throw away the max and min cases, then use the average of the other 3 samples *\/$/;"	v	file:
+samples	wm9712.c	/^static int samples = 1;$/;"	v	file:
+send_event_udev	udc_hotplug.c	/^static void send_event_udev(int event)$/;"	f	file:
+sensor_exit	sensor.c	/^module_exit(sensor_exit);$/;"	v
+sensor_exit	sensor.c	/^static void __exit sensor_exit(void)$/;"	f	file:
+sensor_init	sensor.c	/^module_init(sensor_init);$/;"	v
+sensor_init	sensor.c	/^static int __init sensor_init(void)$/;"	f	file:
+set_playback_line_input_audio	radio-rda5807p.c	/^static void set_playback_line_input_audio(void)$/;"	f	file:
+set_threshold	radio-rda5807p.c	/^unsigned char set_threshold[2]={0x08, 0xa8};$/;"	v
+set_tune	radio-rda5807p.c	/^unsigned char set_tune[2] = {0x00, 0x10};$/;"	v
+sleeping	jz_ts.h	/^	int sleeping;$/;"	m	struct:jz_ts_t
+smschipreset	c_demo/smsspiphy_jz.c	/^void smschipreset(void *context)$/;"	f
+smsspibus_xfer	c_demo/smsspiphy_jz.c	/^void smsspibus_xfer(void *context, unsigned char *txbuf,$/;"	f
+smsspibus_xfer	em198850.c	/^void smsspibus_xfer(void *context, unsigned char *txbuf,$/;"	f
+smsspiphy_deinit	c_demo/smsspiphy_jz.c	/^void smsspiphy_deinit(void *context)$/;"	f
+smsspiphy_deinit	em198850.c	/^void smsspiphy_deinit(void *context)$/;"	f
+smsspiphy_init	c_demo/smsspiphy_jz.c	/^void *smsspiphy_init(void *context, void (*smsspi_interruptHandler) (void *),$/;"	f
+spi_read_char	elan.c	/^static unsigned char spi_read_char()$/;"	f	file:
+spi_rw_char	c_demo/elan.c	/^static unsigned char spi_rw_char(unsigned char wr_data)$/;"	f	file:
+spi_rw_char	c_demo/smsspiphy_jz.c	/^unsigned char spi_rw_char(unsigned char wr_data)$/;"	f
+spi_rw_char	em198850.c	/^unsigned char spi_rw_char(unsigned char wr_data)$/;"	f
+spi_write_char	elan.c	/^static  void spi_write_char(unsigned char wr_data)$/;"	f	file:
+start_pbat_adc	jz_sadc.c	/^void start_pbat_adc(void)$/;"	f
+start_sadcin	jz_sadc.c	/^void start_sadcin(void)$/;"	f
+start_ts_adc	jz_sadc.c	/^void start_ts_adc(void)$/;"	f
+started	wm9712.c	/^static int inited = 0, started = 0;$/;"	v	file:
+status	jz_ts.h	/^	u16 status;$/;"	m	struct:ts_event
+strpola	jz_tssi.h	/^	unsigned char strpola;$/;"	m	struct:jz_tssi_cfg_t
+sub	c_demo/main.s	/^sub ecx,a$/;"	l
+suspend_flag	poweroff.c	/^static int suspend_flag = 0;$/;"	v	file:
+suspend_handler	poweroff.c	/^static void suspend_handler(struct work_struct *work)$/;"	f	file:
+suspend_work	poweroff.c	/^static struct work_struct suspend_work;$/;"	v	typeref:struct:work_struct	file:
+tcsm_exit	tcsm.c	/^module_exit(tcsm_exit);$/;"	v
+tcsm_exit	tcsm.c	/^static void __exit tcsm_exit(void)$/;"	f	file:
+tcsm_fops	tcsm.c	/^static struct file_operations tcsm_fops = $/;"	v	typeref:struct:file_operations	file:
+tcsm_init	tcsm.c	/^module_init(tcsm_init);$/;"	v
+tcsm_init	tcsm.c	/^static int __init tcsm_init(void)$/;"	f	file:
+tcsm_ioctl	tcsm.c	/^static int tcsm_ioctl(struct inode *inode, struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+tcsm_open	tcsm.c	/^static int tcsm_open(struct inode *inode, struct file *filp)$/;"	f	file:
+tcsm_read	tcsm.c	/^static ssize_t tcsm_read(struct file *filp, char *buf, size_t size, loff_t *l)$/;"	f	file:
+tcsm_release	tcsm.c	/^static int tcsm_release(struct inode *inode, struct file *filp)$/;"	f	file:
+tcsm_write	tcsm.c	/^static ssize_t tcsm_write(struct file *filp, const char *buf, size_t size, loff_t *l)$/;"	f	file:
+test_table	c_demo/elan.c	/^static unsigned char test_table[]={0X07,0X58,0X0E,0X11,0X2E,0X23,0X0E,0X91,0XFF};$/;"	v	file:
+test_table	elan.c	/^static unsigned char test_table[]={0X07,0X58,0X0E,0X11,0X2E,0X23,0X0E,0X91,0XFF};$/;"	v	file:
+transform_to_screen_x	ak4182.c	/^static unsigned long transform_to_screen_x(struct jz_ts_t *ts, unsigned long x )$/;"	f	file:
+transform_to_screen_x	jz_sadc.c	/^static unsigned long transform_to_screen_x(struct jz_ts_t *ts, unsigned long x )$/;"	f	file:
+transform_to_screen_x	ucb1400.c	/^static unsigned long transform_to_screen_x(struct jz_ts_t *ts, unsigned long x )$/;"	f	file:
+transform_to_screen_x	wm9712.c	/^static unsigned long transform_to_screen_x(struct jz_ts_t *ts, unsigned long x )$/;"	f	file:
+transform_to_screen_y	ak4182.c	/^static unsigned long transform_to_screen_y(struct jz_ts_t *ts, unsigned long y)$/;"	f	file:
+transform_to_screen_y	jz_sadc.c	/^static unsigned long transform_to_screen_y(struct jz_ts_t *ts, unsigned long y)$/;"	f	file:
+transform_to_screen_y	ucb1400.c	/^static unsigned long transform_to_screen_y(struct jz_ts_t *ts, unsigned long y)$/;"	f	file:
+transform_to_screen_y	wm9712.c	/^static unsigned long transform_to_screen_y(struct jz_ts_t *ts, unsigned long y)$/;"	f	file:
+trignum	jz_tssi.h	/^	unsigned char trignum;$/;"	m	struct:jz_tssi_cfg_t
+ts_buf	jz_sadc.c	/^	char *ts_buf;$/;"	m	struct:sadc_device	file:
+ts_data_ready	jz_sadc.c	/^void ts_data_ready(void)$/;"	f
+ts_disable_irq	ak4182.c	/^void ts_disable_irq(void)$/;"	f
+ts_disable_irq	jz_sadc.c	/^void ts_disable_irq(void)$/;"	f
+ts_disable_irq	ucb1400.c	/^void ts_disable_irq(void)$/;"	f
+ts_disable_irq	wm9712.c	/^void ts_disable_irq(void)$/;"	f
+ts_enable_irq	ak4182.c	/^void ts_enable_irq(void)$/;"	f
+ts_enable_irq	jz_sadc.c	/^void ts_enable_irq(void)$/;"	f
+ts_enable_irq	ucb1400.c	/^void ts_enable_irq(void)$/;"	f
+ts_enable_irq	wm9712.c	/^void ts_enable_irq(void)$/;"	f
+ts_event	jz_ts.h	/^struct ts_event {$/;"	s
+ts_fops	jz_ts.c	/^static struct file_operations ts_fops = {$/;"	v	typeref:struct:file_operations	file:
+ts_free_irq	ak4182.c	/^void ts_free_irq(struct jz_ts_t *ts)$/;"	f
+ts_free_irq	jz_sadc.c	/^void ts_free_irq(struct jz_ts_t *ts)$/;"	f
+ts_free_irq	ucb1400.c	/^void ts_free_irq(struct jz_ts_t *ts)$/;"	f
+ts_free_irq	wm9712.c	/^void ts_free_irq(struct jz_ts_t *ts)$/;"	f
+ts_irq_callback	ak4182.c	/^void ts_irq_callback(void)$/;"	f
+ts_irq_callback	jz_sadc.c	/^void ts_irq_callback(void)$/;"	f
+ts_irq_callback	ucb1400.c	/^void ts_irq_callback(void)$/;"	f
+ts_irq_callback	wm9712.c	/^void ts_irq_callback(void)$/;"	f
+ts_request_irq	ak4182.c	/^int ts_request_irq(u32 *irq, $/;"	f
+ts_request_irq	jz_sadc.c	/^int ts_request_irq(u32 *irq, $/;"	f
+ts_request_irq	ucb1400.c	/^int ts_request_irq(u32 *irq, $/;"	f
+ts_request_irq	wm9712.c	/^int ts_request_irq(u32 *irq, $/;"	f
+tssi_add_pid	jz_tssi.c	/^static void tssi_add_pid(int pid_num, int pid)$/;"	f	file:
+tssi_buf_init	jz_tssi.c	/^static int tssi_buf_init( struct jz_tssi_buf_ring_t * ring ) 	$/;"	f	file:
+tssi_config_filting	jz_tssi.c	/^static void tssi_config_filting( void )$/;"	f	file:
+tssi_dma_irq	jz_tssi.c	/^static irqreturn_t tssi_dma_irq(int irq, void * dev_id)$/;"	f	file:
+tssi_dma_reinit	jz_tssi.c	/^static int tssi_dma_reinit(int dma_chan, unsigned char *dma_buf, int size)$/;"	f	file:
+tssi_fops	jz_tssi.c	/^static struct file_operations tssi_fops = {$/;"	v	typeref:struct:file_operations	file:
+tssi_free_buf	jz_tssi.c	/^static void tssi_free_buf( struct jz_tssi_buf_ring_t * ring )$/;"	f	file:
+tssi_interrupt	jz_tssi.c	/^static irqreturn_t tssi_interrupt(int irq, void * dev_id)$/;"	f	file:
+tssi_sem	jz_tssi.h	/^	struct semaphore	tssi_sem;$/;"	m	struct:jz_tssi_t	typeref:struct:jz_tssi_t::semaphore
+ucb	ucb1400.c	/^static struct ucb1400 *ucb;$/;"	v	typeref:struct:ucb1400	file:
+ucb1400	ucb1400.h	/^struct ucb1400 {$/;"	s
+ucb1400_adc_disable	ucb1400.c	/^static void ucb1400_adc_disable(void)$/;"	f	file:
+ucb1400_adc_enable	ucb1400.c	/^static void ucb1400_adc_enable(void)$/;"	f	file:
+ucb1400_adc_read	ucb1400.c	/^static unsigned int ucb1400_adc_read(int adc_channel, int sync)$/;"	f	file:
+ucb1400_cleanup	ucb1400.c	/^module_exit(ucb1400_cleanup);$/;"	v
+ucb1400_cleanup	ucb1400.c	/^void ucb1400_cleanup(void)$/;"	f
+ucb1400_disable_irq	ucb1400.c	/^static void ucb1400_disable_irq(unsigned int idx, int edges)$/;"	f	file:
+ucb1400_enable_irq	ucb1400.c	/^static void ucb1400_enable_irq(unsigned int idx, int edges)$/;"	f	file:
+ucb1400_init	ucb1400.c	/^int __init ucb1400_init(void)$/;"	f
+ucb1400_init	ucb1400.c	/^module_init(ucb1400_init);$/;"	v
+ucb1400_read_battery	ucb1400.c	/^unsigned int ucb1400_read_battery(void)$/;"	f
+ucb1400_reg_read	ucb1400.c	/^static inline unsigned int ucb1400_reg_read(unsigned char reg)$/;"	f	file:
+ucb1400_reg_write	ucb1400.c	/^static inline void ucb1400_reg_write(unsigned char reg, unsigned short val)$/;"	f	file:
+ucb1400_ts_mode_int	ucb1400.c	/^static inline void ucb1400_ts_mode_int(void)$/;"	f	file:
+ucb1400_ts_read_pressure	ucb1400.c	/^static inline unsigned int ucb1400_ts_read_pressure(void)$/;"	f	file:
+ucb1400_ts_read_xpos	ucb1400.c	/^static inline unsigned int ucb1400_ts_read_xpos(void)$/;"	f	file:
+ucb1400_ts_read_ypos	ucb1400.c	/^static inline unsigned int ucb1400_ts_read_ypos(void)$/;"	f	file:
+ucb_id	ucb1400.c	/^static unsigned int ucb_id = 0;$/;"	v	file:
+uchar	c_demo/main.c	2;"	d	file:
+udc_get_cable	udc_hotplug.c	/^static void udc_get_cable(void)$/;"	f	file:
+udc_get_pnp_stat	udc_hotplug.c	/^static int udc_get_pnp_stat(void)$/;"	f	file:
+udc_gpio_timer	udc_hotplug.c	/^static struct timer_list udc_long_timer, udc_gpio_timer;$/;"	v	typeref:struct:	file:
+udc_gpio_timer_routine	udc_hotplug.c	/^static void udc_gpio_timer_routine(unsigned long data)$/;"	f	file:
+udc_hotplug_exit	udc_hotplug.c	/^module_exit(udc_hotplug_exit);$/;"	v
+udc_hotplug_exit	udc_hotplug.c	/^static void __exit udc_hotplug_exit(void)$/;"	f	file:
+udc_hotplug_init	udc_hotplug.c	/^module_init(udc_hotplug_init);$/;"	v
+udc_hotplug_init	udc_hotplug.c	/^static int __init udc_hotplug_init(void)$/;"	f	file:
+udc_long_timer	udc_hotplug.c	/^static struct timer_list udc_long_timer, udc_gpio_timer;$/;"	v	typeref:struct:timer_list	file:
+udc_long_timer_routine	udc_hotplug.c	/^static void udc_long_timer_routine(unsigned long data)$/;"	f	file:
+udc_old_state	udc_hotplug.c	/^static int udc_old_state;$/;"	v	file:
+udc_pin_level	udc_hotplug.c	/^static int udc_pin_level;$/;"	v	file:
+udc_pin_time	udc_hotplug.c	/^static int udc_pin_time;$/;"	v	file:
+udc_pnp_detect	udc_hotplug.c	/^static void udc_pnp_detect(void)$/;"	f	file:
+udc_pnp_irq	udc_hotplug.c	/^static irqreturn_t udc_pnp_irq(int irq, void *dev_id)$/;"	f	file:
+udc_pnp_set_gpio	udc_hotplug.c	/^EXPORT_SYMBOL(udc_pnp_set_gpio);$/;"	v
+udc_pnp_set_gpio	udc_hotplug.c	/^void udc_pnp_set_gpio(void)$/;"	f
+udc_pnp_stat	udc_hotplug.c	/^struct udc_pnp_stat$/;"	s	file:
+udc_pnp_thread	udc_hotplug.c	/^static int udc_pnp_thread(void *unused)$/;"	f	file:
+udc_thread_run_flag	udc_hotplug.c	/^static int udc_thread_run_flag = 0;$/;"	v	file:
+use0	jz_tssi.h	/^	unsigned char use0;$/;"	m	struct:jz_tssi_cfg_t
+wait	jz_ts.h	/^	wait_queue_head_t wait;           \/\/ read wait queue$/;"	m	struct:jz_ts_t
+wait_queue	cim.c	/^	wait_queue_head_t wait_queue;$/;"	m	struct:cim_device	file:
+warn	jz_ts.c	44;"	d	file:
+warn	jz_tssi.c	51;"	d	file:
+width	cim.c	/^	u32 width;$/;"	m	struct:__anon2	file:
+width	cim.h	/^	u32 width;$/;"	m	struct:__anon4
+wm9712_adc_read	wm9712.c	/^static unsigned int wm9712_adc_read(int adc_channel)$/;"	f	file:
+wm9712_cleanup	wm9712.c	/^module_exit(wm9712_cleanup);$/;"	v
+wm9712_cleanup	wm9712.c	/^void wm9712_cleanup(void)$/;"	f
+wm9712_init	wm9712.c	/^int __init wm9712_init(void)$/;"	f
+wm9712_init	wm9712.c	/^module_init(wm9712_init);$/;"	v
+wm9712_reg_read	wm9712.c	/^static inline unsigned int wm9712_reg_read(unsigned int reg)$/;"	f	file:
+wm9712_reg_write	wm9712.c	/^static inline void wm9712_reg_write(unsigned int reg, unsigned int val)$/;"	f	file:
+wordorder	jz_tssi.h	/^	unsigned char wordorder;$/;"	m	struct:jz_tssi_cfg_t
+write_fifo	c_demo/elan.c	/^static void write_fifo(unsigned char *data, unsigned char cnt)$/;"	f	file:
+write_fifo	elan.c	/^static void write_fifo(unsigned char *data, unsigned char cnt)$/;"	f	file:
+write_reg	ata2508.c	/^static void write_reg(u8 reg, u8 val)$/;"	f	file:
+x	jz_ts.h	/^        u16 x;$/;"	m	struct:ts_event
+xbuf	jz_sadc.c	/^        u16 xbuf;$/;"	m	struct:datasource	file:
+xout	sensor.c	/^char xout,yout;$/;"	v
+y	jz_ts.h	/^        u16 y;$/;"	m	struct:ts_event
+ybuf	jz_sadc.c	/^        u16 ybuf;$/;"	m	struct:datasource	file:
+yout	sensor.c	/^char xout,yout;$/;"	v
+zbuf	jz_sadc.c	/^	u16 zbuf;$/;"	m	struct:datasource	file:

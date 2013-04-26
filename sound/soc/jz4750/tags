@@ -1,0 +1,159 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AIC_END_DMA	jz4750-pcm.h	17;"	d
+AIC_START_DMA	jz4750-pcm.h	16;"	d
+APUS_HEADSET	apus.c	29;"	d	file:
+APUS_HP	apus.c	26;"	d	file:
+APUS_HP_OFF	apus.c	30;"	d	file:
+APUS_LINE	apus.c	28;"	d	file:
+APUS_MIC	apus.c	27;"	d	file:
+APUS_SPK_OFF	apus.c	32;"	d	file:
+APUS_SPK_ON	apus.c	31;"	d	file:
+JZ4740_AC97_RATES	jz4750-ac97.c	194;"	d	file:
+JZ4750_DAI_AC97_AUX	jz4750-ac97.h	13;"	d
+JZ4750_DAI_AC97_HIFI	jz4750-ac97.h	12;"	d
+JZ4750_DAI_AC97_MIC	jz4750-ac97.h	14;"	d
+JZ4750_DAI_I2S	jz4750-i2s.h	11;"	d
+JZ4750_I2S_RATES	jz4750-i2s.c	272;"	d	file:
+JZ4750_I2S_SYSCLK	jz4750-i2s.h	14;"	d
+ST_OPENED	jz4750-pcm.h	14;"	d
+ST_RUNNING	jz4750-pcm.h	13;"	d
+_JZ4750_AC97_H	jz4750-ac97.h	10;"	d
+_JZ4750_I2S_H	jz4750-i2s.h	8;"	d
+_JZ4750_PCM_H	jz4750-pcm.h	9;"	d
+aic_dma_flag	jz4750-pcm.c	/^	int aic_dma_flag; \/* start dma transfer or not *\/$/;"	m	struct:jz4750_runtime_data	file:
+apus_amp_event	apus.c	/^static int apus_amp_event(struct snd_soc_dapm_widget *w, int event)$/;"	f	file:
+apus_dai	apus.c	/^static struct snd_soc_dai_link apus_dai = {$/;"	v	typeref:struct:snd_soc_dai_link	file:
+apus_enum	apus.c	/^static const struct soc_enum apus_enum[] = {$/;"	v	typeref:struct:soc_enum	file:
+apus_exit	apus.c	/^module_exit(apus_exit);$/;"	v
+apus_exit	apus.c	/^static void __exit apus_exit(void)$/;"	f	file:
+apus_ext_control	apus.c	/^static void apus_ext_control(struct snd_soc_codec *codec)$/;"	f	file:
+apus_get_jack	apus.c	/^static int apus_get_jack(struct snd_kcontrol *kcontrol,$/;"	f	file:
+apus_get_spk	apus.c	/^static int apus_get_spk(struct snd_kcontrol *kcontrol,$/;"	f	file:
+apus_hw_params	apus.c	/^static int apus_hw_params(struct snd_pcm_substream *substream,$/;"	f	file:
+apus_init	apus.c	/^module_init(apus_init);$/;"	v
+apus_init	apus.c	/^static int __init apus_init(void)$/;"	f	file:
+apus_jack_func	apus.c	/^static int apus_jack_func;$/;"	v	file:
+apus_jzdlv_init	apus.c	/^static int apus_jzdlv_init(struct snd_soc_codec *codec)$/;"	f	file:
+apus_mic_event	apus.c	/^static int apus_mic_event(struct snd_soc_dapm_widget *w, int event)$/;"	f	file:
+apus_ops	apus.c	/^static struct snd_soc_ops apus_ops = {$/;"	v	typeref:struct:snd_soc_ops	file:
+apus_set_jack	apus.c	/^static int apus_set_jack(struct snd_kcontrol *kcontrol,$/;"	f	file:
+apus_set_spk	apus.c	/^static int apus_set_spk(struct snd_kcontrol *kcontrol,$/;"	f	file:
+apus_shutdown	apus.c	/^static void apus_shutdown(struct snd_pcm_substream *substream)$/;"	f	file:
+apus_snd_devdata	apus.c	/^static struct snd_soc_device apus_snd_devdata = {$/;"	v	typeref:struct:snd_soc_device	file:
+apus_snd_device	apus.c	/^static struct platform_device *apus_snd_device;$/;"	v	typeref:struct:platform_device	file:
+apus_spk_func	apus.c	/^static int apus_spk_func;$/;"	v	file:
+apus_startup	apus.c	/^static int apus_startup(struct snd_pcm_substream *substream)$/;"	f	file:
+audio_map	apus.c	/^static const char *audio_map[][3] = {$/;"	v	file:
+audio_start_dma	jz4750-pcm.c	/^void audio_start_dma(struct jz4750_runtime_data *prtd, int mode)$/;"	f
+channel	jz4750-pcm.h	/^	int channel;				\/* Channel ID *\/$/;"	m	struct:jz4750_pcm_dma_params
+client	jz4750-pcm.h	/^	struct jz4750_dma_client *client;	\/* stream identifier *\/$/;"	m	struct:jz4750_pcm_dma_params	typeref:struct:jz4750_pcm_dma_params::jz4750_dma_client
+curr	jz4750-pcm.c	/^	struct jz4750_dma_buf_aic	*curr;		\/* current dma buffer *\/$/;"	m	struct:jz4750_runtime_data	typeref:struct:jz4750_runtime_data::jz4750_dma_buf_aic	file:
+data	jz4750-pcm.c	/^	dma_addr_t		 data;		\/* start of DMA data *\/$/;"	m	struct:jz4750_dma_buf_aic	file:
+dma_addr	jz4750-pcm.h	/^	dma_addr_t dma_addr;$/;"	m	struct:jz4750_pcm_dma_params
+dma_end	jz4750-pcm.c	/^	dma_addr_t dma_end;$/;"	m	struct:jz4750_runtime_data	file:
+dma_limit	jz4750-pcm.c	/^	unsigned int dma_limit;$/;"	m	struct:jz4750_runtime_data	file:
+dma_loaded	jz4750-pcm.c	/^	unsigned int dma_loaded;$/;"	m	struct:jz4750_runtime_data	file:
+dma_period	jz4750-pcm.c	/^	unsigned int dma_period;$/;"	m	struct:jz4750_runtime_data	file:
+dma_pos	jz4750-pcm.c	/^	dma_addr_t dma_pos;$/;"	m	struct:jz4750_runtime_data	file:
+dma_size	jz4750-pcm.h	/^	int dma_size;			\/* Size of the DMA transfer *\/$/;"	m	struct:jz4750_pcm_dma_params
+dma_start	jz4750-pcm.c	/^	dma_addr_t dma_start;$/;"	m	struct:jz4750_runtime_data	file:
+end	jz4750-pcm.c	/^	struct jz4750_dma_buf_aic	*end;		\/* end of queue *\/$/;"	m	struct:jz4750_runtime_data	typeref:struct:jz4750_runtime_data::jz4750_dma_buf_aic	file:
+first_transfer	jz4750-pcm.c	/^static int first_transfer = 0;$/;"	v	file:
+gsr_bits	jz4750-ac97.c	/^static volatile long gsr_bits;$/;"	v	file:
+hw_params_cnt	jz4750-pcm.c	/^static int hw_params_cnt = 0;$/;"	v	file:
+id	jz4750-pcm.c	/^	void			*id;		\/* client's id *\/$/;"	m	struct:jz4750_dma_buf_aic	file:
+jack_function	apus.c	/^static const char *jack_function[] = {"Headphone", "Mic", "Line", "Headset",$/;"	v	file:
+jz4740_ac97_cold_reset	jz4750-ac97.c	/^static void jz4740_ac97_cold_reset(struct snd_ac97 *ac97)$/;"	f	file:
+jz4740_ac97_dai	jz4750-ac97.c	/^EXPORT_SYMBOL_GPL(jz4740_ac97_dai);$/;"	v
+jz4740_ac97_dai	jz4750-ac97.c	/^struct snd_soc_cpu_dai jz4740_ac97_dai[] = {$/;"	v	typeref:struct:snd_soc_cpu_dai
+jz4740_ac97_hw_aux_params	jz4750-ac97.c	/^static int jz4740_ac97_hw_aux_params(struct snd_pcm_substream *substream,$/;"	f	file:
+jz4740_ac97_hw_mic_params	jz4750-ac97.c	/^static int jz4740_ac97_hw_mic_params(struct snd_pcm_substream *substream,$/;"	f	file:
+jz4740_ac97_hw_params	jz4750-ac97.c	/^static int jz4740_ac97_hw_params(struct snd_pcm_substream *substream,$/;"	f	file:
+jz4740_ac97_irq	jz4750-ac97.c	/^static irqreturn_t jz4740_ac97_irq(int irq, void *dev_id)$/;"	f	file:
+jz4740_ac97_pcm_aux_mono_in	jz4750-ac97.c	/^static struct jz4740_pcm_dma_params jz4740_ac97_pcm_aux_mono_in = {$/;"	v	typeref:struct:jz4740_pcm_dma_params	file:
+jz4740_ac97_pcm_aux_mono_out	jz4750-ac97.c	/^static struct jz4740_pcm_dma_params jz4740_ac97_pcm_aux_mono_out = {$/;"	v	typeref:struct:jz4740_pcm_dma_params	file:
+jz4740_ac97_pcm_mic_mono_in	jz4750-ac97.c	/^static struct jz4740_pcm_dma_params jz4740_ac97_pcm_mic_mono_in = {$/;"	v	typeref:struct:jz4740_pcm_dma_params	file:
+jz4740_ac97_pcm_stereo_in	jz4750-ac97.c	/^static struct jz4740_pcm_dma_params jz4740_ac97_pcm_stereo_in = {$/;"	v	typeref:struct:jz4740_pcm_dma_params	file:
+jz4740_ac97_pcm_stereo_out	jz4750-ac97.c	/^static struct jz4740_pcm_dma_params jz4740_ac97_pcm_stereo_out = {$/;"	v	typeref:struct:jz4740_pcm_dma_params	file:
+jz4740_ac97_probe	jz4750-ac97.c	/^static int jz4740_ac97_probe(struct platform_device *pdev)$/;"	f	file:
+jz4740_ac97_read	jz4750-ac97.c	/^static unsigned short jz4740_ac97_read(struct snd_ac97 *ac97,$/;"	f	file:
+jz4740_ac97_remove	jz4750-ac97.c	/^static void jz4740_ac97_remove(struct platform_device *pdev)$/;"	f	file:
+jz4740_ac97_resume	jz4750-ac97.c	/^static int jz4740_ac97_resume(struct platform_device *pdev,$/;"	f	file:
+jz4740_ac97_resume	jz4750-ac97.c	138;"	d	file:
+jz4740_ac97_suspend	jz4750-ac97.c	/^static int jz4740_ac97_suspend(struct platform_device *pdev,$/;"	f	file:
+jz4740_ac97_suspend	jz4750-ac97.c	137;"	d	file:
+jz4740_ac97_warm_reset	jz4750-ac97.c	/^static void jz4740_ac97_warm_reset(struct snd_ac97 *ac97)$/;"	f	file:
+jz4740_ac97_write	jz4750-ac97.c	/^static void jz4740_ac97_write(struct snd_ac97 *ac97, unsigned short reg,$/;"	f	file:
+jz4750_dma_buf_aic	jz4750-pcm.c	/^struct jz4750_dma_buf_aic {$/;"	s	file:
+jz4750_dma_buf_enqueue	jz4750-pcm.c	/^static int jz4750_dma_buf_enqueue(struct jz4750_runtime_data *prtd, dma_addr_t data, int size)$/;"	f	file:
+jz4750_dma_client	jz4750-pcm.h	/^struct jz4750_dma_client {$/;"	s
+jz4750_dma_client_in	jz4750-i2s.c	/^static struct jz4750_dma_client jz4750_dma_client_in = {$/;"	v	typeref:struct:jz4750_dma_client	file:
+jz4750_dma_client_out	jz4750-i2s.c	/^static struct jz4750_dma_client jz4750_dma_client_out = {$/;"	v	typeref:struct:jz4750_dma_client	file:
+jz4750_dma_ctrl	jz4750-pcm.c	/^static int jz4750_dma_ctrl(int channel)$/;"	f	file:
+jz4750_i2s_dai	jz4750-i2s.c	/^EXPORT_SYMBOL_GPL(jz4750_i2s_dai);$/;"	v
+jz4750_i2s_dai	jz4750-i2s.c	/^struct snd_soc_cpu_dai jz4750_i2s_dai = {$/;"	v	typeref:struct:snd_soc_cpu_dai
+jz4750_i2s_hw_params	jz4750-i2s.c	/^static int jz4750_i2s_hw_params(struct snd_pcm_substream *substream,$/;"	f	file:
+jz4750_i2s_pcm_stereo_in	jz4750-i2s.c	/^static struct jz4750_pcm_dma_params jz4750_i2s_pcm_stereo_in = {$/;"	v	typeref:struct:jz4750_pcm_dma_params	file:
+jz4750_i2s_pcm_stereo_out	jz4750-i2s.c	/^static struct jz4750_pcm_dma_params jz4750_i2s_pcm_stereo_out = {$/;"	v	typeref:struct:jz4750_pcm_dma_params	file:
+jz4750_i2s_probe	jz4750-i2s.c	/^static int jz4750_i2s_probe(struct platform_device *pdev)$/;"	f	file:
+jz4750_i2s_resume	jz4750-i2s.c	/^static int jz4750_i2s_resume(struct platform_device *pdev,$/;"	f	file:
+jz4750_i2s_resume	jz4750-i2s.c	269;"	d	file:
+jz4750_i2s_set_dai_fmt	jz4750-i2s.c	/^static int jz4750_i2s_set_dai_fmt(struct snd_soc_cpu_dai *cpu_dai,$/;"	f	file:
+jz4750_i2s_set_dai_sysclk	jz4750-i2s.c	/^static int jz4750_i2s_set_dai_sysclk(struct snd_soc_cpu_dai *cpu_dai,$/;"	f	file:
+jz4750_i2s_shutdown	jz4750-i2s.c	/^static void jz4750_i2s_shutdown(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_i2s_startup	jz4750-i2s.c	/^static int jz4750_i2s_startup(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_i2s_suspend	jz4750-i2s.c	/^static int jz4750_i2s_suspend(struct platform_device *dev,$/;"	f	file:
+jz4750_i2s_suspend	jz4750-i2s.c	268;"	d	file:
+jz4750_i2s_trigger	jz4750-i2s.c	/^static int jz4750_i2s_trigger(struct snd_pcm_substream *substream, int cmd)$/;"	f	file:
+jz4750_pcm_close	jz4750-pcm.c	/^static int jz4750_pcm_close(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_pcm_dma_irq	jz4750-pcm.c	/^static irqreturn_t jz4750_pcm_dma_irq(int dma_ch, void *dev_id)$/;"	f	file:
+jz4750_pcm_dma_params	jz4750-pcm.h	/^struct jz4750_pcm_dma_params {$/;"	s
+jz4750_pcm_dmamask	jz4750-pcm.c	/^static u64 jz4750_pcm_dmamask = DMA_32BIT_MASK;$/;"	v	file:
+jz4750_pcm_enqueue	jz4750-pcm.c	/^static void jz4750_pcm_enqueue(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_pcm_free_dma_buffers	jz4750-pcm.c	/^static void jz4750_pcm_free_dma_buffers(struct snd_pcm *pcm)$/;"	f	file:
+jz4750_pcm_hardware	jz4750-pcm.c	/^static const struct snd_pcm_hardware jz4750_pcm_hardware = {$/;"	v	typeref:struct:snd_pcm_hardware	file:
+jz4750_pcm_hw_free	jz4750-pcm.c	/^static int jz4750_pcm_hw_free(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_pcm_hw_params	jz4750-pcm.c	/^static int jz4750_pcm_hw_params(struct snd_pcm_substream *substream,$/;"	f	file:
+jz4750_pcm_mmap	jz4750-pcm.c	/^static int jz4750_pcm_mmap(struct snd_pcm_substream *substream,$/;"	f	file:
+jz4750_pcm_new	jz4750-pcm.c	/^int jz4750_pcm_new(struct snd_card *card, struct snd_soc_codec_dai *dai,$/;"	f
+jz4750_pcm_open	jz4750-pcm.c	/^static int jz4750_pcm_open(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_pcm_ops	jz4750-pcm.c	/^struct snd_pcm_ops jz4750_pcm_ops = {$/;"	v	typeref:struct:snd_pcm_ops
+jz4750_pcm_pointer	jz4750-pcm.c	/^jz4750_pcm_pointer(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_pcm_preallocate_dma_buffer	jz4750-pcm.c	/^static int jz4750_pcm_preallocate_dma_buffer(struct snd_pcm *pcm, int stream)$/;"	f	file:
+jz4750_pcm_prepare	jz4750-pcm.c	/^static int jz4750_pcm_prepare(struct snd_pcm_substream *substream)$/;"	f	file:
+jz4750_pcm_trigger	jz4750-pcm.c	/^static int jz4750_pcm_trigger(struct snd_pcm_substream *substream, int cmd)$/;"	f	file:
+jz4750_runtime_data	jz4750-pcm.c	/^struct jz4750_runtime_data {$/;"	s	file:
+jz4750_snd_rx_ctrl	jz4750-i2s.c	/^static void jz4750_snd_rx_ctrl(int on)$/;"	f	file:
+jz4750_snd_tx_ctrl	jz4750-i2s.c	/^static void jz4750_snd_tx_ctrl(int on)$/;"	f	file:
+jz4750_soc_platform	jz4750-pcm.c	/^EXPORT_SYMBOL_GPL(jz4750_soc_platform);$/;"	v
+jz4750_soc_platform	jz4750-pcm.c	/^struct snd_soc_platform jz4750_soc_platform = {$/;"	v	typeref:struct:snd_soc_platform
+jzdlv_apus_controls	apus.c	/^static const struct snd_kcontrol_new jzdlv_apus_controls[] = {$/;"	v	typeref:struct:snd_kcontrol_new	file:
+jzdlv_dapm_widgets	apus.c	/^static const struct snd_soc_dapm_widget jzdlv_dapm_widgets[] = {$/;"	v	typeref:struct:snd_soc_dapm_widget	file:
+lock	jz4750-pcm.c	/^	spinlock_t lock;$/;"	m	struct:jz4750_runtime_data	file:
+name	jz4750-pcm.h	/^	char                *name;$/;"	m	struct:jz4750_dma_client
+next	jz4750-pcm.c	/^	struct jz4750_dma_buf_aic	*next;		\/* next buffer to load *\/$/;"	m	struct:jz4750_runtime_data	typeref:struct:jz4750_runtime_data::jz4750_dma_buf_aic	file:
+next	jz4750-pcm.c	/^	struct jz4750_dma_buf_aic	*next;$/;"	m	struct:jz4750_dma_buf_aic	typeref:struct:jz4750_dma_buf_aic::jz4750_dma_buf_aic	file:
+params	jz4750-pcm.c	/^	struct jz4750_pcm_dma_params *params;$/;"	m	struct:jz4750_runtime_data	typeref:struct:jz4750_runtime_data::jz4750_pcm_dma_params	file:
+printk_flag	jz4750-pcm.c	/^static int printk_flag = 0;$/;"	v	file:
+ptr	jz4750-pcm.c	/^	dma_addr_t		 ptr;		\/* where the DMA got to [1] *\/$/;"	m	struct:jz4750_dma_buf_aic	file:
+reset_scoop_gpio	apus.c	/^unsigned short reset_scoop_gpio(struct device *dev, unsigned short bit)$/;"	f
+set_scoop_gpio	apus.c	/^unsigned short set_scoop_gpio(struct device *dev, unsigned short bit)$/;"	f
+size	jz4750-pcm.c	/^	int			 size;		\/* buffer size in bytes *\/$/;"	m	struct:jz4750_dma_buf_aic	file:
+snd-soc-apus-objs	Makefile	/^snd-soc-apus-objs := apus.o$/;"	m
+snd-soc-jz4750-ac97-objs	Makefile	/^snd-soc-jz4750-ac97-objs := jz4750-ac97.o$/;"	m
+snd-soc-jz4750-i2s-objs	Makefile	/^snd-soc-jz4750-i2s-objs := jz4750-i2s.o$/;"	m
+snd-soc-jz4750-objs	Makefile	/^snd-soc-jz4750-objs := jz4750-pcm.o$/;"	m
+snd_soc_machine_apus	apus.c	/^static struct snd_soc_machine snd_soc_machine_apus = {$/;"	v	typeref:struct:snd_soc_machine	file:
+soc_ac97_ops	jz4750-ac97.c	/^EXPORT_SYMBOL_GPL(soc_ac97_ops);$/;"	v
+soc_ac97_ops	jz4750-ac97.c	/^struct snd_ac97_bus_ops soc_ac97_ops = {$/;"	v	typeref:struct:snd_ac97_bus_ops
+spk_function	apus.c	/^static const char *spk_function[] = {"On", "Off"};$/;"	v	file:
+state	jz4750-pcm.c	/^	int state;$/;"	m	struct:jz4750_runtime_data	file:
+sum_bytes	jz4750-pcm.c	/^static long sum_bytes = 0;$/;"	v	file:
+tran_bit	jz4750-pcm.c	/^static int tran_bit = 0;$/;"	v	file:
+user_cur_addr	jz4750-pcm.c	/^	dma_addr_t user_cur_addr;         \/* user current write buffer start address *\/$/;"	m	struct:jz4750_runtime_data	file:
+user_cur_len	jz4750-pcm.c	/^	unsigned int user_cur_len;        \/* user current write buffer length *\/$/;"	m	struct:jz4750_runtime_data	file:

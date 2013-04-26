@@ -1,0 +1,297 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASID_MASK	proc.c	265;"	d	file:
+BARRIER	proc.c	260;"	d	file:
+CHANGE_PLL	cpufreq.c	26;"	d	file:
+CTL_PM_HIBERNATE	pm.c	389;"	d	file:
+CTL_PM_SUSPEND	pm.c	388;"	d	file:
+DEBUG	pm.c	35;"	d	file:
+DEBUG	proc.c	36;"	d	file:
+DMA_DISABLE_POLL	dma.c	381;"	d	file:
+GPIO_PORT_NUM	pm.c	43;"	d	file:
+GPIO_UDC_HOTPLUG	proc.c	563;"	d	file:
+I2C_READ	i2c.c	32;"	d	file:
+I2C_WRITE	i2c.c	33;"	d	file:
+IMEM0_MAX_ORDER	proc.c	637;"	d	file:
+IMEM1_MAX_ORDER	proc.c	652;"	d	file:
+IPU_BUF_MAX	proc.c	251;"	d	file:
+JZ4750D_DMAC_TEST_ENABLE	dma.c	547;"	d	file:
+JZ_TIMER_CLOCK	time.c	35;"	d	file:
+JZ_TIMER_IRQ	time.c	33;"	d	file:
+MSC_HOTPLUG_PIN	proc.c	604;"	d	file:
+PLL_GOES_DOWN	cpufreq.c	30;"	d	file:
+PLL_GOES_UP	cpufreq.c	29;"	d	file:
+PLL_UNCHANGED	cpufreq.c	28;"	d	file:
+PLL_WAIT_500NS	cpufreq.c	32;"	d	file:
+TEST_DMA_SIZE	dma.c	554;"	d	file:
+TIMEOUT	i2c.c	35;"	d	file:
+TO_KHZ	proc.c	186;"	d	file:
+TO_MHZ	proc.c	185;"	d	file:
+__gpio_as_sleep	pm.c	49;"	d	file:
+__initdata	platform.c	/^static struct platform_device *jz_platform_devices[] __initdata = {$/;"	v	typeref:struct:jz_platform_devices	file:
+_ipu_buf	proc.c	/^typedef struct _ipu_buf {$/;"	s	file:
+addr	proc.c	/^	unsigned int addr;	\/* phys addr *\/$/;"	m	struct:_ipu_buf	file:
+allocated_phys_addr0	proc.c	/^static unsigned int allocated_phys_addr0 = 0;$/;"	v	file:
+allocated_phys_addr1	proc.c	/^static unsigned int allocated_phys_addr1 = 0;$/;"	v	file:
+arch_init_irq	irq.c	/^void __init arch_init_irq(void)$/;"	f
+board_cpm_setup	board-cetus.c	/^static void __init board_cpm_setup(void)$/;"	f	file:
+board_cpm_setup	board-fuwa1.c	/^static void __init board_cpm_setup(void)$/;"	f	file:
+board_cpm_setup	board-l009.c	/^static void __init board_cpm_setup(void)$/;"	f	file:
+board_gpio_setup	board-cetus.c	/^static void __init board_gpio_setup(void)$/;"	f	file:
+board_gpio_setup	board-fuwa1.c	/^static void __init board_gpio_setup(void)$/;"	f	file:
+board_gpio_setup	board-l009.c	/^static void __init board_gpio_setup(void)$/;"	f	file:
+boot_config	cpufreq.c	/^} boot_config;$/;"	v	typeref:struct:__anon2	file:
+cetus_timer_callback	board-cetus.c	/^static void cetus_timer_callback(void)$/;"	f	file:
+cgm_read_proc	proc.c	/^static int cgm_read_proc (char *page, char **start, off_t off,$/;"	f	file:
+cgm_write_proc	proc.c	/^static int cgm_write_proc(struct file *file, const char *buffer, unsigned long count, void *data)$/;"	f	file:
+clocksource_jz	time.c	/^static struct clocksource clocksource_jz = {$/;"	v	typeref:struct:clocksource	file:
+clocksource_jz	time.c	/^static struct clocksource clocksource_jz; \/* Jz clock source *\/$/;"	v	typeref:struct:clocksource	file:
+cpccr	cpufreq.c	/^	u32 cpccr;        \/* Clock Freq Control Register *\/$/;"	m	struct:dpm_regs	file:
+cpccr_mask	cpufreq.c	/^	u32 cpccr_mask;   \/* Clock Freq Control Register mask *\/$/;"	m	struct:dpm_regs	file:
+cppcr	cpufreq.c	/^	u32 cppcr;        \/* PLL1 Control Register *\/$/;"	m	struct:dpm_regs	file:
+cppcr_mask	cpufreq.c	/^	u32 cppcr_mask;   \/* PLL1 Control Register mask *\/$/;"	m	struct:dpm_regs	file:
+cpufreq_jz4750d_driver	cpufreq.c	/^static struct cpufreq_driver cpufreq_jz4750d_driver = {$/;"	v	typeref:struct:cpufreq_driver	file:
+dancing	board-cetus.c	/^static void dancing(void)$/;"	f	file:
+dancing	board-fuwa1.c	/^static void dancing(void)$/;"	f	file:
+dancing	board-l009.c	/^static void dancing(void)$/;"	f	file:
+disable_dma	dma.c	/^EXPORT_SYMBOL(disable_dma);$/;"	v
+disable_dma	dma.c	/^void disable_dma(unsigned int dmanr)$/;"	f
+disable_dma_irq	irq.c	/^static void disable_dma_irq(unsigned int irq)$/;"	f	file:
+disable_gpio_irq	irq.c	/^static void disable_gpio_irq(unsigned int irq)$/;"	f	file:
+disable_intc_irq	irq.c	/^static void disable_intc_irq(unsigned int irq)$/;"	f	file:
+dma_chan	dma.c	/^static int dma_chan;$/;"	v	file:
+dma_check_result	dma.c	/^static int dma_check_result(void *src, void *dst, int size)$/;"	f	file:
+dma_desc	dma.c	/^static jz_dma_desc *dma_desc;$/;"	v	file:
+dma_desc_phys_addr	dma.c	/^static dma_addr_t dma_desc_phys_addr;$/;"	v	file:
+dma_desc_test	dma.c	/^void dma_desc_test(void)$/;"	f
+dma_dev_table	dma.c	/^} dma_dev_table[DMA_ID_MAX] = {$/;"	v	typeref:struct:__anon1	file:
+dma_dst_addr	dma.c	/^static unsigned int dma_src_addr, dma_src_phys_addr, dma_dst_addr, dma_dst_phys_addr;$/;"	v	file:
+dma_dst_phys_addr	dma.c	/^static unsigned int dma_src_addr, dma_src_phys_addr, dma_dst_addr, dma_dst_phys_addr;$/;"	v	file:
+dma_irq_type	irq.c	/^static struct irq_chip dma_irq_type = {$/;"	v	typeref:struct:irq_chip	file:
+dma_mode	dma.c	/^	unsigned int dma_mode;$/;"	m	struct:__anon1	file:
+dma_nodesc_test	dma.c	/^void dma_nodesc_test(void)$/;"	f
+dma_source	dma.c	/^	unsigned int dma_source;$/;"	m	struct:__anon1	file:
+dma_src_addr	dma.c	/^static unsigned int dma_src_addr, dma_src_phys_addr, dma_dst_addr, dma_dst_phys_addr;$/;"	v	file:
+dma_src_phys_addr	dma.c	/^static unsigned int dma_src_addr, dma_src_phys_addr, dma_dst_addr, dma_dst_phys_addr;$/;"	v	file:
+dpm_regs	cpufreq.c	/^struct dpm_regs {$/;"	s	file:
+dprintk	cpufreq.c	23;"	d	file:
+dprintk	pm.c	38;"	d	file:
+dprintk	pm.c	40;"	d	file:
+dump_imem_list	proc.c	/^static void dump_imem_list(void)$/;"	f	file:
+dump_jz_dma_channel	dma.c	/^EXPORT_SYMBOL(dump_jz_dma_channel);$/;"	v
+dump_jz_dma_channel	dma.c	/^void dump_jz_dma_channel(unsigned int dmanr)$/;"	f
+emc_read_proc	proc.c	/^static int emc_read_proc (char *page, char **start, off_t off,$/;"	f	file:
+enable_dma	dma.c	/^EXPORT_SYMBOL(enable_dma);$/;"	v
+enable_dma	dma.c	/^void enable_dma(unsigned int dmanr)$/;"	f
+enable_dma_irq	irq.c	/^static void enable_dma_irq(unsigned int irq)$/;"	f	file:
+enable_gpio_irq	irq.c	/^static void enable_gpio_irq(unsigned int irq)$/;"	f	file:
+enable_intc_irq	irq.c	/^static void enable_intc_irq(unsigned int irq)$/;"	f	file:
+end_dma_irq	irq.c	/^static void end_dma_irq(unsigned int irq)$/;"	f	file:
+end_gpio_irq	irq.c	/^static void end_gpio_irq(unsigned int irq)$/;"	f	file:
+end_intc_irq	irq.c	/^static void end_intc_irq(unsigned int irq)$/;"	f	file:
+fifo_addr	dma.c	/^	unsigned int fifo_addr;$/;"	m	struct:__anon1	file:
+fuwa1_timer_callback	board-fuwa1.c	/^static void fuwa1_timer_callback(void)$/;"	f	file:
+g_asid	proc.c	/^static unsigned char g_asid=0;$/;"	v	file:
+get_dma_residue	dma.c	/^EXPORT_SYMBOL(get_dma_residue);$/;"	v
+get_dma_residue	dma.c	/^unsigned int get_dma_residue(unsigned int dmanr)$/;"	f
+get_ethernet_addr	prom.c	/^EXPORT_SYMBOL(get_ethernet_addr);$/;"	v
+get_ethernet_addr	prom.c	/^int get_ethernet_addr(char *ethernet_addr)$/;"	f
+get_system_type	prom.c	/^const char *get_system_type(void)$/;"	f
+gpio_irq_type	irq.c	/^static struct irq_chip gpio_irq_type = {$/;"	v	typeref:struct:irq_chip	file:
+gpio_print	proc.c	/^static int gpio_print (char *page, const char *name, u32 value)$/;"	f	file:
+gpio_read_proc	proc.c	/^static int gpio_read_proc (char *page, char **start, off_t off,$/;"	f	file:
+i2c_close	i2c.c	/^EXPORT_SYMBOL(i2c_close);$/;"	v
+i2c_close	i2c.c	/^void i2c_close(void)$/;"	f
+i2c_get_data	i2c.c	/^static int i2c_get_data(unsigned char *data, int ack)$/;"	f	file:
+i2c_lseek	i2c.c	/^int i2c_lseek(unsigned char device, unsigned char offset)$/;"	f
+i2c_open	i2c.c	/^EXPORT_SYMBOL(i2c_open);$/;"	v
+i2c_open	i2c.c	/^void i2c_open(void)$/;"	f
+i2c_put_data	i2c.c	/^static int i2c_put_data(unsigned char data)$/;"	f	file:
+i2c_put_data_nack	i2c.c	/^static int i2c_put_data_nack(unsigned char data)$/;"	f	file:
+i2c_read	i2c.c	/^EXPORT_SYMBOL(i2c_read);$/;"	v
+i2c_read	i2c.c	/^int i2c_read(unsigned char device, unsigned char *buf,$/;"	f
+i2c_setclk	i2c.c	/^EXPORT_SYMBOL(i2c_setclk);$/;"	v
+i2c_setclk	i2c.c	/^void i2c_setclk(unsigned int i2cclk)$/;"	f
+i2c_write	i2c.c	/^EXPORT_SYMBOL(i2c_write);$/;"	v
+i2c_write	i2c.c	/^int i2c_write(unsigned char device, unsigned char *buf,$/;"	f
+imem0_alloc	proc.c	/^static int imem0_alloc(unsigned int order)$/;"	f	file:
+imem0_list_head	proc.c	/^static struct imem_list *imem0_list_head = NULL; \/* up sorted by phys_start *\/$/;"	v	typeref:struct:imem_list	file:
+imem0_read_proc	proc.c	/^static int imem0_read_proc(char *page, char **start, off_t off,$/;"	f	file:
+imem0_write_proc	proc.c	/^static int imem0_write_proc(struct file *file, const char *buffer, unsigned long count, void *data)$/;"	f	file:
+imem1_alloc	proc.c	/^static int imem1_alloc(unsigned int order)$/;"	f	file:
+imem1_list_head	proc.c	/^static struct imem_list *imem1_list_head = NULL; \/* up sorted by phys_start *\/$/;"	v	typeref:struct:imem_list	file:
+imem1_read_proc	proc.c	/^static int imem1_read_proc(char *page, char **start, off_t off,$/;"	f	file:
+imem1_write_proc	proc.c	/^static int imem1_write_proc(struct file *file, const char *buffer, unsigned long count, void *data)$/;"	f	file:
+imem_free	proc.c	/^static void imem_free(unsigned int phys_addr)$/;"	f	file:
+imem_free_all	proc.c	/^static void imem_free_all(void)$/;"	f	file:
+imem_list	proc.c	/^typedef struct imem_list {$/;"	s	file:
+imem_list_t	proc.c	/^} imem_list_t;$/;"	t	typeref:struct:imem_list	file:
+index_to_divisor	cpufreq.c	/^static unsigned int index_to_divisor(unsigned int index, struct dpm_regs *regs)$/;"	f	file:
+intc_irq_type	irq.c	/^static struct irq_chip intc_irq_type = {$/;"	v	typeref:struct:irq_chip	file:
+ipu_add_wired_entry	proc.c	/^static void ipu_add_wired_entry(unsigned long pid,$/;"	f	file:
+ipu_buf	proc.c	/^static struct _ipu_buf ipu_buf[IPU_BUF_MAX];$/;"	v	typeref:struct:_ipu_buf	file:
+ipu_buf_cnt	proc.c	/^static int ipu_buf_cnt = 0;$/;"	v	file:
+ipu_buf_free	proc.c	/^static inline void ipu_buf_free( unsigned int phys_addr )$/;"	f	file:
+ipu_buf_get	proc.c	/^static inline void ipu_buf_get( unsigned int page_shift )$/;"	f	file:
+ipu_buf_t	proc.c	/^} ipu_buf_t;$/;"	t	typeref:struct:_ipu_buf	file:
+ipu_del_wired_entry	proc.c	/^static void ipu_del_wired_entry( void )$/;"	f	file:
+ipu_read_proc	proc.c	/^static int ipu_read_proc (char *page, char **start, off_t off,$/;"	f	file:
+ipu_write_proc	proc.c	/^static int ipu_write_proc(struct file *file, const char *buffer, unsigned long count, void *data)$/;"	f	file:
+jz4750d_cpufreq_driver_init	cpufreq.c	/^static int __init jz4750d_cpufreq_driver_init(struct cpufreq_policy *policy)$/;"	f	file:
+jz4750d_cpufreq_exit	cpufreq.c	/^module_exit(jz4750d_cpufreq_exit);$/;"	v
+jz4750d_cpufreq_exit	cpufreq.c	/^static void __exit jz4750d_cpufreq_exit(void)$/;"	f	file:
+jz4750d_cpufreq_init	cpufreq.c	/^module_init(jz4750d_cpufreq_init);$/;"	v
+jz4750d_cpufreq_init	cpufreq.c	/^static int __init jz4750d_cpufreq_init(void)$/;"	f	file:
+jz4750d_dma_irq	dma.c	/^static irqreturn_t jz4750d_dma_irq(int irq, void *dev_id)$/;"	f	file:
+jz4750d_freq_get	cpufreq.c	/^static unsigned int jz4750d_freq_get(unsigned int cpu)$/;"	f	file:
+jz4750d_freq_percpu_info	cpufreq.c	/^struct jz4750d_freq_percpu_info {$/;"	s	file:
+jz4750d_freq_table	cpufreq.c	/^static struct jz4750d_freq_percpu_info jz4750d_freq_table;$/;"	v	typeref:struct:jz4750d_freq_percpu_info	file:
+jz4750d_freq_target	cpufreq.c	/^static int jz4750d_freq_target(struct cpufreq_policy *policy,$/;"	f	file:
+jz4750d_freq_verify	cpufreq.c	/^static int jz4750d_freq_verify(struct cpufreq_policy *policy)$/;"	f	file:
+jz4750d_set_cpu_divider_index	cpufreq.c	/^static void jz4750d_set_cpu_divider_index(unsigned int cpu, unsigned int index)$/;"	f	file:
+jz4750d_transition	cpufreq.c	/^static void jz4750d_transition(struct dpm_regs *regs)$/;"	f	file:
+jz_board_do_resume	pm.c	/^static void jz_board_do_resume(unsigned long *ptr)$/;"	f	file:
+jz_board_do_sleep	pm.c	/^static void jz_board_do_sleep(unsigned long *ptr)$/;"	f	file:
+jz_board_setup	board-cetus.c	/^void __init jz_board_setup(void)$/;"	f
+jz_board_setup	board-fuwa1.c	/^void __init jz_board_setup(void)$/;"	f
+jz_board_setup	board-l009.c	/^void __init jz_board_setup(void)$/;"	f
+jz_clockevent_device	time.c	/^static struct clock_event_device jz_clockevent_device = {$/;"	v	typeref:struct:clock_event_device	file:
+jz_clockevent_device	time.c	/^static struct clock_event_device jz_clockevent_device; \/* Jz clock event *\/$/;"	v	typeref:struct:clock_event_device	file:
+jz_clockevent_init	time.c	/^static void __init jz_clockevent_init(void)$/;"	f	file:
+jz_clocks	setup.c	/^jz_clocks_t jz_clocks;$/;"	v
+jz_clocksource_init	time.c	/^static int __init jz_clocksource_init(void)$/;"	f	file:
+jz_dma_read_proc	dma.c	/^int jz_dma_read_proc(char *buf, char **start, off_t fpos,$/;"	f
+jz_dma_table	dma.c	/^EXPORT_SYMBOL(jz_dma_table);$/;"	v
+jz_dma_table	dma.c	/^struct jz_dma_chan jz_dma_table[MAX_DMA_NUM] = {$/;"	v	typeref:struct:jz_dma_chan
+jz_free_dma	dma.c	/^EXPORT_SYMBOL(jz_free_dma);$/;"	v
+jz_free_dma	dma.c	/^void jz_free_dma(unsigned int dmanr)$/;"	f
+jz_get_cycles	time.c	/^cycle_t jz_get_cycles(void)$/;"	f
+jz_get_dma_command	dma.c	/^unsigned int jz_get_dma_command(int dmanr)$/;"	f
+jz_halt	reset.c	/^void jz_halt(void)$/;"	f
+jz_imem0_base	proc.c	/^static unsigned int jz_imem0_base;	\/* physical base address of ipu memory *\/$/;"	v	file:
+jz_imem1_base	proc.c	/^static unsigned int jz_imem1_base;	\/* physical base address of ipu memory *\/$/;"	v	file:
+jz_init_boot_config	cpufreq.c	/^jz_init_boot_config(void)$/;"	f	file:
+jz_irqaction	time.c	/^static struct irqaction jz_irqaction = {$/;"	v	typeref:struct:irqaction	file:
+jz_lcd_device	platform.c	/^static struct platform_device jz_lcd_device = {$/;"	v	typeref:struct:platform_device	file:
+jz_lcd_dmamask	platform.c	/^static u64 jz_lcd_dmamask = ~(u32)0;$/;"	v	file:
+jz_lcd_resources	platform.c	/^static struct resource jz_lcd_resources[] = {$/;"	v	typeref:struct:resource	file:
+jz_mmc_device	platform.c	/^static struct platform_device jz_mmc_device = {$/;"	v	typeref:struct:platform_device	file:
+jz_mmc_dmamask	platform.c	/^static u64 jz_mmc_dmamask =  ~(u32)0;$/;"	v	file:
+jz_mmc_resources	platform.c	/^static struct resource jz_mmc_resources[] = {$/;"	v	typeref:struct:resource	file:
+jz_platform_init	platform.c	/^arch_initcall(jz_platform_init);$/;"	v
+jz_platform_init	platform.c	/^static int __init jz_platform_init(void)$/;"	f	file:
+jz_pm_do_hibernate	pm.c	/^static int jz_pm_do_hibernate(void)$/;"	f	file:
+jz_pm_do_sleep	pm.c	/^static int jz_pm_do_sleep(void)$/;"	f	file:
+jz_pm_hibernate	pm.c	/^int jz_pm_hibernate(void)$/;"	f
+jz_pm_init	pm.c	/^module_init(jz_pm_init);$/;"	v
+jz_pm_init	pm.c	/^static int __init jz_pm_init(void)$/;"	f	file:
+jz_pm_sleep	pm.c	/^int jz_pm_sleep(void)$/;"	f
+jz_power_off	reset.c	/^void jz_power_off(void)$/;"	f
+jz_proc_create	proc.c	/^void jz_proc_create (const char *name,$/;"	f
+jz_proc_create_n	proc.c	/^void jz_proc_create_n (const char *fmt, unsigned int num,$/;"	f
+jz_proc_init	proc.c	/^__initcall(jz_proc_init);$/;"	v
+jz_proc_init	proc.c	/^static int __init jz_proc_init(void)$/;"	f	file:
+jz_request_dma	dma.c	/^EXPORT_SYMBOL(jz_request_dma);$/;"	v
+jz_request_dma	dma.c	/^int jz_request_dma(int dev_id, const char *dev_str,$/;"	f
+jz_restart	reset.c	/^void jz_restart(char *command)$/;"	f
+jz_scale_divisors	cpufreq.c	/^static void jz_scale_divisors(struct dpm_regs *regs)$/;"	f	file:
+jz_scale_lcd_divisors	cpufreq.c	/^static void jz_scale_lcd_divisors(struct dpm_regs *regs)$/;"	f	file:
+jz_scale_pll	cpufreq.c	/^static void jz_scale_pll(struct dpm_regs *regs)$/;"	f	file:
+jz_serial_setup	setup.c	/^static void __init jz_serial_setup(void)$/;"	f	file:
+jz_set_alsa_dma	dma.c	/^EXPORT_SYMBOL(jz_set_alsa_dma);$/;"	v
+jz_set_alsa_dma	dma.c	/^void jz_set_alsa_dma(unsigned int dmanr, unsigned int mode, unsigned int audio_fmt)$/;"	f
+jz_set_dma_block_size	dma.c	/^EXPORT_SYMBOL(jz_set_dma_block_size);$/;"	v
+jz_set_dma_block_size	dma.c	/^void jz_set_dma_block_size(int dmanr, int nbyte)$/;"	f
+jz_set_dma_dest_width	dma.c	/^EXPORT_SYMBOL(jz_set_dma_dest_width);$/;"	v
+jz_set_dma_dest_width	dma.c	/^void jz_set_dma_dest_width(int dmanr, int nbit)$/;"	f
+jz_set_dma_mode	dma.c	/^EXPORT_SYMBOL(jz_set_dma_mode);$/;"	v
+jz_set_dma_mode	dma.c	/^int jz_set_dma_mode(unsigned int dmanr, unsigned int mode,$/;"	f
+jz_set_dma_src_width	dma.c	/^EXPORT_SYMBOL(jz_set_dma_src_width);$/;"	v
+jz_set_dma_src_width	dma.c	/^void jz_set_dma_src_width(int dmanr, int nbit)$/;"	f
+jz_set_mode	time.c	/^static void jz_set_mode(enum clock_event_mode mode,$/;"	f	file:
+jz_set_next_event	time.c	/^static int jz_set_next_event(unsigned long evt,$/;"	f	file:
+jz_set_oss_dma	dma.c	/^EXPORT_SYMBOL(jz_set_oss_dma);$/;"	v
+jz_set_oss_dma	dma.c	/^void jz_set_oss_dma(unsigned int dmanr, unsigned int mode, unsigned int audio_fmt)$/;"	f
+jz_soc_setup	setup.c	/^static void __init jz_soc_setup(void)$/;"	f	file:
+jz_timer_callback	time.c	/^void (*jz_timer_callback)(void);$/;"	v
+jz_timer_interrupt	time.c	/^static irqreturn_t jz_timer_interrupt(int irq, void *dev_id)$/;"	f	file:
+jz_timer_setup	time.c	/^static void __init jz_timer_setup(void)$/;"	f	file:
+jz_update_clocks	cpufreq.c	/^static void jz_update_clocks(void)$/;"	f	file:
+jz_update_dram_dmcr	cpufreq.c	/^static void jz_update_dram_dmcr(unsigned int new_mclk)$/;"	f	file:
+jz_update_dram_post	cpufreq.c	/^static void jz_update_dram_post(unsigned int cur_mclk, unsigned int new_mclk)$/;"	f	file:
+jz_update_dram_prev	cpufreq.c	/^static void jz_update_dram_prev(unsigned int cur_mclk, unsigned int new_mclk)$/;"	f	file:
+jz_update_dram_rtcor	cpufreq.c	/^static void jz_update_dram_rtcor(unsigned int new_mclk)$/;"	f	file:
+jz_usb_gdt_device	platform.c	/^static struct platform_device jz_usb_gdt_device = {$/;"	v	typeref:struct:platform_device	file:
+jz_usb_gdt_resources	platform.c	/^static struct resource jz_usb_gdt_resources[] = {$/;"	v	typeref:struct:resource	file:
+l009_timer_callback	board-l009.c	/^static void l009_timer_callback(void)$/;"	f	file:
+lcd_clks_initialized	cpufreq.c	/^	unsigned int lcd_clks_initialized;$/;"	m	struct:__anon2	file:
+lcdpix_clk	cpufreq.c	/^	unsigned int lcdpix_clk; \/* LCD Pixel clock, Hz *\/$/;"	m	struct:__anon2	file:
+mask_and_ack_dma_irq	irq.c	/^static void mask_and_ack_dma_irq(unsigned int irq)$/;"	f	file:
+mask_and_ack_gpio_irq	irq.c	/^static void mask_and_ack_gpio_irq(unsigned int irq)$/;"	f	file:
+mask_and_ack_intc_irq	irq.c	/^static void mask_and_ack_intc_irq(unsigned int irq)$/;"	f	file:
+mclk	cpufreq.c	/^	unsigned int mclk;  \/* memory clock, KHz *\/$/;"	m	struct:__anon2	file:
+mmc_read_proc	proc.c	/^static int mmc_read_proc (char *page, char **start, off_t off,$/;"	f	file:
+next	proc.c	/^	struct imem_list *next;$/;"	m	struct:imem_list	typeref:struct:imem_list::imem_list	file:
+page_shift	proc.c	/^	unsigned int page_shift;$/;"	m	struct:_ipu_buf	file:
+phys_end	proc.c	/^	unsigned int phys_end;		\/* physical end addr *\/$/;"	m	struct:imem_list	file:
+phys_start	proc.c	/^	unsigned int phys_start;	\/* physical start addr *\/$/;"	m	struct:imem_list	file:
+plat_irq_dispatch	irq.c	/^asmlinkage void plat_irq_dispatch(void)$/;"	f
+plat_mem_setup	setup.c	/^void __init plat_mem_setup(void)$/;"	f
+plat_real_irq	irq.c	/^static int plat_real_irq(int irq)$/;"	f	file:
+plat_time_init	time.c	/^void __init plat_time_init(void)$/;"	f
+pll_up_flag	cpufreq.c	/^	u32 pll_up_flag;  \/* New PLL freq is higher than current or not *\/$/;"	m	struct:dpm_regs	file:
+pm_dir_table	pm.c	/^static struct ctl_table pm_dir_table[] =$/;"	v	typeref:struct:ctl_table	file:
+pm_irq_handler	pm.c	/^static irqreturn_t pm_irq_handler (int irq, void *dev_id)$/;"	f	file:
+pm_table	pm.c	/^static struct ctl_table pm_table[] =$/;"	v	typeref:struct:ctl_table	file:
+pmc_read_proc	proc.c	/^static int pmc_read_proc (char *page, char **start, off_t off,$/;"	f	file:
+pmc_write_proc	proc.c	/^static int pmc_write_proc(struct file *file, const char *buffer, unsigned long count, void *data)$/;"	f	file:
+proc_jz_root	proc.c	/^struct proc_dir_entry *proc_jz_root;$/;"	v	typeref:struct:proc_dir_entry
+prom_argc	prom.c	/^int prom_argc;$/;"	v
+prom_argv	prom.c	/^char **prom_argv, **prom_envp;$/;"	v
+prom_envp	prom.c	/^char **prom_argv, **prom_envp;$/;"	v
+prom_free_prom_memory	prom.c	/^void __init prom_free_prom_memory(void)$/;"	f
+prom_getcmdline	prom.c	/^EXPORT_SYMBOL(prom_getcmdline);$/;"	v
+prom_getcmdline	prom.c	/^char * prom_getcmdline(void)$/;"	f
+prom_getenv	prom.c	/^char *prom_getenv(char *envname)$/;"	f
+prom_init	prom.c	/^void __init prom_init(void)$/;"	f
+prom_init_cmdline	prom.c	/^void  prom_init_cmdline(void)$/;"	f
+prom_putchar	prom.c	/^void prom_putchar(char c)$/;"	f
+rcd	cpufreq.c	/^	unsigned int rcd;   \/* RAS to CAS Delay, cycles of mclk *\/$/;"	m	struct:__anon2	file:
+reg_read_proc	proc.c	/^static int reg_read_proc (char *page, char **start, off_t off,$/;"	f	file:
+reg_write_proc	proc.c	/^static int reg_write_proc (struct file *file, const char *buffer, $/;"	f	file:
+rtcor	cpufreq.c	/^	unsigned int rtcor; \/* Refresh Time Constant *\/$/;"	m	struct:__anon2	file:
+sdram_initialized	cpufreq.c	/^	unsigned int sdram_initialized;$/;"	m	struct:__anon2	file:
+set_dma_addr	dma.c	/^EXPORT_SYMBOL(set_dma_addr);$/;"	v
+set_dma_addr	dma.c	/^void set_dma_addr(unsigned int dmanr, unsigned int phyaddr)$/;"	f
+set_dma_count	dma.c	/^EXPORT_SYMBOL(set_dma_count);$/;"	v
+set_dma_count	dma.c	/^void set_dma_count(unsigned int dmanr, unsigned int bytecnt)$/;"	f
+set_dma_mode	dma.c	/^EXPORT_SYMBOL(set_dma_mode);$/;"	v
+set_dma_mode	dma.c	/^void set_dma_mode(unsigned int dmanr, unsigned int mode)$/;"	f
+show_tlb	proc.c	/^void show_tlb(void)$/;"	f
+shutdown_dma_irq	irq.c	/^static void shutdown_dma_irq(unsigned int irq)$/;"	f	file:
+shutdown_gpio_irq	irq.c	/^static void shutdown_gpio_irq(unsigned int irq)$/;"	f	file:
+shutdown_intc_irq	irq.c	/^static void shutdown_intc_irq(unsigned int irq)$/;"	f	file:
+soc_cpm_setup	setup.c	/^static void __init soc_cpm_setup(void)$/;"	f	file:
+soc_dmac_setup	setup.c	/^static void __init soc_dmac_setup(void)$/;"	f	file:
+soc_emc_setup	setup.c	/^static void __init soc_emc_setup(void)$/;"	f	file:
+soc_harb_setup	setup.c	/^static void __init soc_harb_setup(void)$/;"	f	file:
+startup_dma_irq	irq.c	/^static unsigned int startup_dma_irq(unsigned int irq)$/;"	f	file:
+startup_gpio_irq	irq.c	/^static unsigned int startup_gpio_irq(unsigned int irq)$/;"	f	file:
+startup_intc_irq	irq.c	/^static unsigned int startup_intc_irq(unsigned int irq)$/;"	f	file:
+str2eaddr	prom.c	/^EXPORT_SYMBOL(str2eaddr);$/;"	v
+str2eaddr	prom.c	/^inline void str2eaddr(unsigned char *ea, unsigned char *str)$/;"	f
+str2hexnum	prom.c	/^inline unsigned char str2hexnum(unsigned char c)$/;"	f
+sysclocks_setup	setup.c	/^static void __init sysclocks_setup(void)$/;"	f	file:
+sysctl_jz_pm_hibernate	pm.c	/^static int sysctl_jz_pm_hibernate(void)$/;"	f	file:
+sysctl_jz_pm_sleep	pm.c	/^static int sysctl_jz_pm_sleep(void)$/;"	f	file:
+table	cpufreq.c	/^	struct cpufreq_frequency_table table[7];$/;"	m	struct:jz4750d_freq_percpu_info	typeref:struct:jz4750d_freq_percpu_info::cpufreq_frequency_table	file:
+tpc	cpufreq.c	/^	unsigned int tpc;   \/* RAS Precharge time, cycles of mclk *\/$/;"	m	struct:__anon2	file:
+tras	cpufreq.c	/^	unsigned int tras;  \/* RAS pulse width, cycles of mclk *\/$/;"	m	struct:__anon2	file:
+trc	cpufreq.c	/^	unsigned int trc;   \/* RAS Cycle Time, cycles of mclk *\/$/;"	m	struct:__anon2	file:
+trwl	cpufreq.c	/^	unsigned int trwl;  \/* Write Precharge Time, cycles of mclk *\/$/;"	m	struct:__anon2	file:
+udc_dmamask	platform.c	/^static u64 udc_dmamask = ~(u32)0;$/;"	v	file:
+udc_read_proc	proc.c	/^static int udc_read_proc(char *page, char **start, off_t off,$/;"	f	file:
